@@ -202,7 +202,7 @@ builder.Services.AddSingleton<WeatherApiClient>();
 
 Run the application and send a request to see if it's working (in our case is running under the port 5280):
 
-```
+```powershell
 curl -X GET "http://localhost:5280/CurrentWeather?city=Miami&provider=api" -H "accept: text/plain"
 Warm(82.0°F)
 ``` 
@@ -232,7 +232,7 @@ Now let's imagine that we want to get a response under the **Cold **range. Sendi
 ``` 
 And then, we are going to send a new request to our API but replacing the `provider` query string parameter from `api` to `mock`:
 
-```
+```powershell
 curl -X GET "http://localhost:5280/CurrentWeather?city=Toronto&provider=mock" -H "accept: text/plain"
 Cold(50°F)
 ``` 
