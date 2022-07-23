@@ -1,6 +1,6 @@
 ## Deploying AWS CloudWatch Alarms with Terraform
 
-Today we will review how to deploy an AWS CloudWatch alarm based on a log entry using Terraform. This post is going to use as a base what we saw in [Deploying AWS Lambda Functions with Terraform](https://blog.raulnq.com/deploying-aws-lambda-functions-with-terraform)(take a look if you haven't seen it yet). Please download the content of [this](https://github.com/raulnq/aws-lambda-sandbox/tree/terraform) branch. 
+Today we will review how to deploy an AWS CloudWatch alarm based on a log entry using Terraform. This post is going to use as a base what we saw in [Deploying AWS Lambda Functions with Terraform](https://blog.raulnq.com/deploying-aws-lambda-functions-with-terraform) (take a look if you haven't seen it yet). Please download the content of [this](https://github.com/raulnq/aws-lambda-sandbox/tree/terraform) branch. 
 
 Let's change first our application to randomly throw and log an error, locate the `WeatherForecastController.cs` file, and update it as follows:
 
