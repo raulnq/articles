@@ -82,7 +82,7 @@ Run the following commands at the solution level to generate the zip file:
 
 ```powershell
 mkdir terraform/publish
-dotnet publish "ASPNETCoreWebAPI" --output "terraform/ASPNETCoreWebAPI" --configuration "Release" --framework "net6.0" /p:GenerateRuntimeConfigurationFiles=true --runtime linux-x64
+dotnet publish "ASPNETCoreWebAPI" --output "terraform/publish" --configuration "Release" --framework "net6.0" /p:GenerateRuntimeConfigurationFiles=true --runtime linux-x64
 Compress-Archive -Path terraform/publish/* -DestinationPath terraform/ASPNETCoreWebAPI.zip
 ``` 
 
