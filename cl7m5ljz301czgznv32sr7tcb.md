@@ -1,6 +1,6 @@
 ## Rundeck: Operational tasks Automation
 
-Once our software is released to production, we enter a new phase of the software development life cycle, Operations and Maintenance:
+Once our software is released to production, we enter a new stage of the software development life cycle, Operations and Maintenance:
 
 > The maintenance stage is the final, and continuous, stage of iterating and building upon your software solution as it operates and progresses in a production environment. This could include bug fixes, upgrading security protocols, updating features and specifications, among many others.
 
