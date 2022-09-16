@@ -331,5 +331,5 @@ spec:
           name: otel-config-volume
 ``` 
 
-You can see all the code and scripts [here](Link). Thanks, and happy coding.
+You can see all the code and scripts [here](https://github.com/raulnq/opentelemetry-sandbox/tree/eks-sidecar-otel). Thanks, and happy coding.
 
