@@ -1,4 +1,4 @@
-## Amazon EKS: Deploy OTEL Collector as a sidecar
+## Amazon EKS: Deploy OTEL Collector as sidecar
 
 In a previous post, [OpenTelemetry: The OTEL Collector](https://blog.raulnq.com/opentelemetry-the-otel-collector), we saw how easy it's to use the OTEL Collector with a .NET application. Today we will see how to deploy those components in an Amazon EKS Cluster. To complete the post, we will require:
 
