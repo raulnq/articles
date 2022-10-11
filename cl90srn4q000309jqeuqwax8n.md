@@ -1,1 +1,303 @@
-IyMgRGVwbG95aW5nIEFXUyBMYW1iZGEgRnVuY3Rpb25zIHdpdGggU2VydmVybGVzcyBGcmFtZXdvcmsKCkluIGEgcHJldmlvdXMgW3Bvc3RdKGh0dHBzOi8vYmxvZy5yYXVsbnEuY29tL2RlcGxveWluZy1hd3MtbGFtYmRhLWZ1bmN0aW9ucy13aXRoLXRlcnJhZm9ybSksIHdlIGxvb2tlZCBhdCBUZXJyYWZvcm0gYXMgYW4gb3B0aW9uIHRvIGRlcGxveSBBV1MgTGFtYmRhIEZ1bmN0aW9uLCBhcyBsb25nIGFzIHRoZSBudW1iZXIgb2YgZnVuY3Rpb25zIGlzIGxvdy4gQnV0IHdpdGggYSBoaWdoZXIgbnVtYmVyIG9mIGZ1bmN0aW9ucywgd2UgY291bGQgZW5kIHVwIGJ1aWxkaW5nIGh1Z2Ugc2NyaXB0cy4gQW5kIHRoaXMgaXMgd2hlcmUgW1NldmVybGVzcyBGcmFtZXdvcmtdKGh0dHBzOi8vd3d3LnNlcnZlcmxlc3MuY29tL2ZyYW1ld29yay9kb2NzKSBjb21lcyBpbjoKCj4gU2VydmVybGVzcyBGcmFtZXdvcmsgaXMgYW4gb3BlbiBzb3VyY2UgdG9vbCBhdmFpbGFibGUgZm9yIGJ1aWxkaW5nLCBwYWNrYWdpbmcgYW5kIGRlcGxveWluZyBzZXJ2ZXJsZXNzIGFwcGxpY2F0aW9ucyBhY3Jvc3MgbXVsdGlwbGUgY2xvdWQgcHJvdmlkZXJzIGFuZCBwbGF0Zm9ybXMgbGlrZSBBV1MsIEdDUCwgQXp1cmUsIEt1YmVybmV0ZXMsIGV0YwoKPiBUaGUgU2VydmVybGVzcyBGcmFtZXdvcmsgaGVscHMgeW91IGRldmVsb3AgYW5kIGRlcGxveSBBV1MgTGFtYmRhIGZ1bmN0aW9ucywgYWxvbmcgd2l0aCB0aGUgQVdTIGluZnJhc3RydWN0dXJlIHJlc291cmNlcyB0aGV5IHJlcXVpcmUuIEl0J3MgYSBDTEkgdGhhdCBvZmZlcnMgc3RydWN0dXJlLCBhdXRvbWF0aW9uIGFuZCBiZXN0IHByYWN0aWNlcyBvdXQtb2YtdGhlLWJveCwgYWxsb3dpbmcgeW91IHRvIGZvY3VzIG9uIGJ1aWxkaW5nIHNvcGhpc3RpY2F0ZWQsIGV2ZW50LWRyaXZlbiwgc2VydmVybGVzcyBhcmNoaXRlY3R1cmVzLCBjb21wcmlzZWQgb2YgRnVuY3Rpb25zIGFuZCBFdmVudHMuCgpCZWZvcmUgc3RhcnRpbmcsIHdlIG5lZWQgdG8gZnVsZmlsbCBhIGZldyBwcmUtcmVxdWlzaXRlczoKCi0gSGF2ZSBhIFtJQU0gVXNlcl0oaHR0cHM6Ly9kb2NzLmF3cy5hbWF6b24uY29tL0lBTS9sYXRlc3QvVXNlckd1aWRlL2lkX3VzZXJzX2NyZWF0ZS5odG1sI2lkX3VzZXJzX2NyZWF0ZV9jb25zb2xlKSB3aXRoIHByb2dyYW1tYXRpYyBhY2Nlc3MuCi0gW05vZGVdKGh0dHBzOi8vbm9kZWpzLm9yZy9lbi8pIGluc3RhbGxlZCBvbiB5b3VyIG1hY2hpbmUuCi0gSW5zdGFsbCB0aGUgQW1hem9uIExhbWJkYSBUZW1wbGF0ZXMgKGBkb3RuZXQgbmV3IC1pIEFtYXpvbi5MYW1iZGEuVGVtcGxhdGVzYCkKLSBJbnN0YWxsIHRoZSBBbWF6b24gTGFtYmRhIFRvb2xzIChgZG90bmV0IHRvb2wgaW5zdGFsbCAtZyBBbWF6b24uTGFtYmRhLlRvb2xzYCkKCiMjIEluc3RhbGxhdGlvbgoKYGBgcG93ZXJzaGVsbApucG0gaW5zdGFsbCAtZyBzZXJ2ZXJsZXNzCmBgYCAKCiMjIENvbmNlcHRzCgotICoqU2VydmljZXMqKjogQSBzZXJ2aWNlIGlzIHRoZSBGcmFtZXdvcmsncyB1bml0IG9mIG9yZ2FuaXphdGlvbi4gWW91IGNhbiB0aGluayBvZiBpdCBhcyBhIHByb2plY3QgZmlsZS4KLSAqKkZ1bmN0aW9ucyoqOiBUaGUgY29kZSBvZiBhIHNlcnZlcmxlc3MgYXBwbGljYXRpb24gaXMgZGVwbG95ZWQgYW5kIGV4ZWN1dGVkIGluIEFXUyBMYW1iZGEgZnVuY3Rpb25zLgotICoqRXZlbnRzKio6IEZ1bmN0aW9ucyBhcmUgdHJpZ2dlcmVkIGJ5IGV2ZW50cy4gRXZlbnRzIGNvbWUgZnJvbSBvdGhlciBBV1MgcmVzb3VyY2VzLgotICoqUmVzb3VyY2VzKio6IFJlc291cmNlcyBhcmUgQVdTIGluZnJhc3RydWN0dXJlIGNvbXBvbmVudHMgdGhhdCB5b3VyIGZ1bmN0aW9ucyB1c2Ugc3VjaCBhcyBhIER5bmFtb0RCIHRhYmxlLCBhbiBTMyBidWNrZXQsIGFuIFNOUyB0b3BpYywgZXRjLgotICoqUGx1Z2lucyoqOiBZb3UgY2FuIG92ZXJ3cml0ZSBvciBleHRlbmQgdGhlIGZ1bmN0aW9uYWxpdHkgdXNpbmcgcGx1Z2lucy4KCiMjIExldCdzIGNvZGUKCldlIHdpbGwgY3JlYXRlIHRocmVlIEFXUyBMYW1iZGEgRnVuY3Rpb25zIHRvIGNyZWF0ZSwgZ2V0IGFuZCBsaXN0IHRhc2tzLiBUaGUgdGFzayBkYXRhIHdpbGwgYmUgc3RvcmVkIGluIGEgW0R5bmFtb0JEXShodHRwczovL2RvY3MuYXdzLmFtYXpvbi5jb20vZHluYW1vZGIvaW5kZXguaHRtbCkgdGFibGUuIFJ1biB0aGUgZm9sbG93aW5nIGNvbW1hbmQgdG8gY3JlYXRlIHRoZSAuTmV0IHByb2plY3RzIGFuZCBzb2x1dGlvbjoKCmBgYHBvd2Vyc2hlbGwKZG90bmV0IG5ldyBsYW1iZGEuRW1wdHlGdW5jdGlvbiAtbiBQb3N0VGFza0Z1bmN0aW9uIC1vIC4KZG90bmV0IG5ldyBsYW1iZGEuRW1wdHlGdW5jdGlvbiAtbiBMaXN0VGFza0Z1bmN0aW9uIC1vIC4KZG90bmV0IG5ldyBsYW1iZGEuRW1wdHlGdW5jdGlvbiAtbiBHZXRUYXNrRnVuY3Rpb24gLW8gLgpkb3RuZXQgbmV3IGNsYXNzbGliIC1uIEZ1bmN0aW9uTGlicmFyeSAtbyBzcmMvRnVuY3Rpb25MaWJyYXJ5CmRvdG5ldCBuZXcgc2xuIC1uIHNlcnZlcmxlc3MtZnJhbWV3b3JrLXNhbmRib3gKZG90bmV0IHNsbiBhZGQgLS1pbi1yb290IHNyYy9Qb3N0VGFza0Z1bmN0aW9uCmRvdG5ldCBzbG4gYWRkIC0taW4tcm9vdCBzcmMvTGlzdFRhc2tGdW5jdGlvbgpkb3RuZXQgc2xuIGFkZCAtLWluLXJvb3Qgc3JjL0dldFRhc2tGdW5jdGlvbgpkb3RuZXQgc2xuIGFkZCAtLWluLXJvb3Qgc3JjL0Z1bmN0aW9uTGlicmFyeSAKYGBgIAoKQWRkIHRoZSBmb2xsb3dpbmcgTnVHZXQgcGFja2FnZXMgdG8gZWFjaCBwcm9qZWN0OgoKYGBgcG93ZXJzaGVsbApkb3RuZXQgYWRkIHNyYy9GdW5jdGlvbkxpYnJhcnkgcGFja2FnZSBBV1NTREsuRHluYW1vREJ2Mgpkb3RuZXQgYWRkIHNyYy9Qb3N0VGFza0Z1bmN0aW9uIHBhY2thZ2UgQW1hem9uLkxhbWJkYS5BUElHYXRld2F5RXZlbnRzCmRvdG5ldCBhZGQgc3JjL0xpc3RUYXNrRnVuY3Rpb24gcGFja2FnZSBBbWF6b24uTGFtYmRhLkFQSUdhdGV3YXlFdmVudHMKZG90bmV0IGFkZCBzcmMvR2V0VGFza0Z1bmN0aW9uIHBhY2thZ2UgQW1hem9uLkxhbWJkYS5BUElHYXRld2F5RXZlbnRzCmBgYCAKCkFuZCB0aGUgcmVmZXJlbmNlcyBiZXR3ZWVuIHByb2plY3RzOgoKYGBgcG93ZXJzaGVsbApkb3RuZXQgYWRkIHNyYy9Qb3N0VGFza0Z1bmN0aW9uL1Bvc3RUYXNrRnVuY3Rpb24uY3Nwcm9qIHJlZmVyZW5jZSBzcmMvRnVuY3Rpb25MaWJyYXJ5L0Z1bmN0aW9uTGlicmFyeS5jc3Byb2oKZG90bmV0IGFkZCBzcmMvTGlzdFRhc2tGdW5jdGlvbi9MaXN0VGFza0Z1bmN0aW9uLmNzcHJvaiByZWZlcmVuY2Ugc3JjL0Z1bmN0aW9uTGlicmFyeS9GdW5jdGlvbkxpYnJhcnkuY3Nwcm9qCmRvdG5ldCBhZGQgc3JjL0dldFRhc2tGdW5jdGlvbi9HZXRUYXNrRnVuY3Rpb24uY3Nwcm9qIHJlZmVyZW5jZSBzcmMvRnVuY3Rpb25MaWJyYXJ5L0Z1bmN0aW9uTGlicmFyeS5jc3Byb2oKYGBgIAoKT3BlbiB0aGUgc29sdXRpb24gYW5kIHVuZGVyIHRoZSBgRnVuY3Rpb25MaWJyYXJ5YCBwcm9qZWN0LCBhZGQgdGhlIGBUYXNrLmNzYCBmaWxlIHdpdGggdGhlIGZvbGxvd2luZyBjb250ZW50OgoKYGBgY3NoYXJwCnVzaW5nIEFtYXpvbi5EeW5hbW9EQnYyLkRhdGFNb2RlbDsKCm5hbWVzcGFjZSBGdW5jdGlvbkxpYnJhcnk7CgpbRHluYW1vREJUYWJsZSgidGFza3N0YWJsZSIpXQpwdWJsaWMgY2xhc3MgVGFzawp7CiAgICBbRHluYW1vREJIYXNoS2V5KCJpZCIpXQogICAgcHVibGljIEd1aWQgSWQgeyBnZXQ7IHNldDsgfQogICAgW0R5bmFtb0RCUHJvcGVydHkoImRlc2NyaXB0aW9uIildCiAgICBwdWJsaWMgc3RyaW5nPyBEZXNjcmlwdGlvbiB7IGdldDsgc2V0OyB9CiAgICBbRHluYW1vREJQcm9wZXJ0eSgidGl0bGUiKV0KICAgIHB1YmxpYyBzdHJpbmc/IFRpdGxlIHsgZ2V0OyBzZXQ7IH0KfQpgYGAgCgpVbmRlciB0aGUgYFBvc3RUYXNrRnVuY3Rpb25gIHByb2plY3QsICBtb2RpZnkgdGhlIGBGdW5jdGlvbi5jc2AgZmlsZSBhcyBmb2xsb3c6CgpgYGAKdXNpbmcgQW1hem9uLkR5bmFtb0RCdjIuRGF0YU1vZGVsOwp1c2luZyBBbWF6b24uRHluYW1vREJ2MjsKdXNpbmcgQW1hem9uLkxhbWJkYS5BUElHYXRld2F5RXZlbnRzOwp1c2luZyBBbWF6b24uTGFtYmRhLkNvcmU7CnVzaW5nIFN5c3RlbS5UZXh0Lkpzb247CgpbYXNzZW1ibHk6IExhbWJkYVNlcmlhbGl6ZXIodHlwZW9mKEFtYXpvbi5MYW1iZGEuU2VyaWFsaXphdGlvbi5TeXN0ZW1UZXh0SnNvbi5EZWZhdWx0TGFtYmRhSnNvblNlcmlhbGl6ZXIpKV0KCm5hbWVzcGFjZSBQb3N0VGFza0Z1bmN0aW9uOwoKcHVibGljIGNsYXNzIEZ1bmN0aW9uCnsKICAgIHB1YmxpYyByZWNvcmQgUmVnaXN0ZXJUYXNrUmVxdWVzdChzdHJpbmcgRGVzY3JpcHRpb24sIHN0cmluZyBUaXRsZSk7CiAgICBwdWJsaWMgcmVjb3JkIFJlZ2lzdGVyVGFza1Jlc3BvbnNlKEd1aWQgSWQpOwogICAgcHJpdmF0ZSByZWFkb25seSBBbWF6b25EeW5hbW9EQkNsaWVudCBjbGllbnQ7CgogICAgcHJpdmF0ZSByZWFkb25seSBEeW5hbW9EQkNvbnRleHQgZGJDb250ZXh0OwogICAgcHVibGljIEZ1bmN0aW9uKCkKICAgIHsKICAgICAgICBjbGllbnQgPSBuZXcgQW1hem9uRHluYW1vREJDbGllbnQoKTsKICAgICAgICBkYkNvbnRleHQgPSBuZXcgRHluYW1vREJDb250ZXh0KGNsaWVudCk7CiAgICB9CgogICAgcHVibGljIGFzeW5jIFRhc2s8QVBJR2F0ZXdheVByb3h5UmVzcG9uc2U+IEZ1bmN0aW9uSGFuZGxlcihBUElHYXRld2F5UHJveHlSZXF1ZXN0IGlucHV0LCBJTGFtYmRhQ29udGV4dCBjb250ZXh0KQogICAgewogICAgICAgIHZhciByZXEgPSBKc29uU2VyaWFsaXplci5EZXNlcmlhbGl6ZTxSZWdpc3RlclRhc2tSZXF1ZXN0PihpbnB1dC5Cb2R5LCBuZXcgSnNvblNlcmlhbGl6ZXJPcHRpb25zKCkgeyBQcm9wZXJ0eU5hbWVDYXNlSW5zZW5zaXRpdmUgPSB0cnVlIH0pITsKICAgICAgICB2YXIgdGFzayA9IG5ldyBGdW5jdGlvbkxpYnJhcnkuVGFzaygpIHsgSWQgPSBHdWlkLk5ld0d1aWQoKSwgRGVzY3JpcHRpb24gPSByZXEuRGVzY3JpcHRpb24sIFRpdGxlID0gcmVxLlRpdGxlIH07CiAgICAgICAgYXdhaXQgZGJDb250ZXh0LlNhdmVBc3luYyh0YXNrKTsKICAgICAgICB2YXIgcmVzcCA9IEpzb25TZXJpYWxpemVyLlNlcmlhbGl6ZShuZXcgUmVnaXN0ZXJUYXNrUmVzcG9uc2UodGFzay5JZCkpOwogICAgICAgIHJldHVybiBuZXcgQVBJR2F0ZXdheVByb3h5UmVzcG9uc2UKICAgICAgICB7CiAgICAgICAgICAgIEJvZHkgPSByZXNwLAogICAgICAgICAgICBTdGF0dXNDb2RlID0gMjAwLAogICAgICAgICAgICBIZWFkZXJzID0gbmV3IERpY3Rpb25hcnk8c3RyaW5nLCBzdHJpbmc+IHsgeyAiQ29udGVudC1UeXBlIiwgImFwcGxpY2F0aW9uL2pzb24iIH0gfQogICAgICAgIH07CiAgICB9Cn0KYGBgIAoKVW5kZXIgdGhlIGBMaXN0VGFza0Z1bmN0aW9uYCBwcm9qZWN0ICwgbW9kaWZ5IHRoZSBgRnVuY3Rpb24uY3NgIGZpbGUgYXMgZm9sbG93OgoKYGBgY3NoYXJwCnVzaW5nIEFtYXpvbi5EeW5hbW9EQnYyLkRhdGFNb2RlbDsKdXNpbmcgQW1hem9uLkR5bmFtb0RCdjI7CnVzaW5nIEFtYXpvbi5MYW1iZGEuQVBJR2F0ZXdheUV2ZW50czsKdXNpbmcgQW1hem9uLkxhbWJkYS5Db3JlOwp1c2luZyBTeXN0ZW0uVGV4dC5Kc29uOwoKLy8gQXNzZW1ibHkgYXR0cmlidXRlIHRvIGVuYWJsZSB0aGUgTGFtYmRhIGZ1bmN0aW9uJ3MgSlNPTiBpbnB1dCB0byBiZSBjb252ZXJ0ZWQgaW50byBhIC5ORVQgY2xhc3MuClthc3NlbWJseTogTGFtYmRhU2VyaWFsaXplcih0eXBlb2YoQW1hem9uLkxhbWJkYS5TZXJpYWxpemF0aW9uLlN5c3RlbVRleHRKc29uLkRlZmF1bHRMYW1iZGFKc29uU2VyaWFsaXplcikpXQoKbmFtZXNwYWNlIExpc3RUYXNrRnVuY3Rpb247CgpwdWJsaWMgY2xhc3MgRnVuY3Rpb24KewogICAgcHJpdmF0ZSByZWFkb25seSBBbWF6b25EeW5hbW9EQkNsaWVudCBjbGllbnQ7CiAgICBwcml2YXRlIHJlYWRvbmx5IER5bmFtb0RCQ29udGV4dCBkYkNvbnRleHQ7CiAgICBwdWJsaWMgRnVuY3Rpb24oKQogICAgewogICAgICAgIGNsaWVudCA9IG5ldyBBbWF6b25EeW5hbW9EQkNsaWVudCgpOwogICAgICAgIGRiQ29udGV4dCA9IG5ldyBEeW5hbW9EQkNvbnRleHQoY2xpZW50KTsKICAgIH0KCiAgICBwdWJsaWMgYXN5bmMgVGFzazxBUElHYXRld2F5UHJveHlSZXNwb25zZT4gRnVuY3Rpb25IYW5kbGVyKEFQSUdhdGV3YXlQcm94eVJlcXVlc3QgaW5wdXQsIElMYW1iZGFDb250ZXh0IGNvbnRleHQpCiAgICB7CiAgICAgICAgdmFyIHRhc2tzID0gYXdhaXQgZGJDb250ZXh0LlNjYW5Bc3luYzxGdW5jdGlvbkxpYnJhcnkuVGFzaz4oZGVmYXVsdCkuR2V0UmVtYWluaW5nQXN5bmMoKTsKICAgICAgICB2YXIgcmVzcCA9IEpzb25TZXJpYWxpemVyLlNlcmlhbGl6ZSh0YXNrcyk7CiAgICAgICAgcmV0dXJuIG5ldyBBUElHYXRld2F5UHJveHlSZXNwb25zZQogICAgICAgIHsKICAgICAgICAgICAgQm9keSA9IHJlc3AsCiAgICAgICAgICAgIFN0YXR1c0NvZGUgPSAyMDAsCiAgICAgICAgICAgIEhlYWRlcnMgPSBuZXcgRGljdGlvbmFyeTxzdHJpbmcsIHN0cmluZz4geyB7ICJDb250ZW50LVR5cGUiLCAiYXBwbGljYXRpb24vanNvbiIgfSB9CiAgICAgICAgfTsKICAgIH0KfQpgYGAgCgpVbmRlciB0aGUgYEdldFRhc2tGdW5jdGlvbmAgcHJvamVjdCwgIG1vZGlmeSB0aGUgYEZ1bmN0aW9uLmNzYCBmaWxlIGFzIGZvbGxvdzoKCmBgYGNzaGFycAp1c2luZyBBbWF6b24uRHluYW1vREJ2Mi5EYXRhTW9kZWw7CnVzaW5nIEFtYXpvbi5EeW5hbW9EQnYyOwp1c2luZyBBbWF6b24uTGFtYmRhLkFQSUdhdGV3YXlFdmVudHM7CnVzaW5nIEFtYXpvbi5MYW1iZGEuQ29yZTsKdXNpbmcgU3lzdGVtLlRleHQuSnNvbjsKCi8vIEFzc2VtYmx5IGF0dHJpYnV0ZSB0byBlbmFibGUgdGhlIExhbWJkYSBmdW5jdGlvbidzIEpTT04gaW5wdXQgdG8gYmUgY29udmVydGVkIGludG8gYSAuTkVUIGNsYXNzLgpbYXNzZW1ibHk6IExhbWJkYVNlcmlhbGl6ZXIodHlwZW9mKEFtYXpvbi5MYW1iZGEuU2VyaWFsaXphdGlvbi5TeXN0ZW1UZXh0SnNvbi5EZWZhdWx0TGFtYmRhSnNvblNlcmlhbGl6ZXIpKV0KCm5hbWVzcGFjZSBHZXRUYXNrRnVuY3Rpb247CgpwdWJsaWMgY2xhc3MgRnVuY3Rpb24KewogICAgcHJpdmF0ZSByZWFkb25seSBBbWF6b25EeW5hbW9EQkNsaWVudCBjbGllbnQ7CiAgICBwcml2YXRlIHJlYWRvbmx5IER5bmFtb0RCQ29udGV4dCBkYkNvbnRleHQ7CiAgICBwdWJsaWMgRnVuY3Rpb24oKQogICAgewogICAgICAgIGNsaWVudCA9IG5ldyBBbWF6b25EeW5hbW9EQkNsaWVudCgpOwogICAgICAgIGRiQ29udGV4dCA9IG5ldyBEeW5hbW9EQkNvbnRleHQoY2xpZW50KTsKICAgIH0KCiAgICBwdWJsaWMgYXN5bmMgVGFzazxBUElHYXRld2F5UHJveHlSZXNwb25zZT4gRnVuY3Rpb25IYW5kbGVyKEFQSUdhdGV3YXlQcm94eVJlcXVlc3QgaW5wdXQsIElMYW1iZGFDb250ZXh0IGNvbnRleHQpCiAgICB7CiAgICAgICAgdmFyIGlkID0gaW5wdXQuUGF0aFBhcmFtZXRlcnNbImlkIl07CiAgICAgICAgdmFyIHRhc2sgPSBhd2FpdCBkYkNvbnRleHQuTG9hZEFzeW5jPEZ1bmN0aW9uTGlicmFyeS5UYXNrPihuZXcgR3VpZChpZCkpOwogICAgICAgIGlmICh0YXNrID09IG51bGwpCiAgICAgICAgewogICAgICAgICAgICByZXR1cm4gbmV3IEFQSUdhdGV3YXlQcm94eVJlc3BvbnNlCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgIFN0YXR1c0NvZGUgPSA0MDQKICAgICAgICAgICAgfTsKICAgICAgICB9CgogICAgICAgIHZhciByZXNwID0gSnNvblNlcmlhbGl6ZXIuU2VyaWFsaXplKHRhc2spOwogICAgICAgIHJldHVybiBuZXcgQVBJR2F0ZXdheVByb3h5UmVzcG9uc2UKICAgICAgICB7CiAgICAgICAgICAgIEJvZHkgPSByZXNwLAogICAgICAgICAgICBTdGF0dXNDb2RlID0gMjAwLAogICAgICAgICAgICBIZWFkZXJzID0gbmV3IERpY3Rpb25hcnk8c3RyaW5nLCBzdHJpbmc+IHsgeyAiQ29udGVudC1UeXBlIiwgImFwcGxpY2F0aW9uL2pzb24iIH0gfQogICAgICAgIH07CiAgICB9Cn0KYGBgIAoKQ3JlYXRlIHRoZSBwYWNrYWdlcyB0byBiZSBkZXBsb3llZCB0byBBV1Mgd2l0aCB0aGUgZm9sbG93aW5nIGNvbW1hbmRzOgoKYGBgcG93ZXJzaGVsbApkb3RuZXQgcmVzdG9yZSBzcmMvUG9zdFRhc2tGdW5jdGlvbgpkb3RuZXQgbGFtYmRhIHBhY2thZ2UgLXBsIHNyYy9Qb3N0VGFza0Z1bmN0aW9uIC0tY29uZmlndXJhdGlvbiBSZWxlYXNlIC0tZnJhbWV3b3JrIG5ldDYuMCAtLW91dHB1dC1wYWNrYWdlIHNyYy9Qb3N0VGFza0Z1bmN0aW9uL2Jpbi9SZWxlYXNlL25ldDYuMC9Qb3N0VGFza0Z1bmN0aW9uLnppcApkb3RuZXQgcmVzdG9yZSBzcmMvTGlzdFRhc2tGdW5jdGlvbgpkb3RuZXQgbGFtYmRhIHBhY2thZ2UgLXBsIHNyYy9MaXN0VGFza0Z1bmN0aW9uIC0tY29uZmlndXJhdGlvbiBSZWxlYXNlIC0tZnJhbWV3b3JrIG5ldDYuMCAtLW91dHB1dC1wYWNrYWdlIHNyYy9MaXN0VGFza0Z1bmN0aW9uL2Jpbi9SZWxlYXNlL25ldDYuMC9MaXN0VGFza0Z1bmN0aW9uLnppcApkb3RuZXQgcmVzdG9yZSBzcmMvR2V0VGFza0Z1bmN0aW9uCmRvdG5ldCBsYW1iZGEgcGFja2FnZSAtcGwgc3JjL0dldFRhc2tGdW5jdGlvbiAtLWNvbmZpZ3VyYXRpb24gUmVsZWFzZSAtLWZyYW1ld29yayBuZXQ2LjAgLS1vdXRwdXQtcGFja2FnZSBzcmMvR2V0VGFza0Z1bmN0aW9uL2Jpbi9SZWxlYXNlL25ldDYuMC9HZXRUYXNrRnVuY3Rpb24uemlwCmBgYCAKCkFuZCBmaW5hbGx5LCBjcmVhdGUgYSBgc2VydmVybGVzcy55bWxgIGZpbGU6CgpgYGB5bWwKc2VydmljZTogdGFzay1hcHAKZnJhbWV3b3JrVmVyc2lvbjogJzMnCgpwcm92aWRlcjoKICBuYW1lOiBhd3MKICBzdGFnZTogJHtvcHQ6c3RhZ2UsICJkZXYifQogIHJlZ2lvbjogJHtvcHQ6cmVnaW9uLCAidXMtZWFzdC0xIn0KICBwcm9maWxlOiAke29wdDpwcm9maWxlLCAiZGVmYXVsdCJ9CiAgcnVudGltZTogZG90bmV0NgogIGlhbToKICAgIHJvbGU6CiAgICAgIHN0YXRlbWVudHM6IAogICAgICAgIC0gRWZmZWN0OiBBbGxvdwogICAgICAgICAgQWN0aW9uOgogICAgICAgICAgICAtIGR5bmFtb2RiOioKICAgICAgICAgIFJlc291cmNlOiAnYXJuOmF3czpkeW5hbW9kYjp1cy1lYXN0LTI6KjoqJwpwYWNrYWdlOgogIGluZGl2aWR1YWxseTogdHJ1ZQoKZnVuY3Rpb25zOgogIHBvc3QtdGFza3M6CiAgICBoYW5kbGVyOiBQb3N0VGFza0Z1bmN0aW9uOjpQb3N0VGFza0Z1bmN0aW9uLkZ1bmN0aW9uOjpGdW5jdGlvbkhhbmRsZXIKICAgIHBhY2thZ2U6CiAgICAgIGFydGlmYWN0OiBzcmMvUG9zdFRhc2tGdW5jdGlvbi9iaW4vUmVsZWFzZS9uZXQ2LjAvUG9zdFRhc2tGdW5jdGlvbi56aXAKICAgIGV2ZW50czoKICAgICAgLSBodHRwOgogICAgICAgICAgcGF0aDogL3Rhc2tzCiAgICAgICAgICBtZXRob2Q6IHBvc3QKICBsaXN0LXRhc2tzOgogICAgaGFuZGxlcjogTGlzdFRhc2tGdW5jdGlvbjo6TGlzdFRhc2tGdW5jdGlvbi5GdW5jdGlvbjo6RnVuY3Rpb25IYW5kbGVyCiAgICBwYWNrYWdlOgogICAgICBhcnRpZmFjdDogc3JjL0xpc3RUYXNrRnVuY3Rpb24vYmluL1JlbGVhc2UvbmV0Ni4wL0xpc3RUYXNrRnVuY3Rpb24uemlwCiAgICBldmVudHM6CiAgICAgIC0gaHR0cDoKICAgICAgICAgIHBhdGg6IC90YXNrcwogICAgICAgICAgbWV0aG9kOiBnZXQKICBnZXQtdGFza3M6CiAgICBoYW5kbGVyOiBHZXRUYXNrRnVuY3Rpb246OkdldFRhc2tGdW5jdGlvbi5GdW5jdGlvbjo6RnVuY3Rpb25IYW5kbGVyCiAgICBwYWNrYWdlOgogICAgICBhcnRpZmFjdDogc3JjL0dldFRhc2tGdW5jdGlvbi9iaW4vUmVsZWFzZS9uZXQ2LjAvR2V0VGFza0Z1bmN0aW9uLnppcAogICAgZXZlbnRzOgogICAgICAtIGh0dHA6CiAgICAgICAgICBwYXRoOiAvdGFza3Mve2lkfQogICAgICAgICAgbWV0aG9kOiBnZXQKCnJlc291cmNlczoKICBSZXNvdXJjZXM6CiAgICB0YXNrc1RhYmxlOgogICAgICBUeXBlOiBBV1M6OkR5bmFtb0RCOjpUYWJsZQogICAgICBQcm9wZXJ0aWVzOgogICAgICAgIFRhYmxlTmFtZTogdGFza3N0YWJsZQogICAgICAgIEF0dHJpYnV0ZURlZmluaXRpb25zOgogICAgICAgICAgLSBBdHRyaWJ1dGVOYW1lOiBpZAogICAgICAgICAgICBBdHRyaWJ1dGVUeXBlOiBTCiAgICAgICAgS2V5U2NoZW1hOgogICAgICAgICAgLSBBdHRyaWJ1dGVOYW1lOiBpZAogICAgICAgICAgICBLZXlUeXBlOiBIQVNICiAgICAgICAgUHJvdmlzaW9uZWRUaHJvdWdocHV0OgogICAgICAgICAgUmVhZENhcGFjaXR5VW5pdHM6IDEKICAgICAgICAgIFdyaXRlQ2FwYWNpdHlVbml0czogMQpgYGAgCgpUaW1lIHRvIGRlcGxveS4gUnVuIGBzZXJ2ZXJsZXNzIGRlcGxveWAuIFRoZSBjb21tYW5kIGlzIGdvaW5nIHRvIGNyZWF0ZSB0aHJlZSBGdW5jdGlvbnMsIG9uZSBBV1MgQVBJIEdhdGV3YXksIGFuZCBvbmUgRHluYW1vREIgVGFibGU6CgpgYGAKRGVwbG95aW5nIHRhc2stYXBwIHRvIHN0YWdlIGRldiAodXMtZWFzdC0xKQoK4pyUIFNlcnZpY2UgZGVwbG95ZWQgdG8gc3RhY2sgdGFzay1hcHAtZGV2ICgxMjRzKQoKZW5kcG9pbnRzOgogIFBPU1QgLSBodHRwczovL3k0bDgyaG8zZDUuZXhlY3V0ZS1hcGkudXMtZWFzdC0xLmFtYXpvbmF3cy5jb20vZGV2L3Rhc2tzCiAgR0VUIC0gaHR0cHM6Ly95NGw4MmhvM2Q1LmV4ZWN1dGUtYXBpLnVzLWVhc3QtMS5hbWF6b25hd3MuY29tL2Rldi90YXNrcwogIEdFVCAtIGh0dHBzOi8veTRsODJobzNkNS5leGVjdXRlLWFwaS51cy1lYXN0LTEuYW1hem9uYXdzLmNvbS9kZXYvdGFza3Mve2lkfQpmdW5jdGlvbnM6CiAgcG9zdC10YXNrczogdGFzay1hcHAtZGV2LXBvc3QtdGFza3MgKDEuNyBNQikKICBsaXN0LXRhc2tzOiB0YXNrLWFwcC1kZXYtbGlzdC10YXNrcyAoMS43IE1CKQogIGdldC10YXNrczogdGFzay1hcHAtZGV2LWdldC10YXNrcyAoMS43IE1CKQpgYGAgCgpUbyBjbGVhbiB1cCBhbGwgdGhlIHJlc291cmNlcyBydW4gYHNlcnZlcmxlc3MgcmVtb3ZlYC4gRm9yIG1vcmUgZGV0YWlscyBhbmQgb3RoZXIgY29tbWFuZCBleGVjdXRpb24gb3B0aW9ucywgdGFrZSBhIGxvb2sgYXQgdGhlIFNlcnZlcmxlc3MgRnJhbWV3b3JrIFtkb2N1bWVudGF0aW9uXShodHRwczovL3d3dy5zZXJ2ZXJsZXNzLmNvbS9mcmFtZXdvcmsvZG9jcy9wcm92aWRlcnMvYXdzL2d1aWRlL3NlcnZlcmxlc3MueW1sKS4KQWxsIHRoZSBjb2RlIGlzIGF2YWlsYWJsZSBbaGVyZV0oaHR0cHM6Ly9naXRodWIuY29tL3JhdWxucS9zZXJ2ZXJsZXNzLWZyYW1ld29yay1zYW5kYm94KS4gVGhhbmtzLCBhbmQgaGFwcHkgY29kaW5nLgo=
+# Deploying AWS Lambda Functions with Serverless Framework
+
+In a previous [post](https://blog.raulnq.com/deploying-aws-lambda-functions-with-terraform), we looked at Terraform as an option to deploy AWS Lambda Function, as long as the number of functions is low. But with a higher number of functions, we could end up building huge scripts. And this is where [Severless Framework](https://www.serverless.com/framework/docs) comes in:
+
+> Serverless Framework is an open source tool available for building, packaging and deploying serverless applications across multiple cloud providers and platforms like AWS, GCP, Azure, Kubernetes, etc
+
+> The Serverless Framework helps you develop and deploy AWS Lambda functions, along with the AWS infrastructure resources they require. It's a CLI that offers structure, automation and best practices out-of-the-box, allowing you to focus on building sophisticated, event-driven, serverless architectures, comprised of Functions and Events.
+
+Before starting, we need to fulfill a few pre-requisites:
+
+- Have a [IAM User](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html#id_users_create_console) with programmatic access.
+- [Node](https://nodejs.org/en/) installed on your machine.
+- Install the Amazon Lambda Templates (`dotnet new -i Amazon.Lambda.Templates`)
+- Install the Amazon Lambda Tools (`dotnet tool install -g Amazon.Lambda.Tools`)
+
+## Installation
+
+```powershell
+npm install -g serverless
+``` 
+
+## Concepts
+
+- **Services**: A service is the Framework's unit of organization. You can think of it as a project file.
+- **Functions**: The code of a serverless application is deployed and executed in AWS Lambda functions.
+- **Events**: Functions are triggered by events. Events come from other AWS resources.
+- **Resources**: Resources are AWS infrastructure components that your functions use such as a DynamoDB table, an S3 bucket, an SNS topic, etc.
+- **Plugins**: You can overwrite or extend the functionality using plugins.
+
+## Let's code
+
+We will create three AWS Lambda Functions to create, get and list tasks. The task data will be stored in a [DynamoBD](https://docs.aws.amazon.com/dynamodb/index.html) table. Run the following command to create the .Net projects and solution:
+
+```powershell
+dotnet new lambda.EmptyFunction -n PostTaskFunction -o .
+dotnet new lambda.EmptyFunction -n ListTaskFunction -o .
+dotnet new lambda.EmptyFunction -n GetTaskFunction -o .
+dotnet new classlib -n FunctionLibrary -o src/FunctionLibrary
+dotnet new sln -n serverless-framework-sandbox
+dotnet sln add --in-root src/PostTaskFunction
+dotnet sln add --in-root src/ListTaskFunction
+dotnet sln add --in-root src/GetTaskFunction
+dotnet sln add --in-root src/FunctionLibrary 
+``` 
+
+Add the following NuGet packages to each project:
+
+```powershell
+dotnet add src/FunctionLibrary package AWSSDK.DynamoDBv2
+dotnet add src/PostTaskFunction package Amazon.Lambda.APIGatewayEvents
+dotnet add src/ListTaskFunction package Amazon.Lambda.APIGatewayEvents
+dotnet add src/GetTaskFunction package Amazon.Lambda.APIGatewayEvents
+``` 
+
+And the references between projects:
+
+```powershell
+dotnet add src/PostTaskFunction/PostTaskFunction.csproj reference src/FunctionLibrary/FunctionLibrary.csproj
+dotnet add src/ListTaskFunction/ListTaskFunction.csproj reference src/FunctionLibrary/FunctionLibrary.csproj
+dotnet add src/GetTaskFunction/GetTaskFunction.csproj reference src/FunctionLibrary/FunctionLibrary.csproj
+``` 
+
+Open the solution and under the `FunctionLibrary` project, add the `Task.cs` file with the following content:
+
+```csharp
+using Amazon.DynamoDBv2.DataModel;
+
+namespace FunctionLibrary;
+
+[DynamoDBTable("taskstable")]
+public class Task
+{
+    [DynamoDBHashKey("id")]
+    public Guid Id { get; set; }
+    [DynamoDBProperty("description")]
+    public string? Description { get; set; }
+    [DynamoDBProperty("title")]
+    public string? Title { get; set; }
+}
+``` 
+
+Under the `PostTaskFunction` project,  modify the `Function.cs` file as follow:
+
+```
+using Amazon.DynamoDBv2.DataModel;
+using Amazon.DynamoDBv2;
+using Amazon.Lambda.APIGatewayEvents;
+using Amazon.Lambda.Core;
+using System.Text.Json;
+
+[assembly: LambdaSerializer(typeof(Amazon.Lambda.Serialization.SystemTextJson.DefaultLambdaJsonSerializer))]
+
+namespace PostTaskFunction;
+
+public class Function
+{
+    public record RegisterTaskRequest(string Description, string Title);
+    public record RegisterTaskResponse(Guid Id);
+    private readonly AmazonDynamoDBClient client;
+
+    private readonly DynamoDBContext dbContext;
+    public Function()
+    {
+        client = new AmazonDynamoDBClient();
+        dbContext = new DynamoDBContext(client);
+    }
+
+    public async Task<APIGatewayProxyResponse> FunctionHandler(APIGatewayProxyRequest input, ILambdaContext context)
+    {
+        var req = JsonSerializer.Deserialize<RegisterTaskRequest>(input.Body, new JsonSerializerOptions() { PropertyNameCaseInsensitive = true })!;
+        var task = new FunctionLibrary.Task() { Id = Guid.NewGuid(), Description = req.Description, Title = req.Title };
+        await dbContext.SaveAsync(task);
+        var resp = JsonSerializer.Serialize(new RegisterTaskResponse(task.Id));
+        return new APIGatewayProxyResponse
+        {
+            Body = resp,
+            StatusCode = 200,
+            Headers = new Dictionary<string, string> { { "Content-Type", "application/json" } }
+        };
+    }
+}
+``` 
+
+Under the `ListTaskFunction` project , modify the `Function.cs` file as follow:
+
+```csharp
+using Amazon.DynamoDBv2.DataModel;
+using Amazon.DynamoDBv2;
+using Amazon.Lambda.APIGatewayEvents;
+using Amazon.Lambda.Core;
+using System.Text.Json;
+
+// Assembly attribute to enable the Lambda function's JSON input to be converted into a .NET class.
+[assembly: LambdaSerializer(typeof(Amazon.Lambda.Serialization.SystemTextJson.DefaultLambdaJsonSerializer))]
+
+namespace ListTaskFunction;
+
+public class Function
+{
+    private readonly AmazonDynamoDBClient client;
+    private readonly DynamoDBContext dbContext;
+    public Function()
+    {
+        client = new AmazonDynamoDBClient();
+        dbContext = new DynamoDBContext(client);
+    }
+
+    public async Task<APIGatewayProxyResponse> FunctionHandler(APIGatewayProxyRequest input, ILambdaContext context)
+    {
+        var tasks = await dbContext.ScanAsync<FunctionLibrary.Task>(default).GetRemainingAsync();
+        var resp = JsonSerializer.Serialize(tasks);
+        return new APIGatewayProxyResponse
+        {
+            Body = resp,
+            StatusCode = 200,
+            Headers = new Dictionary<string, string> { { "Content-Type", "application/json" } }
+        };
+    }
+}
+``` 
+
+Under the `GetTaskFunction` project,  modify the `Function.cs` file as follow:
+
+```csharp
+using Amazon.DynamoDBv2.DataModel;
+using Amazon.DynamoDBv2;
+using Amazon.Lambda.APIGatewayEvents;
+using Amazon.Lambda.Core;
+using System.Text.Json;
+
+// Assembly attribute to enable the Lambda function's JSON input to be converted into a .NET class.
+[assembly: LambdaSerializer(typeof(Amazon.Lambda.Serialization.SystemTextJson.DefaultLambdaJsonSerializer))]
+
+namespace GetTaskFunction;
+
+public class Function
+{
+    private readonly AmazonDynamoDBClient client;
+    private readonly DynamoDBContext dbContext;
+    public Function()
+    {
+        client = new AmazonDynamoDBClient();
+        dbContext = new DynamoDBContext(client);
+    }
+
+    public async Task<APIGatewayProxyResponse> FunctionHandler(APIGatewayProxyRequest input, ILambdaContext context)
+    {
+        var id = input.PathParameters["id"];
+        var task = await dbContext.LoadAsync<FunctionLibrary.Task>(new Guid(id));
+        if (task == null)
+        {
+            return new APIGatewayProxyResponse
+            {
+                StatusCode = 404
+            };
+        }
+
+        var resp = JsonSerializer.Serialize(task);
+        return new APIGatewayProxyResponse
+        {
+            Body = resp,
+            StatusCode = 200,
+            Headers = new Dictionary<string, string> { { "Content-Type", "application/json" } }
+        };
+    }
+}
+``` 
+
+Create the packages to be deployed to AWS with the following commands:
+
+```powershell
+dotnet restore src/PostTaskFunction
+dotnet lambda package -pl src/PostTaskFunction --configuration Release --framework net6.0 --output-package src/PostTaskFunction/bin/Release/net6.0/PostTaskFunction.zip
+dotnet restore src/ListTaskFunction
+dotnet lambda package -pl src/ListTaskFunction --configuration Release --framework net6.0 --output-package src/ListTaskFunction/bin/Release/net6.0/ListTaskFunction.zip
+dotnet restore src/GetTaskFunction
+dotnet lambda package -pl src/GetTaskFunction --configuration Release --framework net6.0 --output-package src/GetTaskFunction/bin/Release/net6.0/GetTaskFunction.zip
+``` 
+
+And finally, create a `serverless.yml` file:
+
+```yml
+service: task-app
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  stage: ${opt:stage, "dev"}
+  region: ${opt:region, "us-east-1"}
+  profile: ${opt:profile, "default"}
+  runtime: dotnet6
+  iam:
+    role:
+      statements: 
+        - Effect: Allow
+          Action:
+            - dynamodb:*
+          Resource: 'arn:aws:dynamodb:us-east-2:*:*'
+package:
+  individually: true
+
+functions:
+  post-tasks:
+    handler: PostTaskFunction::PostTaskFunction.Function::FunctionHandler
+    package:
+      artifact: src/PostTaskFunction/bin/Release/net6.0/PostTaskFunction.zip
+    events:
+      - http:
+          path: /tasks
+          method: post
+  list-tasks:
+    handler: ListTaskFunction::ListTaskFunction.Function::FunctionHandler
+    package:
+      artifact: src/ListTaskFunction/bin/Release/net6.0/ListTaskFunction.zip
+    events:
+      - http:
+          path: /tasks
+          method: get
+  get-tasks:
+    handler: GetTaskFunction::GetTaskFunction.Function::FunctionHandler
+    package:
+      artifact: src/GetTaskFunction/bin/Release/net6.0/GetTaskFunction.zip
+    events:
+      - http:
+          path: /tasks/{id}
+          method: get
+
+resources:
+  Resources:
+    tasksTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: taskstable
+        AttributeDefinitions:
+          - AttributeName: id
+            AttributeType: S
+        KeySchema:
+          - AttributeName: id
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+``` 
+
+Time to deploy. Run `serverless deploy`. The command is going to create three Functions, one AWS API Gateway, and one DynamoDB Table:
+
+```
+Deploying task-app to stage dev (us-east-1)
+
+✔ Service deployed to stack task-app-dev (124s)
+
+endpoints:
+  POST - https://y4l82ho3d5.execute-api.us-east-1.amazonaws.com/dev/tasks
+  GET - https://y4l82ho3d5.execute-api.us-east-1.amazonaws.com/dev/tasks
+  GET - https://y4l82ho3d5.execute-api.us-east-1.amazonaws.com/dev/tasks/{id}
+functions:
+  post-tasks: task-app-dev-post-tasks (1.7 MB)
+  list-tasks: task-app-dev-list-tasks (1.7 MB)
+  get-tasks: task-app-dev-get-tasks (1.7 MB)
+``` 
+
+To clean up all the resources run `serverless remove`. For more details and other command execution options, take a look at the Serverless Framework [documentation](https://www.serverless.com/framework/docs/providers/aws/guide/serverless.yml).
+All the code is available [here](https://github.com/raulnq/serverless-framework-sandbox). Thanks, and happy coding.
