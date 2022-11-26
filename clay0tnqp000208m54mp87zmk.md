@@ -36,12 +36,12 @@ helm install my-nginx-release nginx-stable/nginx-ingress
 
 Run `kubectl get ingressclass` and `kubectl get services` to check the installation:
 
-```
+```bash
 NAME    CONTROLLER                     PARAMETERS   AGE
 nginx   nginx.org/ingress-controller   <none>       39h
 ``` 
 
-```
+```bash
 NAME                            TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)                      AGE
 nginx-release-nginx-ingress     LoadBalancer   10.99.133.25    localhost     80:31918/TCP,443:32278/TCP   39h
 ```
@@ -80,9 +80,9 @@ spec:
               protocol: TCP
 ``` 
 
-And the `service.yml` file as follows:
+A `service.yml` file as follows:
 
-```
+```yaml
 apiVersion: v1
 kind: Service
 metadata:
@@ -102,7 +102,7 @@ spec:
 
 And the `ingress.yml` file, to route every request to `www.api.com` to the `api-service`:
 
-```
+```yaml
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
@@ -124,7 +124,7 @@ spec:
 
 Run `kubectl get ingress`:
 
-```
+```bash
 NAME                                                CLASS   HOSTS                                            ADDRESS     PORTS   AGE
 api-ingress                                         nginx   www.api.com                                      localhost   80      8h
 ```
