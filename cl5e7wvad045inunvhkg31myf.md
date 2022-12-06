@@ -1,4 +1,4 @@
-## Building AWS Lambda Functions with .NET 6
+# Building AWS Lambda Functions with .NET 6
 
 [Serverless computing](https://aws.amazon.com/serverless/) has gained popularity in the last few years primarily because it allows a true platform-as-a-service environment, letting developers focus on coding rather than back-end operations. Under this context, [AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html) is one of the best alternatives to start using this hosting model for our .NET 6 applications.
 
