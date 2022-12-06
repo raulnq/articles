@@ -23,17 +23,17 @@ To measure the improvements in the cold start time. We build two applications, t
 
 For both Lambda Functions, we are using 512 Mb. We run a test (three times, redeploying the applications between runs) to hit the endpoints for 5 minutes (one request per second). Let's take a look at the results:
 
-| Application|Min|Avg|Max|Median|P95|P99|
+| Application|Min|Avg|Max|Median|P95|P99|Stddev|
 |---|---|---|---|---|---|---|---|
 |Native AOT|18ms|29ms|869ms|23ms|46ms|86ms|51ms|
 |JIT|17ms|34ms|1417ms|23ms|54ms|81ms|83ms|
 
-| Application|Min|Avg|Max|Median|P95|P99|Stddev
+| Application|Min|Avg|Max|Median|P95|P99|Stddev|
 |---|---|---|---|---|---|---|---|
 |Native AOT|19ms|28ms|772ms|23ms|47ms|79ms|46ms|
 |JIT|18ms|36ms|1547ms|24ms|65ms|99ms|92ms|
 
-| Application|Min|Avg|Max|Median|P95|P99|
+| Application|Min|Avg|Max|Median|P95|P99|Stddev|
 |---|---|---|---|---|---|---|---|
 |Native AOT|18ms|29ms|851ms|23ms|50ms|91ms|51ms|
 |JIT|20ms|37ms|1644ms|25ms|56ms|75ms|97ms|
