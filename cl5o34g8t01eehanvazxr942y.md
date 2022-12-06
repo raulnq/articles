@@ -1,4 +1,4 @@
-## Deploying AWS Lambda Functions with Terraform
+# Deploying AWS Lambda Functions with Terraform
 
 In a previous post, we reviewed how to [build AWS Lambda Functions with .NET 6](https://blog.raulnq.com/building-aws-lambda-functions-with-net-6). In today's post, we will see how to deploy them using [Terraform](https://blog.raulnq.com/terraform-resources-variables-outputs-and-locals).
 
