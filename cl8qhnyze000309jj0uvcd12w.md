@@ -1,4 +1,4 @@
-## AWS: Single Purpose Lambda vs Monolithic Lambda
+# AWS: Single Purpose Lambda vs Monolithic Lambda
 
 AWS Lambda can be a great hosting option, providing us with several advantages, such as cost-effectiveness(we'll only pay for what we use) and its natural ability to scale without intervention. But, there are new challenges, such as answering the question: **How to organize the code into Lambda functions?** Today we will review two options to answer this question: Single Purpose Lambda and Monolithic Lambda. Let's define them first.
 
