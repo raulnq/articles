@@ -324,4 +324,4 @@ get comments of posts d6327235-1f5f-43e6-9e4a-4688e2334755,00d3ad13-97b6-4342-95
 get authors of posts d6327235-1f5f-43e6-9e4a-4688e2334755,00d3ad13-97b6-4342-95af-246c9191fd96,b68435e9-8d64-4352-b2f7-57a9a9e47192,fb7eeac9-de79-4721-a540-47ceb231a9a5,84b8f72c-2e1d-4d42-a934-e1c6d7505ac2
 ```
 
-This time there is only three access to the storage. You can find more information about data loaders in the [official documentation](https://chillicream.com/docs/hotchocolate/v12/fetching-data/dataloader/). The resulting code is available [here](https://github.com/raulnq/graphql-sandbox/tree/data). Thanks, and happy coding.
+This time there is only three access to the storage. You can find more information about data loaders in the [official documentation](https://chillicream.com/docs/hotchocolate/v12/fetching-data/dataloader/). The resulting code is available [here](https://github.com/raulnq/graphql-sandbox/tree/dataloaders). Thanks, and happy coding.
