@@ -253,7 +253,7 @@ public class Tests
     [DataRow(0, 0, 0)]
     [DataRow(5, 1, 4)]
     [DataRow(11, 5, 6)]
-    public void zero_minus_zero_should_be_zero(int x, int y, int z)
+    public void x_minus_y_should_be_z(int x, int y, int z)
     {
         var sut = new Calculator();
 
