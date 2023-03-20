@@ -127,7 +127,7 @@ internal class StartupHook
 Run `dotnet publish .\MyHook` and `.\MyApp\bin\Debug\net7.0\MyApp.exe` to see:
 
 ```bash
-MessageText changed by the hook!
+Text changed by the hook!
 ```
 
 This example is quite scary because there is no limit to what can be changed.
