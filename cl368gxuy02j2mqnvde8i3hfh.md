@@ -1,4 +1,12 @@
-## Nuke: Deploy ASP. NET Web App to Azure
+---
+title: "Nuke: Deploy ASP. NET Web App to Azure"
+datePublished: Sat May 14 2022 19:00:17 GMT+0000 (Coordinated Universal Time)
+cuid: cl368gxuy02j2mqnvde8i3hfh
+slug: nuke-deploy-asp-net-web-app-to-azure
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1652382361886/gQhfmMprZ.png
+tags: azure, continuous-integration, net, aspnet-core, nuke
+
+---
 
 In this post, we are going to explore the benefits of [Nuke](https://nuke.build/) and its most common features (while we deploy a web app to Azure) to achieve a flexible, maintainable, [automated build](https://martinfowler.com/articles/continuousIntegration.html#AutomateTheBuild) process.
 
@@ -6,10 +14,14 @@ In this post, we are going to explore the benefits of [Nuke](https://nuke.build/
 
 Today some tools are doing the same job, [Continuous Integration Servers](https://about.gitlab.com/topics/ci-cd/continuous-integration-server/). Then, why should we move the build process from the CI Servers to Nuke and let them as a dumb runner of it?:
 
--  **Reduce Vendor Lock-In**: If you change from one CI platform to another, there will be a huge effort to do it again.
--  **Democratize DevOps**: If something breaks or a developer adds a feature that requires changes in the build process, nothing can move forward until the build manager is free.
--  **Reduce Mismatch**: There are cases where a change affects both code and the build process. Then when you move the feature to the develop branch, you must remember to update the associated build process (and the same happens when you move it to another type of branch).
--  **Simplify Debugging**: When things go wrong on a CI server with custom logic, you can't set breakpoints, environmental differences are inaccessible, logging options are limited, and you frequently have to wait very long times to see the results of any changes.
+* **Reduce Vendor Lock-In**: If you change from one CI platform to another, there will be a huge effort to do it again.
+    
+* **Democratize DevOps**: If something breaks or a developer adds a feature that requires changes in the build process, nothing can move forward until the build manager is free.
+    
+* **Reduce Mismatch**: There are cases where a change affects both code and the build process. Then when you move the feature to the develop branch, you must remember to update the associated build process (and the same happens when you move it to another type of branch).
+    
+* **Simplify Debugging**: When things go wrong on a CI server with custom logic, you can't set breakpoints, environmental differences are inaccessible, logging options are limited, and you frequently have to wait very long times to see the results of any changes.
+    
 
 ## Concepts
 
@@ -24,7 +36,7 @@ Target Restore => _ => _
         DotNetRestore(s => s
             .SetProjectFile(Solution));
     });
-``` 
+```
 
 ### Parameters
 
@@ -33,7 +45,7 @@ A parameter is a value provided by the command line.
 ```csharp
 [Parameter("Configuration to build - Default is 'Debug' (local) or 'Release' (server)")]
 readonly Configuration Configuration = IsLocalBuild ? Configuration.Debug : Configuration.Release;
-``` 
+```
 
 ### Dependencies
 
@@ -49,8 +61,7 @@ Target Compile => _ => _
             .SetConfiguration(Configuration)
             .EnableNoRestore());
     });
-
-``` 
+```
 
 ## Code
 
@@ -58,13 +69,14 @@ Let's begin installing Nuke:
 
 ```powershell
 dotnet tool install Nuke.GlobalTool --global
-``` 
+```
 
 Then in the same path of your solution, run:
 
 ```powershell
  nuke :setup
-``` 
+```
+
 Nuke will start to ask questions to configure your build project:
 
 ```powershell
@@ -79,14 +91,15 @@ Which solution should be the default?
 ¬  nuke-sandbox-app.sln
 Do you need help getting started with a basic build?
 ¬  No, I can do this myself...
-``` 
+```
 
-At this point, Nuke is going to include a new project named _build in your solution. Locate the file `Build.cs` inside and open it. Add the following namespaces to get access to all `dotnet` commands:
+At this point, Nuke is going to include a new project named \_build in your solution. Locate the file `Build.cs` inside and open it. Add the following namespaces to get access to all `dotnet` commands:
 
 ```csharp
 using Nuke.Common.Tools.DotNet;
 using static Nuke.Common.Tools.DotNet.DotNetTasks;
-``` 
+```
+
 Delete all the targets and copy the following code:
 
 ```csharp
@@ -106,7 +119,7 @@ Target Compile => _ => _
             .SetConfiguration(Configuration)
             .EnableNoRestore());
     });
-``` 
+```
 
 Open a console in the same directory of your solution and run:
 
@@ -147,7 +160,7 @@ Compile            Succeeded       0:03
 ───────────────────────────────────────
 Total                              0:04
 ═══════════════════════════════════════
-``` 
+```
 
 Congratulations, you are compiling your solution with Nuke. Now, to deploy the web app to Azure, we are going to use the [Kudu's zip API](https://github.com/projectkudu/kudu/wiki/Deploying-from-a-zip-file-or-url). We need to create a target to run the `dotnet publish` and another to zip the results. Add two `AbsolutePath` to store the results of the commands:
 
@@ -155,8 +168,8 @@ Congratulations, you are compiling your solution with Nuke. Now, to deploy the w
 AbsolutePath OutputDirectory => RootDirectory / "output";
 
 AbsolutePath ArtifactDirectory => RootDirectory / "artifact";
+```
 
-``` 
 And add the following targets:
 
 ```csharp
@@ -187,13 +200,13 @@ Target Zip => _ => _
     {
         ZipFile.CreateFromDirectory(OutputDirectory, ArtifactDirectory / "deployment.zip");
     });
-``` 
+```
 
 Run the nuke command and check the output and artifact folders:
 
 ```powershell
 nuke Zip
-``` 
+```
 
 Let's go to the final step, add three parameters:
 
@@ -206,7 +219,8 @@ public string WebAppPassword;
 
 [Parameter]
 public string WebAppName;
-``` 
+```
+
 And copy this target:
 
 ```csharp
@@ -234,7 +248,7 @@ Target Deploy => _ => _
 
         }
     });
-``` 
+```
 
 To get the user and password, go to the Azure portal and locate the Deployment Center option:
 
@@ -244,7 +258,7 @@ For the user, use the last part after the backslash. Run the `help` command to s
 
 ```powershell
 nuke --help
-``` 
+```
 
 ```powershell
 NUKE Execution Engine version 6.0.3 (Windows,.NETCoreApp,Version=v6.0)
@@ -278,20 +292,20 @@ Parameters:
   --target                List of targets to be invoked. Default is 'Compile'.
   --verbosity             Logging verbosity during build execution. Default is
                           'Normal'.
-``` 
+```
 
 Run the following command:
 
 ```powershell
 nuke Deploy --web-app-password <pasword> --web-app-name nuke-sandbox-app --web-app-user '$nuke-sandbox-app'
-``` 
+```
 
 Go to your site to see the web app running. Finally, to see your build process in a nice dependency graph, run:
 
-```
+```bash
 nuke --plan
-``` 
+```
 
 ![nuke-plan.PNG](https://cdn.hashnode.com/res/hashnode/image/upload/v1652543335648/yWhfoTKQ5.PNG align="left")
 
-You can find the solution [here](https://github.com/raulnq/nuke-sandbox) and the official Nuke documentation [here](https://nuke.build/docs/getting-started/philosophy.html).
+You can find the solution [here](https://github.com/raulnq/nuke-sandbox/tree/original) and the official Nuke documentation [here](https://nuke.build/docs/getting-started/philosophy.html).
