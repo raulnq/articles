@@ -1,4 +1,12 @@
-## Nuke: Code coverage with Coverlet and ReportGenerator
+---
+title: "Nuke: Code coverage with Coverlet and ReportGenerator"
+datePublished: Sun Aug 14 2022 01:01:57 GMT+0000 (Coordinated Universal Time)
+cuid: cl6smgk9f0ckpgenv29m75zjt
+slug: nuke-code-coverage-with-coverlet-and-reportgenerator
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1660398968020/0Xt7OGh_b.png
+tags: testing, net, nuke
+
+---
 
 > Unit tests help to ensure functionality and provide a means of verification for refactoring efforts. Code coverage is a measurement of the amount of code that is run by unit tests - either lines, branches, or methods.
 
