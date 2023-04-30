@@ -205,7 +205,7 @@ Depending on our requirements, we can refer to the documentation for all the ava
     
 * `HealthCheckPath`: The path that HTTP requests for health checks are sent to.
     
-* `ProxyServer`: Elastic Beanstalk comes with Nginx as a reverse proxy server that we can use if we want.
+* `ProxyServer`: [Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/command-options-specific.html#command-options-dotnet-core-linux) comes with Nginx as a reverse proxy server that we can use if we want.
     
 
 ### Adding the Application Version
