@@ -1,8 +1,8 @@
 ---
-title: "How to Deploy a .NET App on AWS Elastic Beanstalk using Terraform"
+title: "How to Deploy a .NET Apps on AWS Elastic Beanstalk using Terraform"
 datePublished: Sun Apr 30 2023 15:38:37 GMT+0000 (Coordinated Universal Time)
 cuid: clh3ktlhs000109mjgvib1g07
-slug: how-to-deploy-a-net-app-on-aws-elastic-beanstalk-using-terraform
+slug: how-to-deploy-a-net-apps-on-aws-elastic-beanstalk-using-terraform
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1682801875582/9ed0152f-940c-4d2f-aa03-3b11dee5c6e6.png
 tags: aws, net, terraform, elastic-beanstalk, aws-elastic-beanstalk
 
