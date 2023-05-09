@@ -183,7 +183,7 @@ resource "aws_elastic_beanstalk_environment" "environment" {
 }
 ```
 
-Depending on our requirements, we can refer to the documentation for all the available options for the environment. Let's discuss the ones we are using here:
+Depending on our requirements, we can refer to the [documentation](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/command-options-general.html) for all the available options for the environment. Let's discuss the ones we are using here:
 
 * `VPCID`: The ID for your Amazon VPC.
     
