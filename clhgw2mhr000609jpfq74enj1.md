@@ -10,7 +10,7 @@ tags: aws, net, elastic-beanstalk, windows-server
 
 A couple of weeks ago, we discussed [how to deploy a .NET application on AWS Elastic Beanstalk using Terraform](https://blog.raulnq.com/how-to-deploy-a-net-app-on-aws-elastic-beanstalk-using-terraform), but on a Linux server. After reviewing the official [documentation](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/dotnet-core-tutorial.html), it appears somewhat outdated when it comes to using Windows Server as a platform. As a result, we aim to modify our initial project to accommodate this support.
 
-So, download or clone this repository. Open the `variables.tf` file and append the following content at the end:
+So, download or clone [this](https://github.com/raulnq/aws-beanstalk) repository. Open the `variables.tf` file and append the following content at the end:
 
 ```json
 variable "platform" {
