@@ -105,6 +105,86 @@ resource "aws_s3_object" "bucket_object" {
 Add to the `main.tf` file the following content:
 
 ```json
+data "aws_iam_policy_document" "assume_service_role" {
+  statement {
+    effect = "Allow"
+
+    principals {
+      type        = "Service"
+      identifiers = ["elasticbeanstalk.amazonaws.com"]
+    }
+
+    actions = ["sts:AssumeRole"]
+
+    condition {
+        test     = "StringEquals"
+        variable = "sts:ExternalId"
+
+        values = [
+        "elasticbeanstalk"
+        ]
+    }
+  }
+}
+
+resource "aws_iam_role" "service_role" {
+  name               = "aws-elasticbeanstalk-service-role"
+  assume_role_policy = data.aws_iam_policy_document.assume_service_role.json
+}
+
+resource "aws_iam_role_policy_attachment" "AWSElasticBeanstalkEnhancedHealth-attach" {
+  role       = aws_iam_role.service_role.name
+  policy_arn = "arn:aws:iam::aws:policy/service-role/AWSElasticBeanstalkEnhancedHealth"
+}
+
+resource "aws_iam_role_policy_attachment" "AWSElasticBeanstalkManagedUpdatesCustomerRolePolicy-attach" {
+  role       = aws_iam_role.service_role.name
+  policy_arn = "arn:aws:iam::aws:policy/AWSElasticBeanstalkManagedUpdatesCustomerRolePolicy"
+}
+
+data "aws_iam_policy_document" "assume_role" {
+  statement {
+    effect = "Allow"
+
+    principals {
+      type        = "Service"
+      identifiers = ["ec2.amazonaws.com"]
+    }
+
+    actions = ["sts:AssumeRole"]
+  }
+}
+
+resource "aws_iam_role" "role" {
+  name               = "aws-elasticbeanstalk-ec2-role"
+  assume_role_policy = data.aws_iam_policy_document.assume_role.json
+}
+
+resource "aws_iam_role_policy_attachment" "CloudWatchFullAccess-attach" {
+  role       = aws_iam_role.role.name
+  policy_arn = "arn:aws:iam::aws:policy/CloudWatchFullAccess"
+}
+
+resource "aws_iam_role_policy_attachment" "AWSElasticBeanstalkWebTier-attach" {
+  role       = aws_iam_role.role.name
+  policy_arn = "arn:aws:iam::aws:policy/AWSElasticBeanstalkWebTier"
+}
+
+resource "aws_iam_role_policy_attachment" "AWSElasticBeanstalkWorkerTier-attach" {
+  role       = aws_iam_role.role.name
+  policy_arn = "arn:aws:iam::aws:policy/AWSElasticBeanstalkWorkerTier"
+}
+
+resource "aws_iam_role_policy_attachment" "AWSElasticBeanstalkMulticontainerDocker-attach" {
+  role       = aws_iam_role.role.name
+  policy_arn = "arn:aws:iam::aws:policy/AWSElasticBeanstalkMulticontainerDocker"
+}
+
+resource "aws_iam_instance_profile" "instance_profile" {
+  name = "aws-elasticbeanstalk-ec2-role"
+  role = aws_iam_role.role.name
+}
+
 resource "aws_elastic_beanstalk_application" "application" {
   name        = var.application
 }
@@ -142,7 +222,7 @@ resource "aws_elastic_beanstalk_environment" "environment" {
   setting {
     namespace = "aws:autoscaling:launchconfiguration"
     name      = "IamInstanceProfile"
-    value     =  "aws-elasticbeanstalk-ec2-role"
+    value     =  aws_iam_role.role.name
   }
 
   setting {
@@ -166,7 +246,7 @@ resource "aws_elastic_beanstalk_environment" "environment" {
   setting {
     namespace = "aws:elasticbeanstalk:environment"
     name      = "ServiceRole"
-    value     = "aws-elasticbeanstalk-service-role"
+    value     = aws_iam_role.service_role.name
   }
 
   setting {
@@ -193,7 +273,7 @@ Depending on our requirements, we can refer to the [documentation](https://docs.
     
 * `ELBSubnets`: The IDs of the subnet or subnets for the elastic load balancer.
     
-* `IamInstanceProfile`: An instance profile enables IAM users and AWS services to access temporary security credentials to make AWS API calls. The role `aws-elasticbeanstalk-ec2-role` is created by Elastic Beanstalk.
+* `IamInstanceProfile`: An instance profile enables IAM users and AWS services to access temporary security credentials to make AWS API calls.
     
 * `InstanceType`: The instance type that's used to run our application in an Elastic Beanstalk environment.
     
