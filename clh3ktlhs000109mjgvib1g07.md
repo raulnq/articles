@@ -324,7 +324,7 @@ Run the following commands:
 ```bash
 cd terraform
 terraform init
-terraform plan -out app.tfplan -var="health_check_path=/swagger/index.html" -var="bucket=app-tf-001" -var="keypair=<MY_KEY_PAIR>" -var="instance_type=t2.medium" -var="application=app-tf-001" -var="vpc_id=<MY_VPC>" -var="ec2_subnets=<MY_SUBNETS>" -var="elb_subnets=<MY_SUBNETS>"
+terraform plan -out app.tfplan -var="bucket=app-tf-001" -var="keypair=<MY_KEY_PAIR>" -var="instance_type=t2.medium" -var="application=app-tf-001" -var="vpc_id=<MY_VPC>" -var="ec2_subnets=<MY_SUBNETS>" -var="elb_subnets=<MY_SUBNETS>"
 terraform apply 'app.tfplan'
 ```
 
@@ -337,7 +337,7 @@ aws --region us-east-2 elasticbeanstalk update-environment --environment-name <O
 Open the URL `http://<OUTPUT_CNAME>/swagger/index.html` to see our application up and running. To clean up all the created resources, execute the following commands:
 
 ```bash
-terraform plan -destroy -out app.tfplan -var="health_check_path=/swagger/index.html" -var="bucket=app-tf-001" -var="keypair=<MY_KEY_PAIR>" -var="instance_type=t2.medium" -var="application=app-tf-001" -var="vpc_id=<MY_VPC>" -var="ec2_subnets=<MY_SUBNETS>" -var="elb_subnets=<MY_SUBNETS>"
+terraform plan -destroy -out app.tfplan -var="bucket=app-tf-001" -var="keypair=<MY_KEY_PAIR>" -var="instance_type=t2.medium" -var="application=app-tf-001" -var="vpc_id=<MY_VPC>" -var="ec2_subnets=<MY_SUBNETS>" -var="elb_subnets=<MY_SUBNETS>"
 terraform apply -destroy 'app.tfplan'
 ```
 
