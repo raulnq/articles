@@ -23,7 +23,7 @@ In certain instances, we might prefer deploying our applications on an [EC2](htt
 
 ### The application
 
-We'll use a standard .NET 6 application, which can be downloaded [here](https://github.com/raulnq/aws-beanstalk/src). It is important to note that the `Procfile` is used to instruct Elastic Beanstalk which applications to run, specifically for the .NET on a Linux environment:
+We'll use a standard .NET 6 application, which can be downloaded [here](https://github.com/raulnq/aws-beanstalk/tree/main/src). It is important to note that the `Procfile` is used to instruct Elastic Beanstalk which applications to run, specifically for the .NET on a Linux environment:
 
 ```bash
 web: dotnet exec ./WeatherApi.dll --urls http://0.0.0.0:5000/
