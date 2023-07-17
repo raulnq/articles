@@ -195,6 +195,12 @@ terraform plan -out app.tfplan -var="health_check_path=/swagger/index.html" -var
 terraform apply 'app.tfplan'
 ```
 
+And deploy the application version with the following command:
+
+```json
+aws --region us-east-2 elasticbeanstalk update-environment --environment-name <OUTPUT_ENV_NAME> --version-label <OUTPUT_APP_VERSION>
+```
+
 If we navigate to the Auto Scaling Group associated with the AWS Elastic Beanstalk application, we will now see two Load Balancers linked to it.
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1689036649769/4b8e7724-1590-4b88-8074-3890873e71d4.png align="center")
