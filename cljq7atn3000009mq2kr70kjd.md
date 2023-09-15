@@ -345,6 +345,8 @@ The basic structure of the configuration file has the following sections:
             
         * `"AutoScalingGroupName":"${aws:AutoScalingGroupName}"`
             
+    * `aggregation_dimensions`: Specifies the dimensions that collected metrics are to be aggregated on. For instance, specifying `[["InstanceId"], ["InstanceType"], ["InstanceId", "InstanceType"]]` aggregates metrics for instance ID singly, instance type singly, and for the combination of the two dimensions.
+        
     * `metrics_collected`: Specifies which metrics are to be collected. **The content of this section varies depending on whether the configuration file is for a server running Linux or Windows**. In this section, you can have an object for each Windows Performance counter. To view all available counters, [run the command](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.diagnostics/get-counter?view=powershell-5.1) `Get-Counter -ListSet *`. Under this object, we can include:
         
         * `measurement`: Array of the counters to collect. Each item can either be the counter name or an object with the following properties:
