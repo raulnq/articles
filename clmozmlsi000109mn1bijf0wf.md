@@ -176,7 +176,7 @@ services:
       - DOCKER_HOST=unix:///var/run/docker.sock
     volumes:
       - ".volume/tmp/localstack:/tmp/localstack"
-      - "/var/run/docker.sock:
+      - "/var/run/docker.sock:/var/run/docker.sock"
 ```
 
 ## Slack
@@ -281,4 +281,4 @@ Next, change the state of the alarm with:
 aws cloudwatch set-alarm-state --endpoint-url=http://localhost:4566 --alarm-name my-alarm --state-reason "Testing" --state-value ALARM
 ```
 
-In conclusion, this article demonstrates how to send Amazon CloudWatch alarms to Slack using AWS Lambda functions. By following the provided steps, we'll be able to set up and deploy a Lambda function locally **(**thanks to LocalStack), integrate it with Slack, and automate useful tasks with Nuke. All the code is available [here](https://github.com/raulnq/aws-lambda-slack). Thanks, and happy coding.
+In conclusion, this article demonstrates how to send Amazon CloudWatch alarms to Slack using AWS Lambda functions. By following the provided steps, we'll be able to set up and deploy a Lambda function locally \*\*(\*\*thanks to LocalStack), integrate it with Slack, and automate useful tasks with Nuke. All the code is available [here](https://github.com/raulnq/aws-lambda-slack). Thanks, and happy coding.
