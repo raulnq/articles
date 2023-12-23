@@ -150,7 +150,7 @@ helm upgrade tech-radar-release tech-radar --install --set-file configCsv="./con
 
 We can use `--set-file` to set the content of a file as a value for our chart. Run `kubectl describe configMap tech-radar-release` to see our configMap definition.
 
-## The application
+## The Application
 
 Let's use port forwarding to test our application with the following command:
 
