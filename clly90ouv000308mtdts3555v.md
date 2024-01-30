@@ -20,7 +20,7 @@ LocalStack supports a wide range of [**AWS services**](https://docs.localstack.
 
 * Install the Amazon Lambda Templates with this command: `dotnet new -i Amazon.Lambda.Templates`
     
-* Install the Amazon Lambda Tools with this command: `dotnet tool install -g` [`Amazon.Lambda.Tools`](http://Amazon.Lambda.Tools)
+* Install the Amazon Lambda Tools with this command: `dotnet tool install -g`[`Amazon.Lambda.Tools`](http://Amazon.Lambda.Tools)
     
 * Install [Python](https://www.python.org/downloads/windows/).
     
@@ -351,8 +351,7 @@ Resources:
               QueueArn: !GetAtt AssignmentsSQS.Arn
               QueueUrl: !Ref AssignmentsSQS
 
-  RegisterTaskFunction, GetTaskFunction, ListTaskFunction and ListAssignmentsFunction
-:
+  ListAssignmentsFunction:
     Type: AWS::Serverless::Function
     Properties:
       Handler: MyApp::MyApp.Function::ListAssignments
