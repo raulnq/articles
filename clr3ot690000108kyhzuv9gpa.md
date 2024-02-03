@@ -42,7 +42,7 @@ dotnet add MyApi package AWSSDK.Extensions.NETCore.Setup
 dotnet add MyApi package AWSSDK.SecurityToken
 ```
 
-We will create an [EventListener](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.tracing.eventlistener?view=net-8.0) class to subscribe to the `Microsoft.AspNetCore.Hosting` [source](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/available-counters). Then, the `requests-per-second` metric will be forwarded to a [Channel](https://learn.microsoft.com/en-us/dotnet/core/extensions/channels) responsible for sending it to AWS CloudWatch. Open the solution and create the `RequestPerSecondChannelProducer.cs` file with the following content:
+We will create an [EventListener](https://learn.microsoft.com/en-us/dotnet/api/system.diagnostics.tracing.eventlistener?view=net-8.0) class to subscribe to the `Microsoft.AspNetCore.Hosting`[source](https://learn.microsoft.com/en-us/dotnet/core/diagnostics/available-counters). Then, the `requests-per-second` metric will be forwarded to a [Channel](https://learn.microsoft.com/en-us/dotnet/core/extensions/channels) responsible for sending it to AWS CloudWatch. Open the solution and create the `RequestPerSecondChannelProducer.cs` file with the following content:
 
 ```csharp
 using System.Diagnostics.Tracing;
@@ -284,7 +284,7 @@ docker push <MY_ACCOUNT_ID>.dkr.ecr.<MY_REGION>.amazonaws.com/myrepo:1.0
 
 ## Kubernetes
 
-To interact with the AWS CloudWatch API, we must assume an AWS IAM Role from our Pod through a Service Account. You can find more information [here](https://blog.raulnq.com/how-to-assume-an-aws-iam-role-from-an-eks-pod). Create a `service.yaml` file with the following content:
+To interact with the AWS CloudWatch API, we must assume an AWS IAM Role from our Pod through a Service Account. You can find more information [here](https://blog.raulnq.com/how-to-assume-an-aws-iam-role-from-an-eks-pod). Create a `serviceaccount.yaml` file with the following content:
 
 ```yaml
 apiVersion: v1
