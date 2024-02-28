@@ -480,7 +480,7 @@ Here, we define three AWS Lambda functions, each with the necessary permissions 
 
 ```powershell
 sam build
-sam deploy --guided
+sam deploy
 ```
 
 Copy the output URL and try out the functions. Integrating the RDS Data API with AWS Lambda functions is a good way to avoid dealing with connections or VPC restrictions. However, it does come with the downside of increased latency. Therefore, carefully consider if it's the right choice for your needs. All the code can be found [here](https://github.com/raulnq/aurora-data-api). Thanks, and happy coding.
