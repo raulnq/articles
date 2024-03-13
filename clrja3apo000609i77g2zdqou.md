@@ -25,7 +25,7 @@ The [AWS Lambda Powertools Parameters](https://docs.powertools.aws.dev/lambda/do
     
 * Install the Amazon Lambda Templates (`dotnet new -i Amazon.Lambda.Templates`)
     
-* Install the Amazon Lambda Tools (`dotnet tool install -g` [`Amazon.Lambda.Tools`](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html#id_users_create_console))
+* Install the Amazon Lambda Tools (`dotnet tool install -g`[`Amazon.Lambda.Tools`](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html#id_users_create_console))
     
 * Install [AWS SAM CLI](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/install-sam-cli.html).
     
@@ -155,10 +155,6 @@ Resources:
           Properties:
             Path: /api
             Method: get
-      Environment:
-        Variables:
-          SecretArn: 
-            Ref: SecretParameter
       Policies:
         - SSMParameterReadPolicy:
             ParameterName:
@@ -260,10 +256,6 @@ Resources:
           Properties:
             Path: /api
             Method: get
-      Environment:
-        Variables:
-          SecretArn: 
-            Ref: SecretParameter
       Policies:
         - SSMParameterReadPolicy:
             ParameterName:
@@ -379,10 +371,6 @@ Resources:
           Properties:
             Path: /api
             Method: get
-      Environment:
-        Variables:
-          SecretArn: 
-            Ref: SecretParameter
       Policies:
         - SSMParameterReadPolicy:
             ParameterName:
@@ -510,10 +498,6 @@ Resources:
           Properties:
             Path: /api
             Method: get
-      Environment:
-        Variables:
-          SecretArn: 
-            Ref: SecretParameter
       Policies:
         - SSMParameterReadPolicy:
             ParameterName:
@@ -657,10 +641,6 @@ Resources:
           Properties:
             Path: /api
             Method: get
-      Environment:
-        Variables:
-          SecretArn: 
-            Ref: SecretParameter
       Policies:
         - SSMParameterReadPolicy:
             ParameterName:
