@@ -14,7 +14,7 @@ tags: authentication, aws, net, amazon-cognito
 
 * [Amazon Cognito user pools API](https://docs.aws.amazon.com/cognito/latest/developerguide/amazon-cognito-user-pools-authentication-flow.html). With this option, we can set up pools and authenticate users directly from our application. We are responsible for creating the UI and calling the appropriate services. We can find the API reference [here](https://docs.aws.amazon.com/cognito-user-identity-pools/latest/APIReference/Welcome.html).
     
-* [User pool federation endpoints and hosted UI reference](https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-userpools-server-contract-reference.html). In this scenario, Amazon Cognito offers a customizable, hosted UI that can be easily integrated into our application. Simplifying the authentication process for our users by offering a consistent experience.
+* [User pool federation endpoints and hosted UI](https://docs.aws.amazon.com/cognito/latest/developerguide/cognito-userpools-server-contract-reference.html). In this scenario, Amazon Cognito offers a customizable, hosted UI that can be easily integrated into our application. Simplifying the authentication process for our users by offering a consistent experience.
     
 
 [ASP.NET Core Identity](https://learn.microsoft.com/en-us/aspnet/core/security/authentication/identity?view=aspnetcore-8.0&tabs=netcore-cli) is an abstraction that adds user authentication and authorization functionality to ASP.NET Core applications. It provides a robust set of features for managing user accounts, including user registration, login, logout, password reset, and account management. Luckily, there is an [ASP.NET Core Identity provider for Amazon Cognito](https://github.com/aws/aws-aspnet-cognito-identity-provider/) that simplifies our work in using the [Amazon Cognito user pools API](https://docs.aws.amazon.com/sdk-for-net/v3/developer-guide/cognito-authentication-extension.html) mentioned earlier. In this article, we will outline the steps to use the provider in our applications.
@@ -440,7 +440,7 @@ Add the following methods to the `AccountController.cs`:
     }
 ```
 
-The `UserManager<CognitoUser>` lacks an abstraction to confirm the account. Because of this, [we need to cast it to the underlying object](https://github.com/aws/aws-sdk-net-extensions-cognito/tree/master) `CognitoUserManager<CognitoUser>` to gain access to the required method. Create the `Confirm.cshtml` file as follows:
+The `UserManager<CognitoUser>` lacks an abstraction to confirm the account. Because of this, [we need to cast it to the underlying object](https://github.com/aws/aws-sdk-net-extensions-cognito/tree/master)`CognitoUserManager<CognitoUser>` to gain access to the required method. Create the `Confirm.cshtml` file as follows:
 
 ```xml
 @model ConfirmViewModel
