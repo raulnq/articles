@@ -1,14 +1,26 @@
-## Amazon EKS: Deploy OTEL Collector as sidecar
+---
+title: "Amazon EKS: Deploy OTEL Collector as sidecar"
+datePublished: Fri Sep 16 2022 14:53:32 GMT+0000 (Coordinated Universal Time)
+cuid: cl84lp3ni05eor2nv5q7i226s
+slug: amazon-eks-deploy-otel-collector-as-sidecar
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1663306198037/y_LXokEVZ.png
+tags: aws, kubernetes, net, eks, opentelemetry
+
+---
 
 In a previous post, [OpenTelemetry: The OTEL Collector](https://blog.raulnq.com/opentelemetry-the-otel-collector), we saw how easy it's to use the OTEL Collector with a .NET application. Today we will see how to deploy those components in an Amazon EKS Cluster. To complete the post, we will require:
 
-- An [IAM User](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html#id_users_create_console) with programmatic access.
-- Setup the [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html) locally.
-- An [Amazon EKS Cluster](https://docs.aws.amazon.com/eks/latest/userguide/clusters.html) available.
+* An [IAM User](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html#id_users_create_console) with programmatic access.
+    
+* Setup the [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html) locally.
+    
+* An [Amazon EKS Cluster](https://docs.aws.amazon.com/eks/latest/userguide/clusters.html) available.
+    
 
 Download the code located [here](https://github.com/raulnq/opentelemetry-sandbox/tree/otel). We will need to adjust it to support [AWS X-Ray](https://docs.aws.amazon.com/xray/latest/devguide/aws-xray.html) as a backend ([here](https://github.com/open-telemetry/opentelemetry-dotnet-contrib/tree/main/src/OpenTelemetry.Contrib.Extensions.AWSXRay) you can find the reason why). Add the following NuGet Package to the project:
 
-- [OpenTelemetry.Contrib.Extensions.AWSXRay](https://www.nuget.org/packages/OpenTelemetry.Contrib.Extensions.AWSXRay/)
+* [OpenTelemetry.Contrib.Extensions.AWSXRay](https://www.nuget.org/packages/OpenTelemetry.Contrib.Extensions.AWSXRay/)
+    
 
 Open the `Program.cs` file and change the following section:
 
@@ -26,11 +38,11 @@ builder.Services.AddOpenTelemetryTracing(builder =>
     ;
 });
 ...
-``` 
-
-And that's it from a code perspective. Now, let's work on generating the Docker image. Go to the `animequoteapi` folder and add a `Dockerfile` file with the following content: 
-
 ```
+
+And that's it from a code perspective. Now, let's work on generating the Docker image. Go to the `animequoteapi` folder and add a `Dockerfile` file with the following content:
+
+```powershell
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
 WORKDIR /app
 EXPOSE 80
@@ -50,9 +62,9 @@ FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "AnimeQuoteApi.dll"]
-``` 
+```
 
-To store the image, we will use [Amazon ECR](https://docs.aws.amazon.com/AmazonECR/latest/userguide/what-is-ecr.html) as a container image registry. Go to the AWS Console and create a new repository (Amazon ECR -> Create Repository) named `opentelemetry-api` :
+To store the image, we will use [Amazon ECR](https://docs.aws.amazon.com/AmazonECR/latest/userguide/what-is-ecr.html) as a container image registry. Go to the AWS Console and create a new repository (Amazon ECR -&gt; Create Repository) named `opentelemetry-api` :
 
 ![repository.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1663284343044/wRdBXUNjj.png align="left")
 
@@ -62,13 +74,16 @@ To upload our image, run the following commands:
 docker build -t [account-id].dkr.ecr.[region].amazonaws.com/opentelemetry-api:1.0 .
 aws ecr get-login-password --region [region] | docker login --username AWS --password-stdin [account-id].dkr.ecr.[region].amazonaws.com
 docker push [account-id].dkr.ecr.[region].amazonaws.com/opentelemetry-api:1.0
-``` 
-- `[region]` is the AWS Region for the database cluster. An example of a region is us-east-2.
-- `[account-id]` is the AWS account number. An example of an account number is 1234567890.
+```
+
+* `[region]` is the AWS Region for the database cluster. An example of a region is us-east-2.
+    
+* `[account-id]` is the AWS account number. An example of an account number is 1234567890.
+    
 
 ![readrepo.PNG](https://cdn.hashnode.com/res/hashnode/image/upload/v1663285347746/bC_f3GUu9.PNG align="left")
 
-Go to the AWS Console and create a new [AIM Policy](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html) (AIM-> Policies-> Create policy) named `opentelemetry-policy` with the following json:
+Go to the AWS Console and create a new [AIM Policy](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html) (AIM-&gt; Policies-&gt; Create policy) named `opentelemetry-policy` with the following json:
 
 ```json
 {
@@ -94,7 +109,7 @@ Go to the AWS Console and create a new [AIM Policy](https://docs.aws.amazon.com/
         }
     ]
 }
-``` 
+```
 
 ![createpolicy.PNG](https://cdn.hashnode.com/res/hashnode/image/upload/v1663288366844/OTBSb3y1Q.PNG align="left")
 
@@ -119,10 +134,12 @@ Then, create an AIM Role named `opentelemetry-role` as we saw in the post [How t
         }
     ]
 }
-``` 
+```
 
-- `[oidc-id]` is part of the OpenID Connect provider URL in our EKS Cluster.
-- `[k8s-namespace]` is the namespace in our EKS Cluster where we will deploy the application.
+* `[oidc-id]` is part of the OpenID Connect provider URL in our EKS Cluster.
+    
+* `[k8s-namespace]` is the namespace in our EKS Cluster where we will deploy the application.
+    
 
 Create a `service-account.yaml` file with the following content:
 
@@ -133,7 +150,7 @@ metadata:
  name: opentelemetry-sa
  annotations:
    eks.amazonaws.com/role-arn:  arn:aws:iam::[account-id]:role/opentelemetry-role
-``` 
+```
 
 The OTEL Collector [image](https://github.com/aws-observability/aws-otel-collector) that we will use is a distribution supported by AWS. Create a `deployment.yaml` file with the following content:
 
@@ -160,7 +177,7 @@ spec:
           env:
             - name: ASPNETCORE_ENVIRONMENT
               value: Development
-          image: 025381531841.dkr.ecr.us-east-2.amazonaws.com/opentelemetry-api:2.0
+          image: [account-id].dkr.ecr.[region].amazonaws.com/opentelemetry-api:2.0
           ports:
             - name: http
               containerPort: 80
@@ -169,7 +186,7 @@ spec:
           image: amazon/aws-otel-collector:latest
           env:
             - name: AWS_REGION
-              value: us-east-2
+              value: [region]
           imagePullPolicy: Always
           resources:
             limits:
@@ -198,7 +215,7 @@ spec:
       name: http
   selector:
     app: api
-``` 
+```
 
 Time to deploy everything to our EKS Cluster, run the following commands:
 
@@ -206,22 +223,23 @@ Time to deploy everything to our EKS Cluster, run the following commands:
 kubectl apply -f service-account.yml --namespace=[k8s-namespace]
 kubectl apply -f deployment.yml --namespace=[k8s-namespace]
 kubectl apply -f service.yml --namespace=[k8s-namespace]
-``` 
+```
+
 Once it is completed, we can check the URL of our application with:
 
 ```powershell
 kubectl get services --namespace=[k8s-namespace]
-``` 
+```
 
 Look for the `EXTERNAL-IP` column, open the swagger page (add `/swagger/index.html` add the end of the URL) in a browser and send a few requests to our API:
 
 ![swagger.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1663292404418/NhHPdqmqF.png align="left")
 
-Go to the AWS Console to see the [Service map](https://docs.aws.amazon.com/xray/latest/devguide/xray-console.html) graph (CloudWatch->X-Ray traces->Service map):
+Go to the AWS Console to see the [Service map](https://docs.aws.amazon.com/xray/latest/devguide/xray-console.html) graph (CloudWatch-&gt;X-Ray traces-&gt;Service map):
 
 ![sevicemap.PNG](https://cdn.hashnode.com/res/hashnode/image/upload/v1663292654576/-HJaGED01.PNG align="left")
 
-Go to Traces (CloudWatch->X-Ray traces->Traces):
+Go to Traces (CloudWatch-&gt;X-Ray traces-&gt;Traces):
 
 ![tracesb.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1663292785815/fwLgnqvw2.png align="left")
 
@@ -229,7 +247,7 @@ And open a record to see all the details:
 
 ![trace.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1663292907434/sG7lgRT-n.png align="left")
 
-Go to Metrics (CloudWatch->Metrics->All metrics), and open the custom namespace `AnimeQuoteApi`:
+Go to Metrics (CloudWatch-&gt;Metrics-&gt;All metrics), and open the custom namespace `AnimeQuoteApi`:
 
 ![metrics.PNG](https://cdn.hashnode.com/res/hashnode/image/upload/v1663304117191/WCl-gdywQ.PNG align="left")
 
@@ -273,7 +291,7 @@ data:
           receivers: [otlp]
           processors: [batch/metrics]
           exporters: [awsemf]
-``` 
+```
 
 And attach it to our pod:
 
@@ -300,7 +318,7 @@ spec:
           env:
             - name: ASPNETCORE_ENVIRONMENT
               value: Development
-          image: 025381531841.dkr.ecr.us-east-2.amazonaws.com/opentelemetry-api:2.0
+          image: [account-id].dkr.ecr.[region].amazonaws.com/opentelemetry-api:2.0
           ports:
             - name: http
               containerPort: 80
@@ -309,7 +327,7 @@ spec:
           image: amazon/aws-otel-collector:latest
           env:
             - name: AWS_REGION
-              value: us-east-2
+              value: [region]
           imagePullPolicy: Always
           command:
             - "/awscollector"
@@ -329,7 +347,6 @@ spec:
         - configMap:
             name: opentelemetry-config
           name: otel-config-volume
-``` 
+```
 
 You can see all the code and scripts [here](https://github.com/raulnq/opentelemetry-sandbox/tree/eks-sidecar-otel). Thanks, and happy coding.
-
