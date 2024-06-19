@@ -1,4 +1,12 @@
-# Testing the NGINX Ingress Controller locally (Docker Desktop)
+---
+title: "Testing the NGINX Ingress Controller locally (Docker Desktop)"
+datePublished: Sat Nov 26 2022 14:21:43 GMT+0000 (Coordinated Universal Time)
+cuid: clay0tnqp000208m54mp87zmk
+slug: testing-the-nginx-ingress-controller-locally-docker-desktop
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1669430344040/YW4Go3zE-.png
+tags: kubernetes, nginx-ingress
+
+---
 
 In this post, we will explore (briefly) the [Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/) in Kubernetes and see how to traffic multiple host names at the same IP address (localhost).
 
@@ -10,40 +18,49 @@ In this post, we will explore (briefly) the [Ingress](https://kubernetes.io/docs
 
 To use Ingress, you will need to install an Ingress Controller. There are many available, all of which have different features:
 
-- [HAProxy](https://github.com/haproxytech/kubernetes-ingress)
-- [NGINX](https://kubernetes.github.io/ingress-nginx/)
-- [AWS ALB](https://kubernetes-sigs.github.io/aws-load-balancer-controller/v2.4/)
-- [Istio](https://istio.io/latest/docs/tasks/traffic-management/ingress/kubernetes-ingress/)
-- [GLBC](https://github.com/kubernetes/ingress-gce)
-- [Traefik](https://doc.traefik.io/traefik/providers/kubernetes-ingress/)
+* [HAProxy](https://github.com/haproxytech/kubernetes-ingress)
+    
+* [NGINX](https://kubernetes.github.io/ingress-nginx/)
+    
+* [AWS ALB](https://kubernetes-sigs.github.io/aws-load-balancer-controller/v2.4/)
+    
+* [Istio](https://istio.io/latest/docs/tasks/traffic-management/ingress/kubernetes-ingress/)
+    
+* [GLBC](https://github.com/kubernetes/ingress-gce)
+    
+* [Traefik](https://doc.traefik.io/traefik/providers/kubernetes-ingress/)
+    
 
 Today, we will use the NGINX Ingress Controller.
 
 ## Prerequisites
 
-- [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/) up and running. 
-- [Kubernetes](https://docs.docker.com/desktop/kubernetes/) (the standalone version included in Docker Desktop).
+* [Docker Desktop](https://docs.docker.com/desktop/install/windows-install/) up and running.
+    
+* [Kubernetes](https://docs.docker.com/desktop/kubernetes/) (the standalone version included in Docker Desktop).
+    
 
 ## Installation
 
-One of the easiest ways to install the NGINX Ingress Controller is to use [Helm](https://helm.sh/)(if you are new to Helm, please check this [post](https://blog.raulnq.com/useful-commands-for-helm)). Run the following [commands](https://docs.nginx.com/nginx-ingress-controller/installation/installation-with-helm/):
+One of the easiest ways to install the NGINX Ingress Controller is to use [Helm](https://helm.sh/)(if you are new to Helm, please check this [post](https://blog.raulnq.com/useful-commands-for-helm)). Run the following [commands](https://kubernetes.github.io/ingress-nginx/):
 
 ```bash
-helm repo add nginx-stable https://helm.nginx.com/stable
+helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
 helm repo update
-helm install my-nginx-release nginx-stable/nginx-ingress
-``` 
+helm install nginx-ingress ingress-nginx/ingress-nginx
+```
 
 Run `kubectl get ingressclass` and `kubectl get services` to check the installation:
 
 ```bash
 NAME    CONTROLLER                     PARAMETERS   AGE
-nginx   nginx.org/ingress-controller   <none>       39h
-``` 
+nginx   k8s.io/ingress-nginx           <none>       15h
+```
 
 ```bash
-NAME                            TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)                      AGE
-nginx-release-nginx-ingress     LoadBalancer   10.99.133.25    localhost     80:31918/TCP,443:32278/TCP   39h
+NAME                                               TYPE           CLUSTER-IP       EXTERNAL-IP   PORT(S)                      AGE
+nginx-ingress-ingress-nginx-controller             LoadBalancer   10.99.137.48     localhost     80:32600/TCP,443:30560/TCP   15h
+nginx-ingress-ingress-nginx-controller-admission   ClusterIP      10.102.232.211   <none>        443/TCP                      15h
 ```
 
 Open `http://localhost/` in your browser:
@@ -78,7 +95,7 @@ spec:
             - name: http
               containerPort: 80
               protocol: TCP
-``` 
+```
 
 A `service.yml` file as follows:
 
@@ -98,7 +115,7 @@ spec:
       name: http
   selector:
     app: api
-``` 
+```
 
 And the `ingress.yml` file, to route every request to `www.api.com` to the `api-service`:
 
@@ -120,7 +137,7 @@ spec:
             name: api-service
             port:
               number: 80
-``` 
+```
 
 Run `kubectl get ingress`:
 
@@ -129,18 +146,17 @@ NAME                                                CLASS   HOSTS               
 api-ingress                                         nginx   www.api.com                                      localhost   80      8h
 ```
 
-Everything looks fine, but if we type `http://www.api.com/` in a browser, we will not be able to reach our service. That happens because nothing tells the browser to resolve that URL to our `localhost`.  Let's change that, open the `C:\Windows\System32\drivers\etc\hosts` file and add `127.0.0.1 www.api.com` at the end:
+Everything looks fine, but if we type `http://www.api.com/` in a browser, we will not be able to reach our service. That happens because nothing tells the browser to resolve that URL to our `localhost`. Let's change that, open the `C:\Windows\System32\drivers\etc\hosts` file and add `127.0.0.1 www.api.com` at the end:
 
-```
+```powershell
 192.168.1.105 host.docker.internal
 192.168.1.105 gateway.docker.internal
 127.0.0.1 kubernetes.docker.internal
 127.0.0.1 www.api.com
-``` 
+```
 
 Open `http://www.api.com/` in your browser:
 
 ![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1669472058633/eLusY7zFH.png align="center")
 
 And that's all. Thanks, and happy coding.
-
