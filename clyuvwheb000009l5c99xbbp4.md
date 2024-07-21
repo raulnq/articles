@@ -10,7 +10,7 @@ tags: kubernetes, pods, sizing
 
 When deploying applications to Kubernetes, correctly sizing the resources for our pods is crucial for achieving optimal performance and efficient resource utilization. This involves setting the right CPU and memory requests and limits based on our application's needs. In this post, we will share an approach to help define these parameters accurately when the application is based on requests.
 
-### Application Requirements
+### Define Application Requirements
 
 The first step is to define the goals our application aims to achieve. These are usually one or more of the following:
 
