@@ -12,7 +12,7 @@ So far, when an exception occurs in the application, a toast notification displa
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1722648161050/2a4cb695-9439-4f3c-bbdc-7ffc79c0f8e0.avif align="center")
 
-While this approach is practical, we can enhance it by showing the message directly within the form. Let's start by updating the `RazorComponents/TextInput.razor` as follows:
+While this approach is practical, we can enhance it by showing the message directly within the form. The starting code can be found [here](https://github.com/raulnq/htmx-dotnet-app/tree/part-vi). Let's start by updating the `RazorComponents/TextInput.razor` as follows:
 
 ```csharp
 <div class="form-group">
