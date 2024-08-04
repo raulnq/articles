@@ -126,3 +126,5 @@ And problem fixed:
 NAME                      READY   UP-TO-DATE   AVAILABLE   AGE
 demoapi-test-deployment   1/1     1            1           2s
 ```
+
+Thank you, and happy coding.
