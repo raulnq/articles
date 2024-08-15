@@ -1,14 +1,14 @@
 ---
-title: "Estimating the Observability Costs in AWS"
+title: "Estimating Observability Costs in AWS"
 datePublished: Thu Aug 15 2024 00:03:24 GMT+0000 (Coordinated Universal Time)
 cuid: clzuiotks00000albbebo6zvk
-slug: estimating-the-observability-costs-in-aws
+slug: estimating-observability-costs-in-aws
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723680004064/730cfca0-ef33-4cae-b492-8605bec7917e.png
 tags: aws, costs, observability, aws-cloudwatch, aws-x-ray
 
 ---
 
-Observability is a practice that helps us understand a system from the outside by using logs, traces, and metrics. Over the years, it has become easier to implement due to the maturity of cloud providers and industry standards. However, this ease of integration can make us overlook the associated costs, which often go unnoticed until the monthly bill arrives.
+Observability is a crucial practice that allows us to understand a system's behavior from the outside by leveraging logs, traces, and metrics. Over the years, it has become easier to implement due to the maturity of cloud providers and industry standards. However, this ease of integration can make us overlook the associated costs, which often go unnoticed until the monthly bill arrives.
 
 In this post, we will walk through the process of estimating basic observability costs using AWS CloudWatch and AWS X-Ray for an API that will handle 1,500,000 requests per day and has the following non-functional requirements:
 
@@ -46,7 +46,7 @@ For [AWS CloudWatch Logs](https://docs.aws.amazon.com/AmazonCloudWatch/latest/lo
 * Storage cost = 10.7 GB \* 0.15 \* 3 months \* **$0.03 per GB** = $0.14445
     
 
-The number of log events per day is calculated based on the number of requests. The total monthly cost to ingest and store the logs for three months is $5.49445.
+The number of log events per day is derived from the number of requests. Therefore***,*** the total monthly cost to ingest and store the logs for three months is $5.49445.
 
 ## Tracing
 
@@ -89,5 +89,7 @@ The cost structure of [AWS CloudWatch](https://docs.aws.amazon.com/AmazonCloudWa
     
 
 Therefore, the monthly cost for metrics, alarms, and dashboards is $7.16. Using Embedded Metric Format (EMF) to embed metrics directly within structured log events replaces the API costs with the log costs mentioned earlier.
+
+## Conclusions
 
 By breaking down the costs associated with logs, tracing, and metrics, we can better understand where our budget is going. This helps us optimize our cloud expenses and avoid unexpected costs. Please check the updated [AWS CloudWatch](https://aws.amazon.com/cloudwatch/pricing/?nc1=h_ls) prices and the [AWS X-Ray](https://aws.amazon.com/xray/pricing/) prices before doing your own calculations. Thanks, and happy coding.
