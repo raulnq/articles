@@ -18,7 +18,7 @@ In this post, we will walk through the process of estimating basic observability
     
 * Tracing is needed for 10% of the requests.
     
-* Five metrics will be published every minute.
+* Five metrics (no dimensions) will be published every minute.
     
 * An alarm will be set up for each metric.
     
