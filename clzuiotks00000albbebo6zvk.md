@@ -46,7 +46,7 @@ For [AWS CloudWatch Logs](https://docs.aws.amazon.com/AmazonCloudWatch/latest/lo
 * Storage cost = 10.7 GB \* 0.15 \* 3 months \* **$0.03 per GB** = $0.14445
     
 
-The number of log events per day is derived from the number of requests. Therefore\*\*\*,\*\*\* the total monthly cost to ingest and store the logs for three months is $5.49445.
+The number of log events per day is derived from the number of requests. Therefore, the total monthly cost to ingest and store the logs for three months is $5.49445.
 
 ## Tracing
 
