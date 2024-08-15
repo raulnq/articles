@@ -67,7 +67,7 @@ The number of traces per day is equal to the number of requests. Therefore, the 
 
 The cost structure of [AWS CloudWatch](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/working_with_metrics.html) depends on the number of metrics per month and the calls to the `PutMetricData` API needed to push the data points. Alarms and dashboard costs, like metrics, depend solely on the number of instances per month.
 
-> AWS CloudWatch treats each unique combination of dimensions as a separate metric, even if the metrics have the same name.
+> AWS CloudWatch treats each unique combination of dimensions as a separate metric, even if the metrics have the same name. For example, a metric with one dimension and a cardinality of four is considered four metrics from a cost perspective. If we add another dimension with a cardinality of three, we now have twelve metrics.
 
 * Number of metrics per month = 5
     
