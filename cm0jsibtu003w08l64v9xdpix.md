@@ -77,11 +77,7 @@ Like the integration request, we can [map](https://docs.aws.amazon.com/apigatewa
 
 ## Method Response
 
-The [method response](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-method-settings-method-response.html) section defines how the response will be validated and what data will be sent back to the client.
-
-### Response Validation
-
-We can define multiple responses by status code. In each one, we can specify which headers we return to the client and the model used to validate the response body.
+The [method response](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-method-settings-method-response.html) section defines the response that the client will receive. We can define multiple responses by status code, and for each one, we can specify headers and a model for the body. This information is useful for generating SDKs or documentation for our API.
 
 > We must create method responses before the corresponding integration response because we use the method response status code there.
 
