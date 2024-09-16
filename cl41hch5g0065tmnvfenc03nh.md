@@ -8,9 +8,9 @@ tags: kubernetes, git, helm, nuke, gitversion
 
 ---
 
-Today we are going to continue the journey with [Nuke](https://nuke.build/), adding new targets to the solution presented in [Nuke: Deploy ASP. NET Web App to Azure](https://blog.raulnq.com/nuke-deploy-asp-net-web-app-to-azure), to deploy our app to a local [Kubernetes](https://kubernetes.io/) cluster using [Helm](https://helm.sh/).
+Today, we will continue our journey with [Nuke](https://nuke.build/) by adding new targets to the solution presented in [Nuke: Deploy ASP.NET Web App to Azure](https://blog.raulnq.com/nuke-deploy-asp-net-web-app-to-azure). This time, we will deploy our app to a local [Kubernetes](https://kubernetes.io/) cluster using [Helm](https://helm.sh/).
 
-But first, you are going to need the following:
+But first, we will need the following:
 
 * A standalone [Kubernetes server and client](https://docs.docker.com/desktop/kubernetes/).
     
@@ -19,25 +19,25 @@ But first, you are going to need the following:
 
 ### Generating the build number
 
-Our first target will get the build number using GitVersion (we talked about it in [Semantic Versioning with GitVersion](https://blog.raulnq.com/semantic-versioning-with-gitversion-gitflow)). Let's start adding the following Nuget package:
+Our first target will get the build number using GitVersion (we discussed it in [Semantic Versioning with GitVersion](https://blog.raulnq.com/semantic-versioning-with-gitversion-gitflow)). Let's start by adding the following NuGet package::
 
 * [GitVersion.CommandLine](https://www.nuget.org/packages/GitVersion.CommandLine/)
     
 
-Then, add the following namespaces to get access to all `gitversion` commands:
+Next, add the following namespaces to access all `gitversion` commands:
 
 ```csharp
 using static Nuke.Common.Tools.GitVersion.GitVersionTasks;
 using Nuke.Common.Tools.GitVersion;
 ```
 
-Add a variable to hold the generated build number:
+Add a variable to store the generated build number:
 
 ```csharp
 private string BuildNumber;
 ```
 
-And the target itself:
+And now, the target itself:
 
 ```csharp
 Target GetBuildNumber => _ => _
@@ -70,20 +70,20 @@ COPY --from=build-env /app/out .
 ENTRYPOINT ["dotnet", "nuke-sandbox-app.dll"]
 ```
 
-Add the following namespaces to get access to all `docker` commands:
+Add the following namespaces to access all `docker` commands:
 
 ```csharp
 using static Nuke.Common.Tools.Docker.DockerTasks;
 using Nuke.Common.Tools.Docker;
 ```
 
-Add a variable to contain the Docker image repository used in the project:
+Add a variable to store the Docker image repository used in the project:
 
 ```csharp
 private readonly string Repository = "raulnq/nuke-sandbox-app";
 ```
 
-And as the last step, add the target:
+And for the final step, add the target:
 
 ```csharp
 Target BuildImage => _ => _
@@ -103,7 +103,7 @@ Target BuildImage => _ => _
 
 ### Installing the Helm package
 
-And finally, the step to install the Helm package in the Kubernetes cluster (you can first check [Useful commands for Helm](https://blog.raulnq.com/useful-commands-for-helm)). Go to your solution folder and run the following commands to create the Helm package:
+And finally, here is the step to install the Helm package in the Kubernetes cluster. You can first check [Useful commands for Helm](https://blog.raulnq.com/useful-commands-for-helm). Go to your solution folder and run the following commands to create the Helm package:
 
 ```powershell
 mkdir helm
@@ -199,13 +199,13 @@ using Nuke.Common.Tools.Helm;
 using System.Collections.Generic;
 ```
 
-Add a variable to contain the Helm release name used in the project:
+Add a variable to store the Helm release name used in the project:
 
 ```csharp
 private readonly string ReleaseName = "release-nuke-sandbox-app";
 ```
 
-To end, we are going to add two targets, one to install and the other to uninstall the Helm package:
+To wrap up, we will add two targets: one to install and the other to uninstall the Helm package:
 
 ```csharp
 Target HelmInstall => _ => _
@@ -231,7 +231,7 @@ Target HelmUninstall => _ => _
     });
 ```
 
-That's it, time to run our Nuke command:
+That's it! Now it's time to run our Nuke command:
 
 ```powershell
 nuke HelmInstall
