@@ -356,6 +356,8 @@ By setting up the [`DeploymentPreference`](https://docs.aws.amazon.com/serverles
 * `Hooks`: These are pre-traffic and post-traffic functions that run checks before traffic shifting begins to the new version and after traffic shifting finishes. With either hook, we can run logic to decide if the deployment should succeed or fail and then notify AWS CodeDeploy. Remember, we need to add the proper permission to allow our functions to call AWS CodeDeploy.
     
 
+> If the hook functions are created by the same SAM template being deployed, make sure to turn off traffic shifting deployments for the hook functions.
+
 Behind the scenes, AWS SAM does the following:
 
 * Creates one `AWS::CodeDeploy::Application` per stack
