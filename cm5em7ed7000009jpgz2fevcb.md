@@ -89,7 +89,7 @@ dotnet new lambda.EmptyFunction -n MyLambda -o .
 dotnet add src/MyLambda package AWSSDK.CodeDeploy
 dotnet add src/MyLambda package Amazon.Lambda.APIGatewayEvents
 dotnet add src/MyLambda package AWSSDK.Lambda
-dotnet new sln -n EventBridgeScheduler
+dotnet new sln -n MyApplications
 dotnet sln add --in-root src/MyLambda
 ```
 
