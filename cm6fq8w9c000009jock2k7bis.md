@@ -33,7 +33,7 @@ Before continuing, get the ID of the channel we want to export. We can find this
 After signing in successfully, run the following command to begin the export:
 
 ```powershell
-./slackdump export -workspace teamtranzact <workspace name> <channel ID>
+./slackdump export -workspace <workspace name> <channel ID>
 ```
 
 As a result of the command, a ZIP file will be created in the following format: `slackdump_yyyymmdd_hhmmss.zip`. Use the following command to view the data:
