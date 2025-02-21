@@ -18,7 +18,7 @@ This characteristic leads to differences when **using a local image within the K
 
 ```powershell
 CONTAINER ID NAMES                      PORTS                                                                   
-5e17653c7d7d kind-cluster-control-plane 0.0.0.0:9090->80/tcp, 0.0.0.0:9443->443/tcp, 127.0.0.1:52517->6443/tcp  
+5e17653c7d7d kind-cluster-control-plane 0.0.0.0:9090->80/tcp, 0.0.0.0:9443->443/tcp, 127.0.0.1:52517->6443/tcp
 ```
 
 KIND uses [ContainerD](https://containerd.io/) as the container runtime inside the `kind-cluster-control-plane` container. This setup allows us to use [`crictl`](https://github.com/kubernetes-sigs/cri-tools/blob/master/docs/crictl.md) to list the containers by running the command `podman exec -it kind-cluster-control-plane crictl ps`:
@@ -40,6 +40,8 @@ podman save -o myimage.tar <MY_LOCAL_IMAGE>
 kind load --name <KIND_CLUSTER_NAME> image-archive myimage.tar
 ```
 
-The [`podman save`](https://docs.podman.io/en/v5.3.0/markdown/podman-save.1.html) command allows us to save an image to a file, while the [`image-archive`](https://fig.io/manual/kind/load/image-archive) command enables loading an image from a file into the cluster. By executing the command `podman exec -it kind-cluster-control-plane crictl images` we can now see our image included in the local images of the `kind-cluster-control-plane` container.
+The [`podman save`](https://docs.podman.io/en/v5.3.0/markdown/podman-save.1.html) command allows us to save an image to a file, while the [`image-archive`](https://fig.io/manual/kind/load/image-archive) command enables loading an image from a file into the cluster. By executing the command `podman exec -it kind-cluster-control-plane crictl images` we can now see our image included in the local images of the `kind-cluster-control-plane` container. As a final note, we can achieve the same result using Podman Desktop:
+
+![](https://cdn.hashnode.com/res/hashnode/image/upload/v1740175772725/43593544-36cc-44b5-bbda-60236916cb78.png align="center")
 
 Thank you, and happy coding.
