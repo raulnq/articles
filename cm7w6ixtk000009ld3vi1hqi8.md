@@ -123,6 +123,6 @@ The implementation is straightforward and requires minimal additional code. We a
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1741136091485/9437bef8-67fc-416d-9c37-c4bbcd0ea60c.png align="center")
 
-> The library [Microsoft.Identity.Web](https://github.com/AzureAD/microsoft-identity-web) can be used instead of directly setting up the `AddJwtBearer` method. The main difference is that this library offers a broader integration between our applications and Azure Entra ID.
+> The library [Microsoft.Identity.Web](https://github.com/AzureAD/microsoft-identity-web) can be used instead of directly setting up the `AddJwtBearer` method. The main difference is that this library offers a broader integration between our applications and Azure Entra ID. Examples can be found [here](https://github.com/Azure-Samples/active-directory-aspnetcore-webapp-openidconnect-v2/blob/master/5-WebApp-AuthZ/5-1-Roles/README.md).
 
 All the code can be found [here](https://github.com/raulnq/azure-entraid-scopes/tree/auth). Thanks, and happy coding.
