@@ -66,7 +66,7 @@ Docker provides arguments to specify the build and target platforms:
 
 These arguments are available in the global scope of the `Dockerfile` but not within the build stages. To use these arguments inside a stage, declare them as arguments, and Docker will automatically set their values. Here's how we can use them:
 
-* The `FROM` command uses the `--platform` flag to specify the image's platform, such as `linux/amd64`, `linux/arm64`, or `windows/amd64`. In the `Dockerfile` above, the image used for building the application includes the `--platform=$BUILDPLATFORM` flag to align with the host's platform and avoid any issues. The image used for running the application includes the `--platform=$TARGETPLATFORM` flag to match the platform where the application will run.
+* The `FROM` command uses the `--platform` flag to specify the image's platform, such as `linux/amd64`, `linux/arm64`, or `windows/amd64`. In the `Dockerfile` above, the image used for building the application includes the `--platform=$BUILDPLATFORM` flag to be aligned with the host's platform and avoid any issues. The image used for running the application includes the `--platform=$TARGETPLATFORM` flag to match the desired platform.
     
 * Additionally, the `dotnet publish` and `dotnet restore` commands use the `-a $TARGETARCH` option to define the target architecture, such as `arm64` or `amd64`.
     
