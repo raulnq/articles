@@ -115,7 +115,6 @@ The `provisioner: fsx.csi.aws.com` parameter tells the cluster to use the Amazon
     
 * `securityGroupIds`: The security group created in the previous step.
     
-
 * `deploymentType`: Amazon FSx for Lustre offers different deployment types.
     
     * `PERSISTENT_1`: Older generation, lower throughput, HDD-backed metadata
@@ -218,7 +217,7 @@ Run the following commands to deploy the resource to EKS:
 ```powershell
 kubectl apply -f storageclass.yaml
 kubectl apply -f pvc.yaml
-kubectl apply job.yaml
+kubectl apply -f job.yaml
 ```
 
 This integration is more than just a technical task; it's an essential approach for running data-heavy applications on EKS. By letting AWS handle the complexity of managing a high-performance file system, we can concentrate on developing our applications while still meeting strict performance and persistence needs. You can find all the code [here](https://github.com/raulnq/eks-aws-fsx-for-lustre). Thanks, and happy coding.
