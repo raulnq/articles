@@ -4,7 +4,7 @@ datePublished: Wed Jul 30 2025 01:51:55 GMT+0000 (Coordinated Universal Time)
 cuid: cmdpb8onk000302lb1s771oqx
 slug: nodejs-and-express-setting-up-the-development-environment
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1753795738328/8d316d06-c39d-4475-b168-b628d279fd40.png
-tags: expressjs, nodejs, eslint, prettier, dotenv, husky
+tags: expressjs, nodejs, eslint, prettier, dotenv, husky, commitlint
 
 ---
 
@@ -354,19 +354,69 @@ npm run lint
 npm run format:check
 ```
 
-Make your first commit:
+## Commitlint
+
+[Commitlint](https://commitlint.js.org/) is a tool that validates commit messages to ensure they follow a consistent format and conventional standards. Install it by running the following command:
+
+```powershell
+npm install --save-dev @commitlint/config-conventional @commitlint/cli @commitlint/prompt-cli
+```
+
+Create the `commitlint.config.js` file in the project root:
+
+```javascript
+export default {
+  extends: ['@commitlint/config-conventional'],
+};
+```
+
+The `@commitlint/config-conventional` package implements the [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) specification. The commit message should be structured as follows:
+
+```plaintext
+type(scope?): subject
+body?
+footer?
+```
+
+Create the `.husky/commit-msg` file with the following content:
+
+```bash
+npx --no-install commitlint --edit $1
+```
+
+The `@commitlint/prompt-cli` package helps us create commit messages that follow the commit convention set in the `commitlint.config.js` file. To make prompt-cli easy to use, add a new script to the `package.json` file:
+
+```json
+{
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "lint:format": "npm run lint:fix && npm run format",
+    "start": "cross-env NODE_ENV=development node src/server.js",
+    "dev": "cross-env NODE_ENV=development node --watch src/server.js",
+    "prepare": "husky",
+    "commit": "commit"
+  }
+}
+```
+
+Make our first commit:
 
 ```powershell
 git init
 git add .
-git commit -m "initial commit"
+npm run commit
 ```
 
-When we make this commit, Husky will automatically:
+The last command will guide us through questions to help create a valid commit message and then execute `git commit` for us. When we make the commit, Husky will automatically:
 
 * Check the code format with Prettier.
     
 * Run ESLint to look for any issues.
+    
+* Check the commit message format.
     
 * Allow the commit only if everything passes.
     
