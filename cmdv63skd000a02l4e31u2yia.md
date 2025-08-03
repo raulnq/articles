@@ -148,7 +148,7 @@ The `knex migrate:make` command creates a new migration file, while the `knex mi
 npm run migrate:make create_todos_table
 ```
 
-A new file will be created in the migrations folder. Update it with the following content:
+A new file will be created in the `migrations` folder. Update it with the following content:
 
 ```javascript
 export const up = knex => {
