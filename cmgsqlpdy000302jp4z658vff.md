@@ -14,7 +14,7 @@ However, raw ALB logs stored in S3 are difficult to analyze at scale. They are s
 
 ## Understanding the AWS Components
 
-Before we start the implementation, let's quickly go over the AWS services we'll be discussing:
+Before we start the implementation, let's quickly go over the AWS components we will be discussing:
 
 ### AWS Athena
 
