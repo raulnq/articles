@@ -193,13 +193,15 @@ WorkingDirectory=/opt/n8n
 ExecStart=/usr/bin/n8n start
 Restart=on-failure
 RestartSec=10
+Environment="WEBHOOK_URL=https://${domain}"
+Environment="N8N_PROXY_HOPS=1"
 
 [Install]
 WantedBy=multi-user.target
 EOF
 ```
 
-Defines a `systemd` service file to run n8n, ensuring it starts after the network and restarts on failure.
+Defines a `systemd` service file to run n8n, ensuring it starts after the network and restarts on failure. The [environment variables](https://docs.n8n.io/hosting/configuration/configuration-examples/webhook-url/) are defined because of the tunnel we are going to use.
 
 ```bash
 mkdir -p /etc/cloudflared/
