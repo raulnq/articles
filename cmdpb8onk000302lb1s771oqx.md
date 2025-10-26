@@ -209,7 +209,7 @@ export default defineConfig([
     
 * [`languageOptions.globals`](https://eslint.org/docs/latest/use/configure/language-options#specifying-globals): Tells ESLint which global variables are available in our code, so there's no need to declare them.
     
-* > The [`eslint-plugin-prettier`](https://github.com/prettier/eslint-plugin-prettier) plugin highlights Prettier formatting issues during linting, ensuring your code is always formatted correctly. However, this has a significant downside—it needs to run Prettier on every file being linted to check for differences. This means each file is parsed twice: once by ESLint and once by Prettier.
+    > The [`eslint-plugin-prettier`](https://github.com/prettier/eslint-plugin-prettier) plugin highlights Prettier formatting issues during linting, ensuring your code is always formatted correctly. However, this has a significant downside—it needs to run Prettier on every file being linted to check for differences. This means each file is parsed twice: once by ESLint and once by Prettier.
     > 
     > Explicitly use Prettier's `--check` flag to see if a file is not correctly formatted.
     
