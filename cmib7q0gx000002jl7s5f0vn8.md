@@ -160,7 +160,7 @@ The service worker uploads directly to S3 using pre-signed URLs. A message is se
     
     * **Messages Sent from S3 to SQS:** 8,640,000 `SendMessage` requests.
         
-    * **Polling by Splunk (**every 10 seconds**):** 8,640 polls/day \* 30 days = 2,592,000 `ReceiveMessage` requests.
+    * **Polling by Splunk (every 10 seconds):** 8,640 polls/day \* 30 days = 2,592,000 `ReceiveMessage` requests.
         
     * **Messages Deleted by Splunk:** 8,640,000 `DeleteMessage` requests.
         
@@ -170,19 +170,18 @@ The service worker uploads directly to S3 using pre-signed URLs. A message is se
         
 * **Download Costs (GET requests):**
     
-    * [**Cost**](https://aws.amazon.com/s3/pricing/)**: $**0.0004 per 1,000 requests.
+    * [**Cost**](https://aws.amazon.com/s3/pricing/)\*\*: $\*\*0.0004 per 1,000 requests.
         
-    * Total Download Cost: 8,640,000 requests \* $0.0004/1000 requests = **$**3.45
+    * Total Download Cost: 8,640,000 requests \* $0.0004/1000 requests = \*\*$\*\*3.45
         
-* **Total Cost**: $43.20 + $0.26 +$7.94 + **$**3.45 = $54.85
+* **Total Cost**: $43.20 + $0.26 +$7.94 + \*\*$\*\*3.45 = $54.85
     
 
 ## Conclusions
 
 **The Kubernetes Pod is the lowest-cost solution** at **$7.83/month**, assuming the organization already maintains an EKS cluster. The operational cost is low only because cluster and ALB expenses are excluded; otherwise, the economics change significantly. This option is best suited for teams with Kubernetes expertise and existing cluster capacity.
 
-**AWS Lambda offers the best balance between low cost and zero operational overhead.**  
-At **$15.77/month**, it is inexpensive, scales transparently, and requires no infrastructure management. For most teams, this is the most practical and maintainable trade-off.
+**AWS Lambda offers the best balance between low cost and zero operational overhead.** At **$15.77/month**, it is inexpensive, scales transparently, and requires no infrastructure management. For most teams, this is the most practical and maintainable trade-off.
 
 **S3 ingestion is the most expensive (and perhaps the most elegant) option** at **$54.85/month**, primarily because PUT requests scale linearly with the number of batches. While it eliminates compute concerns, it adds complexity (S3 → SQS → Splunk) and is less real-time. This model only makes sense if Splunk’s S3 ingestion pipeline is strategically preferred or if we increase the batch frequency to at least 60 minutes.
 
