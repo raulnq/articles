@@ -170,11 +170,11 @@ The service worker uploads directly to S3 using pre-signed URLs. A message is se
         
 * **Download Costs (GET requests):**
     
-    * [**Cost**](https://aws.amazon.com/s3/pricing/)\*\*: $\*\*0.0004 per 1,000 requests.
+    * [**Cost**](https://aws.amazon.com/s3/pricing/): $0.0004 per 1,000 requests.
         
-    * Total Download Cost: 8,640,000 requests \* $0.0004/1000 requests = \*\*$\*\*3.45
+    * Total Download Cost: 8,640,000 requests \* $0.0004/1000 requests = $3.45
         
-* **Total Cost**: $43.20 + $0.26 +$7.94 + \*\*$\*\*3.45 = $54.85
+* **Total Cost**: $43.20 + $0.26 +$7.94 + $3.45 = $54.85
     
 
 ## Conclusions
