@@ -371,7 +371,7 @@ Understanding this order is essential when combining multiple interceptors:
 
 ## Popular Interceptor Libraries
 
-## Logging: `axios-logger`
+### Logging: `axios-logger`
 
 The [`axios-logger`](https://www.npmjs.com/package/axios-logger) library automatically logs information about every HTTP request and response. When we add it to our Axios instance, it intercepts both requests and responses to provide detailed debugging information. Use it only in development. Install it by running the command `npm install axios-logger`.
 
@@ -437,7 +437,7 @@ We can configure the following parameters in `axios-logger` to control what info
 * `logger`: Custom logger function. The default value is `console.log`.
     
 
-## Security: `axios-token-interceptor`
+### Security: `axios-token-interceptor`
 
 The [`axios-token-interceptor`](https://www.npmjs.com/package/axios-token-interceptor) library simplifies adding authentication tokens to requests. It handles token storage, cache handling, and automatic injection. Install it by running the command `npm install axios-token-interceptor`.
 
@@ -492,7 +492,7 @@ Either `token` or `getToken` must be provided.
 
 Either `maxAge` or `getMaxAge` should be provided for effective caching.
 
-## Caching: `axios-cache-interceptor`
+### Caching: `axios-cache-interceptor`
 
 The [`axios-cache-interceptor`](https://www.npmjs.com/package/axios-cache-interceptor) library adds sophisticated HTTP caching to Axios, dramatically reducing redundant network requests and improving application performance. Install it by running the command `npm install axios-cache-interceptor`.
 
@@ -548,7 +548,7 @@ The [`axios-cache-interceptor`](https://axios-cache-interceptor.js.org/guide) us
 
 We can configure both [global options](https://axios-cache-interceptor.js.org/config) when setting up the cache interceptor and [per-request options](https://axios-cache-interceptor.js.org/config/request-specifics) for individual HTTP requests. Remember, we can set all per-request options as global defaults in `setupCache()`.
 
-## Resilience: `axios-retry`
+### Resilience: `axios-retry`
 
 The [`axios-retry`](https://www.npmjs.com/package/axios-retry) package adds intelligent retry logic to our Axios instance, automatically retrying failed requests based on configurable conditions. Install it by running the command `npm install axios-retry`.
 
@@ -660,7 +660,7 @@ Request interceptor registered after
 Request interceptor registered before    
 Response error interceptor registered before  
 Retry attempt #N  
-Error: Request failed with status code 500  
+Error: Request failed with status code 500
 ```
 
 As we mentioned, request interceptors are executed in reverse registration order. Then, the response interceptors are executed in order. Notice that the last interceptor registered never appears during retry attempts; it only shows up after all retries fail. When a request fails, axios-retry's response interceptor catches the error and decides whether to retry.
@@ -674,7 +674,7 @@ After 3 failed retries, the error flows through all remaining response error int
 
 ```javascript
 Response error interceptor registered after (x4)  
-Error: Request failed with status code 500  
+Error: Request failed with status code 500
 ```
 
 The "after" interceptor runs 4 times because:
@@ -727,7 +727,7 @@ Additionally, `axios-retry` provides several built-in functions to help with par
 
 All delay functions automatically respect the `Retry-After` header when present.
 
-## Testing: `axios-mock-adapter`
+### Testing: `axios-mock-adapter`
 
 When writing tests, we should not hit real APIs. The [`axios-mock-adapter`](https://www.npmjs.com/package/axios-mock-adapter) package intercepts requests at the adapter level to return mock data. Install it by running the command `npm install axios-mock-adapter --save-dev`.
 
