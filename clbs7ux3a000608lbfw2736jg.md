@@ -1,4 +1,12 @@
-# Deploying AWS Lambda Functions with AWS SAM
+---
+title: "Deploying AWS Lambda Functions with AWS SAM"
+datePublished: 2022-12-17T17:31:44.519Z
+cuid: clbs7ux3a000608lbfw2736jg
+slug: deploying-aws-lambda-functions-with-aws-sam
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671214202196/Rn0PzLrxW.png
+tags: aws, net, aws-lambda, aws-sam
+
+---
 
 Working with serverless technologies like Lambda Functions is great, but it is easy to lose control of what to deploy (due to the large number of resources we usually have to deploy). In a previous post, we explore a solution for that, [Serverless Framework](https://blog.raulnq.com/deploying-aws-lambda-functions-with-serverless-framework), and today we will try [AWS Serverless Application Model (SAM)](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html).
 
