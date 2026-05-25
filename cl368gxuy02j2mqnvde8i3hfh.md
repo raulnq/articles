@@ -1,6 +1,6 @@
 ---
 title: "Nuke: Deploy ASP. NET Web App to Azure"
-datePublished: Sat May 14 2022 19:00:17 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-05-14T19:00:17.299Z
 cuid: cl368gxuy02j2mqnvde8i3hfh
 slug: nuke-deploy-asp-net-web-app-to-azure
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1652382361886/gQhfmMprZ.png
