@@ -1,6 +1,6 @@
 ---
 title: "Scaling Amazon Elastic Kubernetes Service Workloads with KEDA and Amazon CloudWatch"
-datePublished: Sun Jan 07 2024 16:07:19 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-01-07T16:07:19.524Z
 cuid: clr3ot690000108kyhzuv9gpa
 slug: scaling-amazon-elastic-kubernetes-service-workloads-with-keda-and-amazon-cloudwatch
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1703120504815/cec0e009-cf81-4639-907b-e54c62f0df3d.png
