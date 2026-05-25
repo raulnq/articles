@@ -1,4 +1,12 @@
-# GraphQL in .NET: Avoiding the n+1 query problem with data loaders
+---
+title: "GraphQL in .NET: Avoiding the n+1 query problem with data loaders"
+datePublished: 2023-01-30T22:32:21.579Z
+cuid: cldjdyzwr00030amn0sma8wcx
+slug: graphql-in-net-avoiding-the-n1-query-problem-with-data-loaders
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1675093587754/f6da9e4b-e308-4c94-88fa-da869e048f02.png
+tags: graphql, net
+
+---
 
 The N+1 query problem is a common performance pitfall when retrieving data from a database, which usually happens with an entity has associations (one to many or many to many). The complete case is like this: we run one query to get a list of objects and then run another query for each one to get the associated objects. Let's see how we can run into it with GraphQL. We will use the solution [here](https://github.com/raulnq/graphql-sandbox/tree/error-handling), download and open it.
 
