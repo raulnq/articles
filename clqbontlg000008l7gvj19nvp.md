@@ -1,6 +1,6 @@
 ---
 title: ".NET and Kubernetes: Collect dumps on crash"
-datePublished: Tue Dec 19 2023 01:45:36 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-12-19T01:45:36.916Z
 cuid: clqbontlg000008l7gvj19nvp
 slug: net-and-kubernetes-collect-dumps-on-crash
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1702654834002/9777f9d8-d103-4d86-aeb0-1daacc31e23f.png
