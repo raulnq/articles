@@ -1,6 +1,6 @@
 ---
 title: "High-performance EKS storage with Amazon FSx for Lustre"
-datePublished: Sun Jun 29 2025 19:13:36 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-29T19:13:36.897Z
 cuid: cmci1sw3k000902l5fqyiger8
 slug: high-performance-eks-storage-with-amazon-fsx-for-lustre
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750970648761/1d1137f0-fef5-4da8-88e6-002370386445.png
