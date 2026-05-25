@@ -1,6 +1,6 @@
 ---
 title: "Node.js and Express: OpenAPI"
-datePublished: Sat Oct 04 2025 01:47:29 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-10-04T01:47:29.242Z
 cuid: cmgbm56xm000202jx5l4sb7md
 slug: nodejs-and-express-openapi
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1759500717182/87702b8b-915b-477f-857a-39af8a0d797b.png
