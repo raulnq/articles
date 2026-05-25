@@ -1,6 +1,6 @@
 ---
 title: "Hono: Testing"
-datePublished: Tue Jan 06 2026 14:00:45 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-06T14:00:45.415Z
 cuid: cmk2nq99i000g02jo09qq6poj
 slug: hono-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1767065534104/d81143a5-b89a-4f99-a6e8-a5ee1480e3d5.png
