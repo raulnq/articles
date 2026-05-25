@@ -1,4 +1,12 @@
-## Semantic Versioning with GitVersion (GithubFlow)
+---
+title: "Semantic Versioning with GitVersion (GithubFlow)"
+datePublished: 2022-07-02T17:42:41.597Z
+cuid: cl5469w3t053lownvg3l01bav
+slug: semantic-versioning-with-gitversion-githubflow
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1656722974651/F7eUvNzEF.png
+tags: github, git, gitversion
+
+---
 
 In a previous [post](https://blog.raulnq.com/semantic-versioning-with-gitversion-gitflow) we saw how to use [GitVersion](https://gitversion.net/) to generate version numbers following [Semantinc Versioning](https://semver.org/) (using [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow) as a branching strategy). Today we will do the same exercise but using [GitHubFlow](https://githubflow.github.io/) as a branching strategy. Let's start creating a new [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) repository:
 
