@@ -1,6 +1,6 @@
 ---
 title: "Lambda Powertools for .NET: Fetching Data from AWS Systems Manager Parameter Store and AWS Secrets Manager"
-datePublished: Thu Jan 18 2024 13:59:36 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-01-18T13:59:36.444Z
 cuid: clrja3apo000609i77g2zdqou
 slug: lambda-powertools-for-net-fetching-data-from-aws-systems-manager-parameter-store-and-aws-secrets-manager
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1705505739818/ee8c169a-9946-48fe-b4b3-3c440f6e7a2f.png
