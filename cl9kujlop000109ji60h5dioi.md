@@ -1,4 +1,12 @@
-# AWS Lambda Functions: Finding the right memory size
+---
+title: "AWS Lambda Functions: Finding the right memory size"
+datePublished: 2022-10-23T04:25:13.610Z
+cuid: cl9kujlop000109ji60h5dioi
+slug: aws-lambda-functions-finding-the-right-memory-size
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1666487650491/W5jjZouDO.png
+tags: aws, aws-lambda
+
+---
 
 Once we have our first Lambda Function up and running, a new question arises, How much memory should we use? As we know, the [AWS Lambda pricing model](https://aws.amazon.com/lambda/pricing/?nc1=h_ls) is based on request charges(number of requests) and compute charges(GB-seconds). In addition, we need to notice that the amount of memory is related to the CPU power (check [this](https://www.sentiatechblog.com/aws-re-invent-2020-day-3-optimizing-lambda-cost-with-multi-threading?utm_source=reddit&utm_medium=social&utm_campaign=day3_lambda) post for more details). These characteristics make finding the right memory size not as simple as it seems. Here is where [AWS Lambda Power Tuning](https://github.com/alexcasalboni/aws-lambda-power-tuning) comes to the rescue:
 
