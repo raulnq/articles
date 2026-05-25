@@ -1,4 +1,12 @@
-## Terraform: Resources, Variables, Outputs and Locals
+---
+title: "Terraform: Resources, Variables, Outputs and Locals"
+datePublished: 2022-05-07T16:53:14.588Z
+cuid: cl2w3ulff04hfu5nv7geh0b0a
+slug: terraform-resources-variables-outputs-and-locals
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1651864779811/MHzPK4zej.png
+tags: azure, terraform
+
+---
 
 > HashiCorp Terraform is an infrastructure as code tool that lets you define both cloud and on-prem resources in human-readable configuration files that you can version, reuse, and share. You can then use a consistent workflow to provision and manage all of your infrastructure throughout its lifecycle.
 
