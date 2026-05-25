@@ -1,6 +1,6 @@
 ---
 title: "Hono and Drizzle ORM"
-datePublished: Tue Dec 30 2025 14:00:55 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-12-30T14:00:55.177Z
 cuid: cmjsnni4p000b02jr4hzjdo46
 slug: hono-and-drizzle-orm
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1765486648262/70d15b1c-0158-44df-bc93-1b9a75217dfa.png
