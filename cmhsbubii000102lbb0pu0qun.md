@@ -1,6 +1,6 @@
 ---
 title: "Hono: Setting up the development environment"
-datePublished: Sun Nov 09 2025 23:10:53 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-11-09T23:10:53.130Z
 cuid: cmhsbubii000102lbb0pu0qun
 slug: hono-setting-up-the-development-environment
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1762624856707/a599c220-bff8-4d48-ae55-083c53404a49.png
