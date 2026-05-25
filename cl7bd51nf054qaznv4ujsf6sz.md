@@ -1,4 +1,12 @@
-## Application Configuration Management with AWS AppConfig in .NET
+---
+title: "Application Configuration Management with AWS AppConfig in .NET"
+datePublished: 2022-08-27T03:48:40.679Z
+cuid: cl7bd51nf054qaznv4ujsf6sz
+slug: application-configuration-management-with-aws-appconfig-in-net
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1661544289870/YsXcpEe0d.png
+tags: aws, net, configuration, appconfig
+
+---
 
 Usually, when we develop an application, it is necessary to have configuration data to work properly. This data can come from multiple sources:
 
