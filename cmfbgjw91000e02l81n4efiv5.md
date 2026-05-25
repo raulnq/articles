@@ -1,6 +1,6 @@
 ---
 title: "Node.js and Express: Health Checks"
-datePublished: Mon Sep 08 2025 18:31:15 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-08T18:31:15.205Z
 cuid: cmfbgjw91000e02l81n4efiv5
 slug: nodejs-and-express-health-checks
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757350519614/79004d27-1f48-4af7-9008-bfd2c065ddea.png
