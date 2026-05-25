@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with HTMX: A Beginner's Guide"
-datePublished: Wed Oct 11 2023 21:21:52 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-10-11T21:21:52.390Z
 cuid: clnm9apz9000008mkgrwgh9l3
 slug: getting-started-with-htmx-a-beginners-guide
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1696987355105/62b8a6fc-0415-40e8-82f9-c7871445a695.png
