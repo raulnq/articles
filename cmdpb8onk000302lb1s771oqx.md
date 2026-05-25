@@ -1,6 +1,6 @@
 ---
 title: "Node.js and Express: Setting up the development environment"
-datePublished: Wed Jul 30 2025 01:51:55 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-30T01:51:55.856Z
 cuid: cmdpb8onk000302lb1s771oqx
 slug: nodejs-and-express-setting-up-the-development-environment
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1753795738328/8d316d06-c39d-4475-b168-b628d279fd40.png
