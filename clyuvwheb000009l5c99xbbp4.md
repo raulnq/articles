@@ -1,6 +1,6 @@
 ---
 title: "Kubernetes Pods Resource Sizing"
-datePublished: Sun Jul 21 2024 01:33:34 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-07-21T01:33:34.356Z
 cuid: clyuvwheb000009l5c99xbbp4
 slug: kubernetes-pods-resource-sizing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1721426443863/a26de3b6-46f0-455d-9dad-6e7ed76f3c77.png
