@@ -1,6 +1,6 @@
 ---
 title: "Collecting Metrics with CloudWatch Agent on AWS Elastic Beanstalk (Windows Server)"
-datePublished: Wed Jul 05 2023 20:58:13 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-07-05T20:58:13.264Z
 cuid: cljq7atn3000009mq2kr70kjd
 slug: collecting-metrics-with-cloudwatch-agent-on-aws-elastic-beanstalk-windows-server
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1688519421341/501e2e68-a3e8-4abf-a76f-b585e785fb82.png
