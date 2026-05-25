@@ -1,6 +1,6 @@
 ---
 title: "How to Deploy a Windows Service on AWS Elastic Beanstalk using Terraform"
-datePublished: Mon May 15 2023 22:32:43 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-05-15T22:32:43.496Z
 cuid: clhpf7wtk000009l680nlbwwt
 slug: how-to-deploy-a-windows-service-on-aws-elastic-beanstalk-using-terraform
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1684070174050/4e0f0dec-0ccd-4d48-aae1-eee1606e7f76.png
