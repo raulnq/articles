@@ -1,4 +1,12 @@
-# AWS SAM: SNS and SQS Lambda Triggers
+---
+title: "AWS SAM: SNS and SQS Lambda Triggers"
+datePublished: 2023-02-26T23:09:45.976Z
+cuid: clem073p4000709ief0rvag1j
+slug: aws-sam-sns-and-sqs-lambda-triggers
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1677442515785/1da0611b-e8e5-4439-89ba-85011de38192.png
+tags: aws, aws-lambda, sqs, sns, aws-sam
+
+---
 
 In the previous post [Deploying AWS Lambda Functions with AWS SAM](https://blog.raulnq.com/deploying-aws-lambda-functions-with-aws-sam), we saw how easy it is to deploy an AWS Lambda function with Amazon API Gateway. Today we want to complement it by using [SNS](https://docs.aws.amazon.com/sns/latest/dg/welcome.html) and [SQS](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html) as triggers for the Lambda function when dealing with event-driven architectures.
 
