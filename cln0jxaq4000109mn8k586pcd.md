@@ -1,6 +1,6 @@
 ---
 title: "AWS Lambda and .NET: How to Structure Your Solution?"
-datePublished: Tue Sep 26 2023 16:48:25 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-09-26T16:48:25.996Z
 cuid: cln0jxaq4000109mn8k586pcd
 slug: aws-lambda-and-net-how-to-structure-your-solution
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1695653309632/0cb411a6-23ed-4862-80c2-9266925cedd1.png
