@@ -1,4 +1,12 @@
-## Rundeck: Operational tasks Automation
+---
+title: "Rundeck: Operational tasks Automation"
+datePublished: 2022-09-03T17:03:01.940Z
+cuid: cl7m5ljz301czgznv32sr7tcb
+slug: rundeck-operational-tasks-automation
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1662150571338/cMiSddV-v.png
+tags: automation, operations, rundeck
+
+---
 
 Once our software is released to production, we enter a new stage of the software development life cycle, Operations and Maintenance:
 
