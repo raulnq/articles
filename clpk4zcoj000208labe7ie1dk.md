@@ -1,6 +1,6 @@
 ---
 title: "AWS Lambda: An Overview of Observability"
-datePublished: Wed Nov 29 2023 19:04:55 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-11-29T19:04:55.795Z
 cuid: clpk4zcoj000208labe7ie1dk
 slug: aws-lambda-an-overview-of-observability
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1700772830158/10d608b0-2d69-4d68-bbdd-37ef7434078b.png
