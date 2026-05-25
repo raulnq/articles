@@ -1,4 +1,12 @@
-# Mutation Testing with Stryker.NET
+---
+title: "Mutation Testing with Stryker.NET"
+datePublished: 2023-02-19T14:50:07.426Z
+cuid: clebi9lfm000009i99md8ge3h
+slug: mutation-testing-with-strykernet
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1676765005315/75787612-71d1-4430-863b-06ed6104aff6.png
+tags: unit-testing, testing, net, mutation-testing
+
+---
 
 How do we know that the unit tests we develop are efficient enough to ensure the quality of our code? We usually believe that high code coverage is a good indicator that our code does what we expect, but this is not always true. Let's test this with an example, execute the following commands:
 
