@@ -1,4 +1,12 @@
-## Reusable infrastructure with Terraform modules
+---
+title: "Reusable infrastructure with Terraform modules"
+datePublished: 2022-09-11T01:11:56.480Z
+cuid: cl7wn59bh0adyx9nv9srmbojj
+slug: reusable-infrastructure-with-terraform-modules
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1662820832837/FG304q1ce.png
+tags: aws, terraform
+
+---
 
 > A module is a container for multiple resources that are used together. Modules can be used to create lightweight abstractions, so that you can describe your infrastructure in terms of its architecture, rather than directly in terms of physical objects.
 
