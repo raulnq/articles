@@ -1,6 +1,6 @@
 ---
 title: "Exploring Modules in Azure Bicep"
-datePublished: Wed Aug 09 2023 18:27:21 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-08-09T18:27:21.395Z
 cuid: cll42bmib000c09mm5q3d9nxx
 slug: exploring-modules-in-azure-bicep
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691541335218/4a522acd-cdeb-4ab0-b137-b6b124afdbe8.png
