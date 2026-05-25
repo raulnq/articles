@@ -1,6 +1,6 @@
 ---
 title: "Linking an OpenAPI Specification to AWS Lambda Functions using AWS SAM"
-datePublished: Wed Dec 06 2023 23:00:16 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-12-06T23:00:16.188Z
 cuid: clpudgypn000008l91egpeyln
 slug: linking-an-openapi-specification-to-aws-lambda-functions-using-aws-sam
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1701821524170/e98d31f4-ceec-416a-936a-ed5493a71f33.png
