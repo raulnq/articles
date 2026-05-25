@@ -1,6 +1,6 @@
 ---
 title: "Building a Full-Stack TypeScript Monorepo with React and Hono"
-datePublished: Mon Jan 19 2026 16:31:45 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-19T16:31:45.223Z
 cuid: cmklduiiv000002jm8f1c1zk6
 slug: building-a-full-stack-typescript-monorepo-with-react-and-hono
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1768837610386/07b553d0-8dfe-4382-94a7-867b229563b1.png
