@@ -1,6 +1,6 @@
 ---
 title: "Send Amazon CloudWatch Alarms to Microsoft Teams"
-datePublished: Sat Jan 25 2025 21:43:26 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-25T21:43:26.040Z
 cuid: cm6cpwiu0000708k02h2ncqeh
 slug: send-amazon-cloudwatch-alarms-to-microsoft-teams
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1737837770865/a4e5e9a6-028b-46b4-b9be-77219393b2c7.png
