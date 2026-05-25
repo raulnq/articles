@@ -1,6 +1,6 @@
 ---
 title: "Scaling Amazon Elastic Kubernetes Service Workloads with KEDA and SQS"
-datePublished: Sat Feb 03 2024 01:26:20 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-02-03T01:26:20.354Z
 cuid: cls5e87uq00000ala0f7pcx8o
 slug: scaling-amazon-elastic-kubernetes-service-workloads-with-keda-and-sqs
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1706918624578/c36b9fe9-5b40-497a-9d86-d972362de2a5.png
