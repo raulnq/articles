@@ -1,6 +1,6 @@
 ---
 title: "Testing the NGINX Ingress Controller locally (Docker Desktop)"
-datePublished: Sat Nov 26 2022 14:21:43 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-11-26T14:21:43.153Z
 cuid: clay0tnqp000208m54mp87zmk
 slug: testing-the-nginx-ingress-controller-locally-docker-desktop
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1669430344040/YW4Go3zE-.png
