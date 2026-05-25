@@ -1,6 +1,6 @@
 ---
 title: "Securing .NET API with Microsoft Entra ID"
-datePublished: Sat Feb 15 2025 17:31:50 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-15T17:31:50.951Z
 cuid: cm76h5vdz00040ajl9eyb99lc
 slug: securing-net-api-with-microsoft-entra-id
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1739568214478/438ebcf2-23b3-40c4-bc7a-5b2afa962f8f.png
