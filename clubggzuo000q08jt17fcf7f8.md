@@ -1,6 +1,6 @@
 ---
 title: "Securing .NET APIs with Amazon Cognito"
-datePublished: Thu Mar 28 2024 16:35:10 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-03-28T16:35:10.848Z
 cuid: clubggzuo000q08jt17fcf7f8
 slug: securing-net-apis-with-amazon-cognito
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1711497125369/615fa9ea-814e-413d-843b-b76e10f78bef.png
