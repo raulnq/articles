@@ -1,4 +1,12 @@
-# Reducing AWS Lambda Cold Starts with NET. 7 Native AOT
+---
+title: "Reducing AWS Lambda Cold Starts with NET. 7 Native AOT"
+datePublished: 2022-12-06T01:34:33.118Z
+cuid: clbbjtlem000008idhxvtgiy2
+slug: reducing-aws-lambda-cold-starts-with-net-7-native-aot
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670177378499/nsRWqlZEk.png
+tags: aws, net, aws-lambda, net-7
+
+---
 
 In the [AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html) ecosystem, the cold start problem could be a key factor to use it or not, especially if you're developing a customer-facing application that needs to operate in real-time. AWS is continuously releasing new features to minimize the impact on our applications, such as [Provisioned concurrency](https://docs.aws.amazon.com/lambda/latest/dg/provisioned-concurrency.html) or [Lambda SnapStart](https://docs.aws.amazon.com/lambda/latest/dg/snapstart.html) (only available for Java). NET 7 is also helping to reduce the impact of the cold start problem with Native AOT. To understand it, let's check first how JIT (Just-In-Time compilation) works: 
 
