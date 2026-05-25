@@ -1,6 +1,6 @@
 ---
 title: "AWS Elastic Beanstalk: How to Include an Additional Application Load Balancer"
-datePublished: Tue Jul 11 2023 01:08:00 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-07-11T01:08:00.213Z
 cuid: cljxlfaz9000209kqdwlc7dro
 slug: aws-elastic-beanstalk-how-to-include-an-additional-application-load-balancer
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1688837152029/0f745fc7-0d03-454c-bda1-bc4ae16de8c3.png
