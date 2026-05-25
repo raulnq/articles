@@ -1,4 +1,12 @@
-## Deploying AWS CloudWatch Alarms with Terraform
+---
+title: "Deploying AWS CloudWatch Alarms with Terraform"
+datePublished: 2022-07-23T20:28:07.278Z
+cuid: cl5ycfiti02bi08nv4n2hdhas
+slug: deploying-aws-cloudwatch-alarms-with-terraform
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1658585860155/A6uWrifu6.png
+tags: aws, terraform
+
+---
 
 Today we will review how to deploy an AWS CloudWatch alarm based on a log entry using Terraform. This post is going to use as a base what we saw in [Deploying AWS Lambda Functions with Terraform](https://blog.raulnq.com/deploying-aws-lambda-functions-with-terraform) (take a look if you haven't seen it yet). Please download the content of [this](https://github.com/raulnq/aws-lambda-sandbox/tree/terraform) branch. 
 
