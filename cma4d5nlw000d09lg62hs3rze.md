@@ -1,6 +1,6 @@
 ---
 title: "The Power of Rebasing Before Merging"
-datePublished: Wed Apr 30 2025 20:03:17 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-30T20:03:17.060Z
 cuid: cma4d5nlw000d09lg62hs3rze
 slug: the-power-of-rebasing-before-merging
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1745946897458/2aef898e-a445-46f5-b161-a94dc5a40177.png
