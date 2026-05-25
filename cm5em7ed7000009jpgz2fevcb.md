@@ -1,6 +1,6 @@
 ---
 title: "Safe AWS Lambda Deployments with AWS SAM"
-datePublished: Thu Jan 02 2025 00:55:45 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-02T00:55:45.019Z
 cuid: cm5em7ed7000009jpgz2fevcb
 slug: safe-aws-lambda-deployments-with-aws-sam
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1735652489020/e5a98bc8-de6e-4969-8f83-dd816eb84cad.png
