@@ -1,4 +1,12 @@
-# Migrating a database from Microsoft Azure SQL to Amazon Aurora (PostgreSQL)
+---
+title: "Migrating a database from Microsoft Azure SQL to Amazon Aurora (PostgreSQL)"
+datePublished: 2022-12-26T03:20:02.424Z
+cuid: clc48eago000q08mm5vj28yph
+slug: migrating-a-database-from-microsoft-azure-sql-to-amazon-aurora-postgresql
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1671726681518/1ccce7e1-147d-48ff-b91b-f68f3946d2f0.png
+tags: aws, databases, migration, azure-sql-database, amazon-aurora
+
+---
 
 Database migration, especially between heterogeneous engines, is always a complex task. Luckily for us, AWS offers a set of services/tools from the schema conversion until the data migration to make our life easier.
 
