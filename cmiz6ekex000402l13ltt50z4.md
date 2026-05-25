@@ -1,6 +1,6 @@
 ---
 title: "Hono: Routing"
-datePublished: Tue Dec 09 2025 22:52:45 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-12-09T22:52:45.657Z
 cuid: cmiz6ekex000402l13ltt50z4
 slug: hono-routing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1765293514543/4709fd68-4aab-4447-93e1-9947531ba95b.png
