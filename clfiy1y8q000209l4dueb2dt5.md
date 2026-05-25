@@ -1,6 +1,6 @@
 ---
 title: "Migrating a repository from Bitbucket to GitHub"
-datePublished: Wed Mar 22 2023 00:26:10 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-03-22T00:26:10.202Z
 cuid: clfiy1y8q000209l4dueb2dt5
 slug: migrating-a-repository-from-bitbucket-to-github
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1679435615369/ad162394-6567-4ae7-a46e-6e08ca740a9e.png
