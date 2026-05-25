@@ -1,6 +1,6 @@
 ---
 title: "Hosting Static Websites on AWS CloudFront with Terraform"
-datePublished: Sat Feb 17 2024 00:18:34 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-02-17T00:18:34.344Z
 cuid: clspbyztz000309l4g0n8csp6
 slug: hosting-static-websites-on-aws-cloudfront-with-terraform
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1708021121985/a9a294e0-1f93-47d6-ba98-423f96b8c73b.png
