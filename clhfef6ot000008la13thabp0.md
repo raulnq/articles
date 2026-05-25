@@ -1,6 +1,6 @@
 ---
 title: "Consuming AWS SQS messages in order"
-datePublished: Mon May 08 2023 22:12:41 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-05-08T22:12:41.501Z
 cuid: clhfef6ot000008la13thabp0
 slug: consuming-aws-sqs-messages-in-order
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1683333070085/7912715d-252a-4523-a244-90ffb53c3ec3.png
