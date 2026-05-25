@@ -1,6 +1,6 @@
 ---
 title: "Collecting Diagnostic Data Automatically with dotnet-monitor"
-datePublished: Wed Nov 15 2023 16:51:32 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-11-15T16:51:32.178Z
 cuid: clp001vpt00040aib0lsy59o3
 slug: collecting-diagnostic-data-automatically-with-dotnet-monitor
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1699969887791/6bec3d40-2747-4a9c-9a43-94ce5afb05f7.png
