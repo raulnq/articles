@@ -1,4 +1,12 @@
-## Semantic Versioning with GitVersion (GitFlow)
+---
+title: "Semantic Versioning with GitVersion (GitFlow)"
+datePublished: 2022-05-22T19:32:18.963Z
+cuid: cl3hp4xyh053ntknvgf3j5wu3
+slug: semantic-versioning-with-gitversion-gitflow
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1653223632980/WfeNQoLiu.png
+tags: git
+
+---
 
 Versioning software artifacts (Assemblies, NuGet, or NPM packages) has been proved to be a challenging procedure. Today, [Semantic Versioning](https://semver.org/) is a practice that has been on the rise over the last few years, but how to apply it to your projects?. Here is were [GitVersion](https://gitversion.net/) come in place.
 > GitVersion is a tool that generates a Semantic Version number based on your Git history. The version number generated from GitVersion can then be used for various different purposes.
