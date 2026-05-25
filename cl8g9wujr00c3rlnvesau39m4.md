@@ -1,4 +1,12 @@
-# GraphQL in .NET with Hot Chocolate
+---
+title: "GraphQL in .NET with Hot Chocolate"
+datePublished: 2022-09-24T18:56:52.624Z
+cuid: cl8g9wujr00c3rlnvesau39m4
+slug: graphql-in-net-with-hot-chocolate
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1664028819517/yRpQxTgau.png
+tags: graphql, net
+
+---
 
 > GraphQL is a query language for APIs and a runtime for fulfilling those queries with your existing data. GraphQL provides a complete and understandable description of the data in your API, gives clients the power to ask for exactly what they need and nothing more, makes it easier to evolve APIs over time, and enables powerful developer tools.
 
