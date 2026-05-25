@@ -1,6 +1,6 @@
 ---
 title: "Hono: Validation"
-datePublished: Tue Dec 16 2025 14:00:33 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-12-16T14:00:33.043Z
 cuid: cmj8nh3pv000002jm93b4evn6
 slug: hono-validation
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1765373437742/98194eb2-37b5-45a0-afc3-2d8ee0298752.png
