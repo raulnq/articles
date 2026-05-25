@@ -1,6 +1,6 @@
 ---
 title: "Running local images in Kubernetes with KIND and Podman"
-datePublished: Fri Feb 21 2025 21:54:38 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-02-21T21:54:38.958Z
 cuid: cm7fb6y25000009kz9ep0dpyb
 slug: running-local-images-in-kubernetes-with-kind-and-podman
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740153169060/bd113080-fb02-465f-8aa0-c8aee9b97a34.png
