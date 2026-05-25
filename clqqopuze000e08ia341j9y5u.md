@@ -1,6 +1,6 @@
 ---
 title: ".NET 8: Working with HTMX and Razor Components"
-datePublished: Fri Dec 29 2023 13:43:44 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-12-29T13:43:44.666Z
 cuid: clqqopuze000e08ia341j9y5u
 slug: net-8-working-with-htmx-and-razor-components
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1703599610345/f858b1fe-5ae5-4e93-af01-daafa99f0b43.png
