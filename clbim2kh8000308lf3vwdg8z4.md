@@ -1,4 +1,12 @@
-# GraphQL in .NET: Error Handling
+---
+title: "GraphQL in .NET: Error Handling"
+datePublished: 2022-12-11T00:11:54.285Z
+cuid: clbim2kh8000308lf3vwdg8z4
+slug: graphql-in-net-error-handling
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1670538057098/68nQSpvLA.png
+tags: graphql, net
+
+---
 
 In our journey with GraphQL, sooner or later, we are going to need to pick a strategy to handle errors during mutations. There is a great post ["A Guide to GraphQL Errors" ](https://xuorig.medium.com/a-guide-to-graphql-errors-bb9ba9f15f85) where the author shows several options (its pros and cons). Based on this, we will implement the last stage presented there: **Stage 6a: Error Union List + Interface**. 
 
