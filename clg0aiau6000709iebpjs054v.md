@@ -1,6 +1,6 @@
 ---
 title: "Building extensions for AWS Lambda with .NET"
-datePublished: Mon Apr 03 2023 03:46:53 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-04-03T03:46:53.406Z
 cuid: clg0aiau6000709iebpjs054v
 slug: building-extensions-for-aws-lambda-with-net
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1680301976516/e510dbae-6c9d-4567-a1fb-027aedcf2c0f.png
