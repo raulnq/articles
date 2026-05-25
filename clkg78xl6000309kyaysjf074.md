@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with ARM Templates"
-datePublished: Mon Jul 24 2023 01:38:45 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-07-24T01:38:45.642Z
 cuid: clkg78xl6000309kyaysjf074
 slug: getting-started-with-arm-templates
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690130500990/873a3ff3-e427-44df-8c5d-0464aecfa5b0.jpeg
