@@ -1,6 +1,6 @@
 ---
 title: "How to Integrate Google Logging into .NET Applications"
-datePublished: Sat Jun 07 2025 01:14:31 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-07T01:14:31.494Z
 cuid: cmbljkfk6000002kz16nh2qx3
 slug: how-to-integrate-google-logging-into-net-applications
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1749246584766/10b5f860-e46b-49d7-a49a-cb5c83772b50.png
