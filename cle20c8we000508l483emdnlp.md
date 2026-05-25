@@ -1,4 +1,12 @@
-# Accessing an Informix database in .NET
+---
+title: "Accessing an Informix database in .NET"
+datePublished: 2023-02-12T23:18:22.478Z
+cuid: cle20c8we000508l483emdnlp
+slug: accessing-an-informix-database-in-net
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1676219774168/9bdc24c3-5d3a-484f-ae33-46b359b80586.png
+tags: ibm, net, informix
+
+---
 
 [Informix](https://www.ibm.com/products/informix) was a database (part of the IBM family) popular during the 90s and today still in the market. Due to this, it is always good to know how we can use it from our .NET applications (who knows, maybe someday we will have to work with it). First, let's start an instance of the database with the following command:
 
