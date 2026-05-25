@@ -1,6 +1,6 @@
 ---
 title: "AWS Elastic Beanstalk: Integrating a Network Load Balancer with an Application Load Balancer"
-datePublished: Mon Jul 17 2023 23:08:17 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-07-17T23:08:17.070Z
 cuid: clk7h8b3i000609mn0pv7gdzq
 slug: aws-elastic-beanstalk-integrating-a-network-load-balancer-with-an-application-load-balancer
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1689607605936/11830ef3-7702-48bf-81a8-38e88cdf54ef.png
