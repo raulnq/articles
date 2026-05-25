@@ -1,4 +1,12 @@
-## OpenTelemetry: The OTEL Collector
+---
+title: "OpenTelemetry: The OTEL Collector"
+datePublished: 2022-08-05T22:42:42.934Z
+cuid: cl6h1yop903unxvnvfjry6xfh
+slug: opentelemetry-the-otel-collector
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1659565085635/zs09yBe7V.png
+tags: net, observability, opentelemetry
+
+---
 
 In the post [Observability with OpenTelemetry in .NET](https://blog.raulnq.com/observability-with-opentelemetry-in-net), we saw how OpenTelemetry tries to provide a standardized way to instrument our applications. OpenTelemetry achieves that by providing us with a specification that can be implemented in multiple languages. But there is another component, the [OTEL Collector](https://opentelemetry.io/docs/collector/):
 
