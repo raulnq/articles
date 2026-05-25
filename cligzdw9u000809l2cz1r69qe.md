@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with SignalR in .NET 6"
-datePublished: Sun Jun 04 2023 05:27:01 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-06-04T05:27:01.795Z
 cuid: cligzdw9u000809l2cz1r69qe
 slug: getting-started-with-signalr-in-net-6
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1685836324550/b4323751-24f3-491c-ba0a-ebf1ed071222.png
