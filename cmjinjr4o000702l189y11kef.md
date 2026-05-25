@@ -1,6 +1,6 @@
 ---
 title: "Hono: Error Handling and Security"
-datePublished: Tue Dec 23 2025 14:00:18 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-12-23T14:00:18.457Z
 cuid: cmjinjr4o000702l189y11kef
 slug: hono-error-handling-and-security
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1765409243978/c3b83b2e-e9a2-4bac-94b0-d2521b9e2b5d.png
