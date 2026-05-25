@@ -1,4 +1,12 @@
-## MockServer: Easy mocking of any system you integrate (HTTP or HTTPS)
+---
+title: "MockServer: Easy mocking of any system you integrate (HTTP or HTTPS)"
+datePublished: 2022-06-12T00:35:51.186Z
+cuid: cl4aksbx6064ir3nvg4hchulr
+slug: mockserver-easy-mocking-of-any-system-you-integrate-http-or-https
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1654960826881/vjPCvRdc0.png
+tags: testing, net
+
+---
 
 From time to time, when we have a dependency or dependencies against an API, a subtle need arises:
 
