@@ -1,6 +1,6 @@
 ---
 title: "Node.js and Express: Error Handling"
-datePublished: Mon Aug 25 2025 02:51:20 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-25T02:51:20.534Z
 cuid: cmeqit8id000702la922w5mgu
 slug: nodejs-and-express-error-handling
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755719198272/4123ade4-001c-42b3-a999-fa55bd8e993d.png
