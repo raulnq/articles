@@ -1,6 +1,6 @@
 ---
 title: "Testing AWS Lambda Functions Locally Using SAM"
-datePublished: Mon Aug 21 2023 17:23:54 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-08-21T17:23:54.997Z
 cuid: clll5c9h100070ale14kx3g1l
 slug: testing-aws-lambda-functions-locally-using-sam
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1692403793844/1549ef63-7c06-4f91-a0ce-70daaf7f3154.png
