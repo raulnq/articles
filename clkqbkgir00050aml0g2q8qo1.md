@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with Azure Bicep"
-datePublished: Mon Jul 31 2023 03:37:23 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-07-31T03:37:23.619Z
 cuid: clkqbkgir00050aml0g2q8qo1
 slug: getting-started-with-azure-bicep
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1690763484465/e58670a9-86fe-40df-a66e-145ee913287d.png
