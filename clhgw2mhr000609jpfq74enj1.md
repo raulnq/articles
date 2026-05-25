@@ -1,6 +1,6 @@
 ---
 title: "How to Deploy a .NET App on AWS Elastic Beanstalk using Terraform (Windows Server)"
-datePublished: Tue May 09 2023 23:14:34 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-05-09T23:14:34.720Z
 cuid: clhgw2mhr000609jpfq74enj1
 slug: how-to-deploy-a-net-app-on-aws-elastic-beanstalk-using-terraform-windows-server
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1683673461405/ed462407-1107-4674-970b-62263f2c8c7f.png
