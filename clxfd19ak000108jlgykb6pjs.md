@@ -1,6 +1,6 @@
 ---
 title: "How to Set Up Mutual TLS Authentication for Amazon API Gateway"
-datePublished: Sat Jun 15 2024 00:09:09 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-06-15T00:09:09.452Z
 cuid: clxfd19ak000108jlgykb6pjs
 slug: how-to-set-up-mutual-tls-authentication-for-amazon-api-gateway
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1718385233529/3ac65f5b-ee34-422d-b8ef-eade06e635cd.png
