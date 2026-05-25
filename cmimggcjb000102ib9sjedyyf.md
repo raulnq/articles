@@ -1,6 +1,6 @@
 ---
 title: "All You Need to Know About Axios and Interceptors"
-datePublished: Mon Dec 01 2025 01:13:04 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-12-01T01:13:04.631Z
 cuid: cmimggcjb000102ib9sjedyyf
 slug: all-you-need-to-know-about-axios-and-interceptors
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1764507471078/d8f3666b-d446-4a14-9193-8b92bc33b656.png
