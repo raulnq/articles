@@ -1,6 +1,6 @@
 ---
 title: "Real-time log processing with AWS Lambda Telemetry API and .NET"
-datePublished: Sun Apr 09 2023 02:06:24 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-04-09T02:06:24.883Z
 cuid: clg8rk776000309jy3u0wdhdn
 slug: real-time-log-processing-with-aws-lambda-telemetry-api-and-net
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1680918008347/d40814a6-3b3e-4d05-bc9a-9f2983e51f47.png
