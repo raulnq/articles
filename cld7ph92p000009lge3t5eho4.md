@@ -1,4 +1,12 @@
-# Reducing boilerplate code with Lambda Annotations
+---
+title: "Reducing boilerplate code with Lambda Annotations"
+datePublished: 2023-01-22T18:21:14.929Z
+cuid: cld7ph92p000009lge3t5eho4
+slug: reducing-boilerplate-code-with-lambda-annotations
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1674267965242/4b99a383-e05c-4852-852b-b6a5b33bdbd6.png
+tags: aws, net, aws-lambda
+
+---
 
 After some time developing Lambda functions with .NET one can notice that the programming model could be considered low-level, especially if we compare it with ASP.NET Core. Let's check the following code:
 
