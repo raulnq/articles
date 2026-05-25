@@ -1,6 +1,6 @@
 ---
 title: "AWS CloudFront Functions: What Are They For?"
-datePublished: Tue Apr 01 2025 19:51:41 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-01T19:51:41.076Z
 cuid: cm8ywz190000109lf4cdjcd2z
 slug: aws-cloudfront-functions-what-are-they-for
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1743441679526/50b33548-6529-4437-9b80-8d495ff10f0f.png
