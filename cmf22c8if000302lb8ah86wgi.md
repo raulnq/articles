@@ -1,6 +1,6 @@
 ---
 title: "Node.js and Express: Structured Logging with SEQ"
-datePublished: Tue Sep 02 2025 04:43:27 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-02T04:43:27.639Z
 cuid: cmf22c8if000302lb8ah86wgi
 slug: nodejs-and-express-structured-logging-with-seq
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1756651447299/dc5ec205-8d62-4f5b-96d1-47abf3290cf3.png
