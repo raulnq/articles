@@ -1,6 +1,6 @@
 ---
 title: "How to Implement Authorization in .NET APIs with Amazon Cognito"
-datePublished: Wed Apr 03 2024 23:42:45 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-04-03T23:42:45.832Z
 cuid: clukgdzd4000a08le54bna7zp
 slug: how-to-implement-authorization-in-net-apis-with-amazon-cognito
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1712157410040/ccfecaa5-d87f-478f-af3f-8224366c87e6.png
