@@ -1,6 +1,6 @@
 ---
 title: "Diagnostic .NET Apps  in Kubernetes with dotnet-monitor"
-datePublished: Wed Nov 22 2023 17:20:08 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-11-22T17:20:08.554Z
 cuid: clpa15mqy000609jre128bzxa
 slug: diagnostic-net-apps-in-kubernetes-with-dotnet-monitor
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1700518438155/a21e73f5-2e61-49a4-b13e-ea2f27c5cc6a.png
