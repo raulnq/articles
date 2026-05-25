@@ -1,6 +1,6 @@
 ---
 title: "How to Validate Requests in Amazon API Gateway"
-datePublished: Sat Sep 07 2024 04:20:46 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-07T04:20:46.945Z
 cuid: cm0rn0eld000a0amg8o6n337s
 slug: how-to-validate-requests-in-amazon-api-gateway
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1725658067638/e8e3413a-8e5e-479f-95da-ea1e0e16fdb6.png
