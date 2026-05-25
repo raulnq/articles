@@ -1,6 +1,6 @@
 ---
 title: "Customizing our AWS Elastic Beanstalk environment with .ebextensions"
-datePublished: Sun May 28 2023 23:53:40 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-05-28T23:53:40.299Z
 cuid: cli82u30r00000ajyb5n2eiqc
 slug: customizing-our-aws-elastic-beanstalk-environment-with-ebextensions
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1685149113217/9f7aec55-7939-4b1d-9aa6-83c7afbbc793.png
