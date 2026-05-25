@@ -1,6 +1,6 @@
 ---
 title: "Azure Bicep: How to Provision an API Management"
-datePublished: Mon Aug 14 2023 03:50:57 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-08-14T03:50:57.072Z
 cuid: cllac7tio00090aju1bzk0o6z
 slug: azure-bicep-how-to-provision-an-api-management
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1691945109965/fa0e1006-5dc8-4cee-9524-35747fd950ac.png
