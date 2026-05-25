@@ -1,6 +1,6 @@
 ---
 title: "How to Host n8n for Free on Google Cloud Platform"
-datePublished: Sat Jul 12 2025 21:18:28 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-12T21:18:28.481Z
 cuid: cmd0qzjb5000002jp2y9r5fvo
 slug: how-to-host-n8n-for-free-on-google-cloud-platform
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1752279044615/e401e879-f0b0-45cc-a94c-94392ee7f09e.png
