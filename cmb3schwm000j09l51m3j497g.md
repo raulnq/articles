@@ -1,6 +1,6 @@
 ---
 title: "AWS Lambda SnapStart for .NET"
-datePublished: Sun May 25 2025 15:00:26 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-05-25T15:00:26.662Z
 cuid: cmb3schwm000j09l51m3j497g
 slug: aws-lambda-snapstart-for-net
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1748127814476/10e0a934-7ff0-491d-8866-dddfd98bada4.png
