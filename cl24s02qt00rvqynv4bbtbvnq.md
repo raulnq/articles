@@ -1,6 +1,6 @@
 ---
 title: "Running local images in Kubernetes (Docker Desktop)"
-datePublished: Mon Apr 18 2022 13:51:48 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-04-18T13:51:48.124Z
 cuid: cl24s02qt00rvqynv4bbtbvnq
 slug: running-local-images-in-kubernetes-docker-desktop
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1651962522968/y1pnSXlWi.png
