@@ -1,6 +1,6 @@
 ---
 title: "Useful commands for Helm"
-datePublished: Sat Apr 30 2022 03:02:46 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-04-30T03:02:46.082Z
 cuid: cl2la3mzk018bg9nvawpm6usg
 slug: useful-commands-for-helm
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1650978504397/NtQDwDJAT.png
