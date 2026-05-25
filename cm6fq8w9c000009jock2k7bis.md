@@ -1,6 +1,6 @@
 ---
 title: "How Do We Export Slack Messages Without Admin Permissions?"
-datePublished: Tue Jan 28 2025 00:16:21 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-01-28T00:16:21.840Z
 cuid: cm6fq8w9c000009jock2k7bis
 slug: how-do-we-export-slack-messages-without-admin-permissions
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1738020092258/62256b85-d60a-4425-ad07-44fc000a66db.png
