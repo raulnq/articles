@@ -1,6 +1,6 @@
 ---
 title: "How to Secure AWS Lambda Functions Using Amazon API Gateway and AWS IAM"
-datePublished: Wed May 01 2024 06:07:29 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-05-01T06:07:29.449Z
 cuid: clvnf0qso000b08lg3zb1av1l
 slug: how-to-secure-aws-lambda-functions-using-amazon-api-gateway-and-aws-iam
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1714425179303/968a1fde-afe3-4fc1-8d0b-ff7d38292222.png
