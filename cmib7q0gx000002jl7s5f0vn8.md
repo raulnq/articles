@@ -1,6 +1,6 @@
 ---
 title: "Keep an Eye on the Costs"
-datePublished: Sun Nov 23 2025 04:23:11 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-11-23T04:23:11.073Z
 cuid: cmib7q0gx000002jl7s5f0vn8
 slug: keep-an-eye-on-the-costs
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1763845280972/c4917545-d401-41d4-a110-7f6198e55898.png
