@@ -1,6 +1,6 @@
 ---
 title: "Scaling out SignalR with Redis Backplane"
-datePublished: Sat Jun 10 2023 05:21:38 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-06-10T05:21:38.506Z
 cuid: clipju2tm000009jucge1aoot
 slug: scaling-out-signalr-with-redis-backplane
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1686345713362/585ba7e3-99ac-40b4-825a-170dbf997067.png
