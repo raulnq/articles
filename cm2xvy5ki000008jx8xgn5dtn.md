@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with Amazon EventBridge Scheduler for .NET Developers"
-datePublished: Thu Oct 31 2024 22:37:00 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-31T22:37:00.210Z
 cuid: cm2xvy5ki000008jx8xgn5dtn
 slug: getting-started-with-amazon-eventbridge-scheduler-for-net-developers
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1730243121764/127a7e6d-5e5c-4c2c-a147-02fc39ed40f9.png
