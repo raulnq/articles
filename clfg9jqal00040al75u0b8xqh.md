@@ -1,6 +1,6 @@
 ---
 title: "Injecting code before an application starts with .NET Startup Hooks"
-datePublished: Mon Mar 20 2023 03:24:36 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-03-20T03:24:36.957Z
 cuid: clfg9jqal00040al75u0b8xqh
 slug: injecting-code-before-an-application-starts-with-net-startup-hooks
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1679083226531/9e33e5ff-a92c-41c6-b0aa-f4e50e3f9cda.png
