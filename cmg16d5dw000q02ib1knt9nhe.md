@@ -1,6 +1,6 @@
 ---
 title: "Building a YouTube Video Transcription API with Node.js"
-datePublished: Fri Sep 26 2025 18:28:04 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-26T18:28:04.868Z
 cuid: cmg16d5dw000q02ib1knt9nhe
 slug: building-a-youtube-video-transcription-api-with-nodejs
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1758905569363/14e2c19f-ed13-42ec-8e2a-0dd46086e730.png
