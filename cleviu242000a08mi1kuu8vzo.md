@@ -1,6 +1,6 @@
 ---
 title: "Reducing package size in .NET with Runtime Package Store"
-datePublished: Sun Mar 05 2023 15:01:25 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-03-05T15:01:25.682Z
 cuid: cleviu242000a08mi1kuu8vzo
 slug: reducing-package-size-in-net-with-runtime-package-store
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1678020910122/438531ec-d429-47af-a371-bcaa142fbc75.png
