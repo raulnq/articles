@@ -1,6 +1,6 @@
 ---
 title: "Using RDS Data API with AWS Lambda Functions and Amazon Aurora Serverless v2"
-datePublished: Wed Feb 28 2024 22:55:59 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-02-28T22:55:59.005Z
 cuid: clt6eb09p000109jrdpqe5ebi
 slug: using-rds-data-api-with-aws-lambda-functions-and-amazon-aurora-serverless-v2
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1709135161734/29549fe9-c420-4932-a1ea-df32590f8da4.png
