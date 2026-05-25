@@ -1,6 +1,6 @@
 ---
 title: "GitHub Packages: Publishing NuGet Packages using NUKE (with GitVersion and GitHub Actions)"
-datePublished: Wed Jan 10 2024 23:07:48 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-01-10T23:07:48.893Z
 cuid: clr8e5hct000509jua8m830at
 slug: github-packages-publishing-nuget-packages-using-nuke-with-gitversion-and-github-actions
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704928660200/677bbb2f-57e7-4ea0-84dd-2a4d4c61fb5d.png
