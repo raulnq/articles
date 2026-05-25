@@ -1,6 +1,6 @@
 ---
 title: "Running AWS Lambda Functions Locally Using LocalStack"
-datePublished: Wed Aug 30 2023 21:27:53 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-08-30T21:27:53.815Z
 cuid: clly90ouv000308mtdts3555v
 slug: running-aws-lambda-functions-locally-using-localstack
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1693344471753/0af7b0a3-1d50-4c95-8c2d-6879445b4f9f.png
