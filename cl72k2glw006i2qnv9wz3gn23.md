@@ -1,4 +1,12 @@
-## Load Testing with K6
+---
+title: "Load Testing with K6"
+datePublished: 2022-08-20T23:52:41.746Z
+cuid: cl72k2glw006i2qnv9wz3gn23
+slug: load-testing-with-k6
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1661012943184/VqnATBLNM.png
+tags: testing, k6
+
+---
 
 During our development, usually, there is a time when we want to determine how many users our system can handle. Load Testing can help us to answer that:
 
