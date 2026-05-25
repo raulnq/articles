@@ -1,6 +1,6 @@
 ---
 title: "How to Use Lambda Authorizers to Validate Microsoft EntraID (Azure AD) Tokens in Amazon API Gateway"
-datePublished: Thu May 16 2024 22:39:54 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-05-16T22:39:54.389Z
 cuid: clw9u2ryt000309mag3jj1h2s
 slug: how-to-use-lambda-authorizers-to-validate-microsoft-entraid-azure-ad-tokens-in-amazon-api-gateway
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1715733782850/847f7851-17a6-41c2-9b29-db89cfed12a9.png
