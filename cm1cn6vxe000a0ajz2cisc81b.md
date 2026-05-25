@@ -1,6 +1,6 @@
 ---
 title: "How to Use Non-Proxy Integration with Amazon API Gateway"
-datePublished: Sat Sep 21 2024 21:08:59 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-21T21:08:59.042Z
 cuid: cm1cn6vxe000a0ajz2cisc81b
 slug: how-to-use-non-proxy-integration-with-amazon-api-gateway
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1726775840375/a50fcc77-e4b4-470e-987d-e65385b59c06.png
