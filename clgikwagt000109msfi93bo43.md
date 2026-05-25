@@ -1,6 +1,6 @@
 ---
 title: "Running Nuke inside a GitHub Action"
-datePublished: Sat Apr 15 2023 22:57:33 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-04-15T22:57:33.437Z
 cuid: clgikwagt000109msfi93bo43
 slug: running-nuke-inside-a-github-action
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1681523851878/dc0677ea-6f10-4a95-8798-bde055f01561.png
