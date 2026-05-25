@@ -1,6 +1,6 @@
 ---
 title: "Understanding Acceptance Testing"
-datePublished: Mon Sep 11 2023 15:41:07 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-09-11T15:41:07.413Z
 cuid: clmf1wyj9000b0al26y5rhc9k
 slug: understanding-acceptance-testing
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1694445020370/8907e628-36b6-4979-bbf1-bace5307bb6f.png
