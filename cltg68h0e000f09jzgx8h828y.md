@@ -1,6 +1,6 @@
 ---
 title: "AWS SAM: Provisioning AWS AppSync with Amazon RDS Data Source"
-datePublished: Wed Mar 06 2024 19:07:45 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-03-06T19:07:45.566Z
 cuid: cltg68h0e000f09jzgx8h828y
 slug: aws-sam-provisioning-aws-appsync-with-amazon-rds-data-source
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1709672772886/5c3cf2dd-d80c-401c-9cad-305be9e62161.png
