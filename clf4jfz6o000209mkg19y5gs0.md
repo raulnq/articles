@@ -1,6 +1,6 @@
 ---
 title: "AWS Lambda Layers in .NET"
-datePublished: Sat Mar 11 2023 22:28:23 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-03-11T22:28:23.904Z
 cuid: clf4jfz6o000209mkg19y5gs0
 slug: aws-lambda-layers-in-net
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1678486099571/00aff879-1efb-42a5-897a-c854a96949a6.png
