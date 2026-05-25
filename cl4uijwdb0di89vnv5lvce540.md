@@ -1,4 +1,12 @@
-## Building .NET microservices easily with Tye
+---
+title: "Building .NET microservices easily with Tye"
+datePublished: 2022-06-25T23:28:42.110Z
+cuid: cl4uijwdb0di89vnv5lvce540
+slug: building-net-microservices-easily-with-tye
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1656186207916/q-KbQC-lS.png
+tags: microservices, docker, net, tye
+
+---
 
 Today, building microservices (technology stack aside) can be an overwhelming task due to the number of tools, technologies, and frameworks you need to learn before starting to code. One of the most widely used technology is containerization, with Docker as its best-known representative. But what does this mean for a new developer? Does he need to know how to create a docker file, a docker-compose file, or in the worst case, how to deploy your application on a local Kubernetes cluster?.
 
