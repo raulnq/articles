@@ -1,6 +1,6 @@
 ---
 title: "AWS IAM Database Authentication with EF Core"
-datePublished: Sat May 28 2022 14:35:50 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-05-28T14:35:50.053Z
 cuid: cl3pz6ry50404brnvb3el55i5
 slug: aws-iam-database-authentication-with-ef-core
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1653612982331/c4ZDqB_84.png
