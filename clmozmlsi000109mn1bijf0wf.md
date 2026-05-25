@@ -1,6 +1,6 @@
 ---
 title: "Send Amazon CloudWatch Alarms to Slack"
-datePublished: Mon Sep 18 2023 14:34:46 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-09-18T14:34:46.866Z
 cuid: clmozmlsi000109mn1bijf0wf
 slug: send-amazon-cloudwatch-alarms-to-slack
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1694819220510/becc5241-be9c-4c8d-876c-05816d8e80c5.png
