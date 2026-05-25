@@ -1,4 +1,12 @@
-# Deploying AWS Lambda Functions with Serverless Framework
+---
+title: "Deploying AWS Lambda Functions with Serverless Framework"
+datePublished: 2022-10-09T03:40:05.978Z
+cuid: cl90srn4q000309jqeuqwax8n
+slug: deploying-aws-lambda-functions-with-serverless-framework
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1665275136346/iF7xKPIO7.png
+tags: aws, net, serverless, aws-lambda
+
+---
 
 In a previous [post](https://blog.raulnq.com/deploying-aws-lambda-functions-with-terraform), we looked at Terraform as an option to deploy AWS Lambda Function, as long as the number of functions is low. But with a higher number of functions, we could end up building huge scripts. And this is where [Severless Framework](https://www.serverless.com/framework/docs) comes in:
 
