@@ -1,6 +1,6 @@
 ---
 title: "Implementing Authorization in .NET APIs Using Azure Entra ID"
-datePublished: Wed Mar 05 2025 17:16:05 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-05T17:16:05.432Z
 cuid: cm7w6ixtk000009ld3vi1hqi8
 slug: implementing-authorization-in-net-apis-using-azure-entra-id
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741121799386/d4af13d1-66ee-4e30-9041-d4ef1d878255.png
