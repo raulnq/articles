@@ -1,6 +1,6 @@
 ---
 title: "Understanding Amazon API Gateway: Methods and Integrations"
-datePublished: Sun Sep 01 2024 16:32:31 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-01T16:32:31.842Z
 cuid: cm0jsibtu003w08l64v9xdpix
 slug: understanding-amazon-api-gateway-methods-and-integrations
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1724718234865/cbe3e6a6-75fd-4b74-bedf-b7934c948742.png
