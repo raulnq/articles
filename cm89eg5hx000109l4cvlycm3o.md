@@ -1,6 +1,6 @@
 ---
 title: "Securing AWS CloudFront Content with Lambda@Edge and Azure EntraID"
-datePublished: Fri Mar 14 2025 23:18:52 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-14T23:18:52.629Z
 cuid: cm89eg5hx000109l4cvlycm3o
 slug: securing-aws-cloudfront-content-with-lambdaedge-and-azure-entraid
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1741887767861/00be1d5b-019f-4939-83ee-b81cd33f54cb.png
