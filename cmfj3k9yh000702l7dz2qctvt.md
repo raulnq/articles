@@ -1,6 +1,6 @@
 ---
 title: "Node.js and Express: API Security"
-datePublished: Sun Sep 14 2025 02:49:47 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-09-14T02:49:47.369Z
 cuid: cmfj3k9yh000702l7dz2qctvt
 slug: nodejs-and-express-api-security
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1757768022681/d68a8d1a-26a6-4c26-93a6-2ddec03ec673.png
