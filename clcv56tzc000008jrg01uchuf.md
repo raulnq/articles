@@ -1,4 +1,12 @@
-# Performance comparison: Amazon Aurora vs. Amazon Aurora Serverless v2
+---
+title: "Performance comparison: Amazon Aurora vs. Amazon Aurora Serverless v2"
+datePublished: 2023-01-13T23:20:02.376Z
+cuid: clcv56tzc000008jrg01uchuf
+slug: performance-comparison-amazon-aurora-vs-amazon-aurora-serverless-v2
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1673553740960/65394c12-41f1-4775-846d-d7c8dbc4d620.png
+tags: aws, databases, amazon-aurora
+
+---
 
 Serverless technologies are everywhere these days, and databases are no exception. [AWS Aurora Serverless V2](https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/aurora-serverless-v2.html) has been with us for some time and is already a viable option for use in more varied production environments than its predecessor. The goal of the comparison is to know if there is any difference from the performance perspective between an Amazon Aurora or an Amazon Aurora Serverless v2 with the same amount of memory, both PostgreSQL compatible.
 
