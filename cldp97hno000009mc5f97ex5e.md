@@ -1,4 +1,12 @@
-# Using Amazon ElastiCache for Redis within a Lambda Function
+---
+title: "Using Amazon ElastiCache for Redis within a Lambda Function"
+datePublished: 2023-02-04T01:05:36.804Z
+cuid: cldp97hno000009mc5f97ex5e
+slug: using-amazon-elasticache-for-redis-within-a-lambda-function
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1675373560794/b5635ad6-8c8e-4a00-a44b-539f52c4ad59.png
+tags: aws, redis, net, aws-lambda
+
+---
 
 In a previous [post](https://blog.raulnq.com/accessing-a-non-public-amazon-aurora-database-in-a-vpc-from-a-lambda-function), we reviewed how to access a non-public resource in a VPC from a Lambda function. Today we do the same but with a different Amazon resource, Redis:
 
