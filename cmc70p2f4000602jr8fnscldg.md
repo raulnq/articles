@@ -1,6 +1,6 @@
 ---
 title: "Terraform as a Service with Google Cloud's Infrastructure Manager"
-datePublished: Sun Jun 22 2025 01:57:10 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-06-22T01:57:10.912Z
 cuid: cmc70p2f4000602jr8fnscldg
 slug: terraform-as-a-service-with-google-clouds-infrastructure-manager
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1750448784052/dee2e370-e84d-42e2-9ee5-056d86e62102.png
