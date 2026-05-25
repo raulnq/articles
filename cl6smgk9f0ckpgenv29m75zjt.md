@@ -1,6 +1,6 @@
 ---
 title: "Nuke: Code coverage with Coverlet and ReportGenerator"
-datePublished: Sun Aug 14 2022 01:01:57 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-08-14T01:01:57.247Z
 cuid: cl6smgk9f0ckpgenv29m75zjt
 slug: nuke-code-coverage-with-coverlet-and-reportgenerator
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1660398968020/0Xt7OGh_b.png
