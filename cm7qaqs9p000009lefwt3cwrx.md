@@ -1,6 +1,6 @@
 ---
 title: "How to Build Multi-Architecture Container Images for .NET Applications"
-datePublished: Sat Mar 01 2025 14:27:32 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-03-01T14:27:32.893Z
 cuid: cm7qaqs9p000009lefwt3cwrx
 slug: how-to-build-multi-architecture-container-images-for-net-applications
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1740765654536/e97bab82-d82c-4877-8d64-3272f3c2e465.png
