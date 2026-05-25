@@ -1,6 +1,6 @@
 ---
 title: "Scaling  Kubernetes Pods Based on  HTTP Traffic using KEDA HTTP Add-on"
-datePublished: Sun Jun 23 2024 06:44:09 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-06-23T06:44:09.820Z
 cuid: clxr6o1y4000009jkf6spbwfa
 slug: scaling-kubernetes-pods-based-on-http-traffic-using-keda-http-add-on
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719005221949/9f7f1783-e5d2-4235-b097-b930be685138.png
