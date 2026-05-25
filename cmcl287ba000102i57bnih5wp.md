@@ -1,6 +1,6 @@
 ---
 title: "Exposing GCP VMs to the Internet with Cloudflare Tunnel"
-datePublished: Tue Jul 01 2025 21:48:49 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-07-01T21:48:49.798Z
 cuid: cmcl287ba000102i57bnih5wp
 slug: exposing-gcp-vms-to-the-internet-with-cloudflare-tunnel
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1751383415511/47f4018f-2672-48a6-ab3e-97dc363567f6.png
