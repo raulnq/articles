@@ -1,6 +1,6 @@
 ---
 title: "How to Use WebSockets with Amazon API Gateway"
-datePublished: Sat Oct 12 2024 00:51:48 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-12T00:51:48.404Z
 cuid: cm25fyh4k000009i1dret2hbt
 slug: how-to-use-websockets-with-amazon-api-gateway
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728492707525/8abb240e-01aa-49c9-9c07-d1336a458777.png
