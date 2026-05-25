@@ -1,6 +1,6 @@
 ---
 title: "Node.js and Express: Knex.js (Part II)"
-datePublished: Mon Aug 18 2025 01:36:28 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-08-18T01:36:28.626Z
 cuid: cmegg1zv5000502l2gul2h6bm
 slug: nodejs-and-express-knexjs-part-ii
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1755440567844/7cf87740-bfe1-4de9-a508-a5cb60cd298a.png
