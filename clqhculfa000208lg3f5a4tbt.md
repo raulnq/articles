@@ -1,6 +1,6 @@
 ---
 title: "How to Attach Large Files to a Pod using Helm and Kubernetes"
-datePublished: Sat Dec 23 2023 01:01:34 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-12-23T01:01:34.583Z
 cuid: clqhculfa000208lg3f5a4tbt
 slug: how-to-attach-large-files-to-a-pod-using-helm-and-kubernetes
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1703273783398/60cd2e5c-ff1b-435f-b31a-f8a6a6484523.png
