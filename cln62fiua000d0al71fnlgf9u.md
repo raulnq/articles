@@ -1,6 +1,6 @@
 ---
 title: "Horizontal Pod Autoscaling with Kubernetes Event-Driven Autoscaler (KEDA)"
-datePublished: Sat Sep 30 2023 13:25:20 GMT+0000 (Coordinated Universal Time)
+datePublished: 2023-09-30T13:25:20.290Z
 cuid: cln62fiua000d0al71fnlgf9u
 slug: horizontal-pod-autoscaling-with-kubernetes-event-driven-autoscaler-keda
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1695912760727/b7824474-f806-4a65-b6a5-0868940951b1.png
