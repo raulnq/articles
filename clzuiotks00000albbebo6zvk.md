@@ -1,6 +1,6 @@
 ---
 title: "Estimating Observability Costs in AWS"
-datePublished: Thu Aug 15 2024 00:03:24 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-15T00:03:24.220Z
 cuid: clzuiotks00000albbebo6zvk
 slug: estimating-observability-costs-in-aws
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1723680004064/730cfca0-ef33-4cae-b492-8605bec7917e.png
