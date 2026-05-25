@@ -1,6 +1,6 @@
 ---
 title: "Scaling Amazon Elastic Kubernetes Service Workloads with KEDA, OTEL Collector,  and Amazon CloudWatch"
-datePublished: Wed Apr 17 2024 01:02:38 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-04-17T01:02:38.083Z
 cuid: clv33yrr7000107l65n1eglyc
 slug: scaling-amazon-elastic-kubernetes-service-workloads-with-keda-otel-collector-and-amazon-cloudwatch
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1712880738094/1923f39a-aa4e-44d9-8dcc-9def5eea94f1.png
