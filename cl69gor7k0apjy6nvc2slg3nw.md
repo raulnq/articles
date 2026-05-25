@@ -1,4 +1,12 @@
-## Observability with OpenTelemetry in .NET
+---
+title: "Observability with OpenTelemetry in .NET"
+datePublished: 2022-07-31T15:12:44.459Z
+cuid: cl69gor7k0apjy6nvc2slg3nw
+slug: observability-with-opentelemetry-in-net
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1659208210705/yBLlOK6NB.png
+tags: net, observability, opentelemetry
+
+---
 
 Over the past few years, the transition from monolithic applications to microservices (despite their benefits under the right circumstances) has brought a new set of challenges. One of them is **Observability**:
 
