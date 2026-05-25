@@ -1,4 +1,12 @@
-## How to assume an AWS IAM Role from an EKS Pod?
+---
+title: "How to assume an AWS IAM Role from an EKS Pod?"
+datePublished: 2022-04-24T14:41:05.929Z
+cuid: cl2deekyu00qgetnvedvo74e7
+slug: how-to-assume-an-aws-iam-role-from-an-eks-pod
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1650736792296/psGL2GE7k.png
+tags: aws, kubernetes
+
+---
 
 
 Usually, when we had to use a service from an external provider, we injected the service credential (connection string, secret, token, etc.) in the application (from a Key Vault, environment variable, app settings, etc.). But in AWS, there is the concept of [IAM Roles](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles.html) that could make life much easier (and safer).
