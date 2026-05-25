@@ -1,6 +1,6 @@
 ---
 title: "OpenAPI + Hono: Building Type-Safe REST APIs with Automatic Documentation"
-datePublished: Wed Jan 28 2026 22:35:23 GMT+0000 (Coordinated Universal Time)
+datePublished: 2026-01-28T22:35:23.297Z
 cuid: cmkylstgh000c02kyhpmo9kik
 slug: openapi-hono-building-type-safe-rest-apis-with-automatic-documentation
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1769611224739/1fed2602-e74c-4d0c-9bdf-fd55df0bcaf4.png
