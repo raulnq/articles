@@ -1,4 +1,12 @@
-# Accessing a non-public Amazon Aurora database in a VPC from a Lambda function
+---
+title: "Accessing a non-public Amazon Aurora database in a VPC from a Lambda function"
+datePublished: 2023-01-01T00:23:20.806Z
+cuid: clccmq679000108jm6txb3av0
+slug: accessing-a-non-public-amazon-aurora-database-in-a-vpc-from-a-lambda-function
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1672497051272/5a38d0b5-9461-464b-8619-c04c02b7b2df.png
+tags: net, aws-lambda, aws-rds, amazon-aurora
+
+---
 
 The scenarios where we use AWS Lambda functions are growing every day. By default, AWS does not launch Lambda functions within a Virtual Private Cloud (VPC), so they can only connect to public resources accessible through the internet. But for security reasons, many resources are kept inaccessible from the internet and only accessible from within a VPC. Examples of those resources are databases, cache instances, or internal services.
 
