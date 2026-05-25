@@ -1,6 +1,6 @@
 ---
 title: "How to Throttle Requests in Amazon API Gateway"
-datePublished: Fri Aug 09 2024 06:16:06 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-08-09T06:16:06.137Z
 cuid: clzmbd055001e08laa7aacp46
 slug: how-to-throttle-requests-in-amazon-api-gateway
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1722953297522/1ada7535-5923-4cc0-86a1-4291a0a8c4e4.png
