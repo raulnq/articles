@@ -1,6 +1,6 @@
 ---
 title: "Developing Your First App with HTMX and .NET: Part IV"
-datePublished: Sun Jun 30 2024 02:13:11 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-06-30T02:13:11.343Z
 cuid: cly0x2jhr000109l9btlr2t6f
 slug: developing-your-first-app-with-htmx-and-net-part-iv
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1719639554459/6cb66419-a03c-424f-b0a7-3a1660a5933e.png
