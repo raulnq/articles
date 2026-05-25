@@ -1,6 +1,6 @@
 ---
 title: "Authentication with Amazon Cognito and ASP.NET Core Identity"
-datePublished: Sun Mar 17 2024 19:07:20 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-03-17T19:07:20.100Z
 cuid: cltvw2ap0000509joh7d2hcis
 slug: authentication-with-amazon-cognito-and-aspnet-core-identity
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1710536217328/d9ddad25-07da-40f2-9e9e-88de8bbeb98b.png
