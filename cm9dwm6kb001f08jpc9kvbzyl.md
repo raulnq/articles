@@ -1,6 +1,6 @@
 ---
 title: "How to Squash Commits on a Remote Git Branch"
-datePublished: Sat Apr 12 2025 07:38:14 GMT+0000 (Coordinated Universal Time)
+datePublished: 2025-04-12T07:38:14.075Z
 cuid: cm9dwm6kb001f08jpc9kvbzyl
 slug: how-to-squash-commits-on-a-remote-git-branch
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1744397775208/5baff763-58d6-4abd-ab4c-81daa71ef255.png
