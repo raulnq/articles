@@ -1,4 +1,12 @@
-# Serverless Framework: Variables
+---
+title: "Serverless Framework: Variables"
+datePublished: 2022-10-17T07:45:48.216Z
+cuid: cl9ch2fnc002z09jx4vjdbcsi
+slug: serverless-framework-variables
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1665980250721/1R0Ig_xyk.png
+tags: aws, serverless, aws-lambda
+
+---
 
 In our last [post](https://blog.raulnq.com/deploying-aws-lambda-functions-with-serverless-framework), we introduced Serverless Framework as a great tool to deploy our AWS Lambda functions. Today we will review Serverless Variables as a way to dynamically replace values in the `serverless.yml` file.  
 
