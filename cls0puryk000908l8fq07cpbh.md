@@ -1,6 +1,6 @@
 ---
 title: "Creating an Amazon  Aurora Serverless v2 Database Using AWS SAM"
-datePublished: Tue Jan 30 2024 18:52:57 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-01-30T18:52:57.740Z
 cuid: cls0puryk000908l8fq07cpbh
 slug: creating-an-amazon-aurora-serverless-v2-database-using-aws-sam
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1706566947687/5655faa5-166d-4de4-8a3d-8e0719a2e256.png
