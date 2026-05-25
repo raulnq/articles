@@ -1,4 +1,12 @@
-# Husky.Net: Git hooks made easy
+---
+title: "Husky.Net: Git hooks made easy"
+datePublished: 2022-11-14T01:26:30.191Z
+cuid: clag3ui3n000608l5awod1u3x
+slug: huskynet-git-hooks-made-easy
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1668356387525/Eg1Qf3-TL.png
+tags: github, net, husky, git-hooks
+
+---
 
 During our day-to-day, usually, there are repetitive tasks we always do: formatting code, running unit tests, following commit policies, etc. Easy tasks, but we make them over and over again, which is a waste of time and effort. Luckily there is a way to automate those tasks, [Git hooks](https://git-scm.com/docs/githooks). In this post, we will explore what they are and then review [Husky.Net](https://alirezanet.github.io/Husky.Net/), a simple way to start using Git hooks under the .NET ecosystem.
 
