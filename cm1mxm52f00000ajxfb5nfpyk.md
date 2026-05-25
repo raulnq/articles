@@ -1,6 +1,6 @@
 ---
 title: "How to Use Non-Proxy Integration with Amazon API Gateway: OpenAPI Specification"
-datePublished: Sun Sep 29 2024 01:58:28 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-09-29T01:58:28.647Z
 cuid: cm1mxm52f00000ajxfb5nfpyk
 slug: how-to-use-non-proxy-integration-with-amazon-api-gateway-openapi-specification
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1727463737486/bed00ba7-0cdb-46f0-bff6-c71e05136047.png
