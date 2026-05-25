@@ -1,6 +1,6 @@
 ---
 title: "Using Raw WebSockets in .NET"
-datePublished: Fri Oct 04 2024 20:58:23 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-10-04T20:58:23.429Z
 cuid: cm1v7jc5h001809l3btkld5l7
 slug: using-raw-websockets-in-net
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1728053488925/c9998d1f-a8c6-44fe-9ab5-47155256af82.png
