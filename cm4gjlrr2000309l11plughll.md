@@ -1,6 +1,6 @@
 ---
 title: "Hosting Blazor WebAssembly Applications on AWS CloudFront"
-datePublished: Mon Dec 09 2024 04:38:46 GMT+0000 (Coordinated Universal Time)
+datePublished: 2024-12-09T04:38:46.718Z
 cuid: cm4gjlrr2000309l11plughll
 slug: hosting-blazor-webassembly-applications-on-aws-cloudfront
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1733586251018/a02d9c2d-bde9-4d9a-9811-a0f9c9b6a2fd.png
