@@ -1,6 +1,6 @@
 ---
 title: "Amazon EKS: Deploy OTEL Collector as sidecar"
-datePublished: Fri Sep 16 2022 14:53:32 GMT+0000 (Coordinated Universal Time)
+datePublished: 2022-09-16T14:53:32.428Z
 cuid: cl84lp3ni05eor2nv5q7i226s
 slug: amazon-eks-deploy-otel-collector-as-sidecar
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1663306198037/y_LXokEVZ.png
