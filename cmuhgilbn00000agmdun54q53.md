@@ -92,41 +92,24 @@ No prior experience with DMS is assumed. Every concept is introduced before it i
 
 ## Table of Contents
 
-1.  [The Case Study: Acme Commerce](#1-the-case-study-acme-commerce)
-    
-2.  [DMS Concepts You Must Understand First](#2-dms-concepts-you-must-understand-first)
-    
-3.  [Why Provision DMS from C#?](#3-why-provision-dms-from-c)
-    
-4.  [Project Setup](#4-project-setup)
-    
-5.  [Modelling Configuration](#5-modelling-configuration)
-    
-6.  [Handling Secrets and Credentials](#6-handling-secrets-and-credentials)
-    
-7.  [The Idempotent "Find, then Create or Modify" Pattern](#7-the-idempotent-find-then-create-or-modify-pattern)
-    
-8.  [Endpoints](#8-endpoints)
-    
-9.  [Networking: Security Group and Replication Subnet Group](#9-networking-security-group-and-replication-subnet-group)
-    
-10.  [The Replication Instance](#10-the-replication-instance)
-     
-11.  [Table Mappings: Selection, Renaming, and Parallel Load](#11-table-mappings-selection-renaming-and-parallel-load)
-     
-12.  [Task Settings: LOBs, Commit Rate, Parallelism, Logging](#12-task-settings-lobs-commit-rate-parallelism-logging)
-     
-13.  [Creating, Starting, and Deleting Replication Tasks](#13-creating-starting-and-deleting-replication-tasks)
-     
-14.  [Orchestration in Program.cs](#14-orchestration-in-programcs)
-     
-15.  [Preparing the Target: Pre- and Post-Load SQL](#15-preparing-the-target-pre--and-post-load-sql)
-     
-16.  [End-to-End Runbook](#16-end-to-end-runbook)
-     
-17.  [Best Practices Checklist](#17-best-practices-checklist)
-     
-18.  [Common Mistakes and How to Avoid Them](#18-common-mistakes-and-how-to-avoid-them)
+1. The Case Study: Acme Commerce
+2. DMS Concepts You Must Understand First
+3. Why Provision DMS from C#?
+4. Project Setup
+5. Modelling Configuration
+6. Handling Secrets and Credentials
+7. The Idempotent "Find, then Create or Modify" Pattern
+8. Endpoints
+9. Networking: Security Group and Replication Subnet Group
+10. The Replication Instance
+11. Table Mappings: Selection, Renaming, and Parallel Load
+12. Task Settings: LOBs, Commit Rate, Parallelism, Logging
+13. Creating, Starting, and Deleting Replication Tasks
+14. Orchestration in Program.cs
+15. Preparing the Target: Pre- and Post-Load SQL
+16. End-to-End Runbook
+17. Best Practices Checklist
+18. Common Mistakes and How to Avoid Them
      
 
 * * *
