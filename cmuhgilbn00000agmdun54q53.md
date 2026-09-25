@@ -90,30 +90,6 @@ No prior experience with DMS is assumed. Every concept is introduced before it i
 
 * * *
 
-## Table of Contents
-
-1. The Case Study: Acme Commerce
-2. DMS Concepts You Must Understand First
-3. Why Provision DMS from C#?
-4. Project Setup
-5. Modelling Configuration
-6. Handling Secrets and Credentials
-7. The Idempotent "Find, then Create or Modify" Pattern
-8. Endpoints
-9. Networking: Security Group and Replication Subnet Group
-10. The Replication Instance
-11. Table Mappings: Selection, Renaming, and Parallel Load
-12. Task Settings: LOBs, Commit Rate, Parallelism, Logging
-13. Creating, Starting, and Deleting Replication Tasks
-14. Orchestration in Program.cs
-15. Preparing the Target: Pre- and Post-Load SQL
-16. End-to-End Runbook
-17. Best Practices Checklist
-18. Common Mistakes and How to Avoid Them
-     
-
-* * *
-
 ## 1\. The Case Study: Acme Commerce
 
 Acme Commerce runs its order-management system on **SQL Server**. The team is moving it to **Amazon RDS for PostgreSQL**. The new PostgreSQL schema already exists because the application's EF Core migrations created it, and it follows PostgreSQL naming conventions (`snake_case`).
