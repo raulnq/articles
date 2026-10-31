@@ -619,7 +619,7 @@ A Go test file normally ends with `_test.go`, and test functions use the `TestXx
 
 Create `main_test.go`:
 
-```plaintext
+```go
 package main
 
 import "testing"
