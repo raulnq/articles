@@ -4,6 +4,7 @@ datePublished: 2026-10-31T19:40:58.302Z
 cuid: cmvwt3mn5000202mk3wejddnj
 slug: go-setting-up-the-development-environment
 cover: https://cdn.hashnode.com/uploads/covers/625b81432f84e0d4fc33dca5/0e431d6b-7068-402b-8425-9fe5c516a9ff.png
+tags: go, golang, visual-studio-code
 
 ---
 
